@@ -48,6 +48,15 @@ At a first glance, this looks like a proper procedure.
 
 ### What are the goals of these questions?
 
+```mermaid
+flowchart TD
+  goal_1[ELIXIR: Determine training quality]
+  goal_2[NBIS: Find out how participants have used the skills and knowledge they gained]
+  goal_3[NBIS: Improve the course and the materials we deliver]
+  goal_1 <-.-> |similar| goal_3
+  goal_2 <-.-> |dissimilar| goal_3
+```
+
 To get a second idea of how good these evaluation questions are can be
 obtained by reading the goal of the questions.
 
