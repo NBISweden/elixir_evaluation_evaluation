@@ -53,7 +53,7 @@ flowchart TD
   goal_1[ELIXIR: Determine training quality]
   goal_2[NBIS: Find out how participants have used the skills and knowledge they gained]
   goal_3[NBIS: Improve the course and the materials we deliver]
-  goal_1 <-.-> |similar| goal_3
+  goal_1 <-.-> |similarish| goal_3
   goal_2 <-.-> |dissimilar| goal_3
 ```
 
