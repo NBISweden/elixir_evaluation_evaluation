@@ -17,7 +17,7 @@ theme:
     code: JetBrains Mono
   logo: logos/nbis_green_logo.svg
   palette:
-    primary: indigo
+    primary: black
 
   features:
     - toc.integrate
