@@ -1,5 +1,12 @@
 # NBIS Short Term Feedback (STF)
 
+??? info "About this page"
+
+    Besides this box of text, this page shows the current
+    NBIS Short Term Feedback form. Except for (its conversion to
+    markdown and hence change in) its layout, the content is
+    unmodified.
+
 <!-- markdownlint-disable MD013 --><!-- Accept that survey has a long header x -->
 <!-- markdownlint-disable MD029 --><!-- Accept that survey uses non-standard indentation values -->
 
