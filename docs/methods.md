@@ -26,7 +26,7 @@ The results can be found at [RQ2 results](results_2.md).
 
 The procedure is as follows:
 
-- At an NBIS Training Liason meeting, introduce this procedure to the people
+- At an NBIS Training Liaison meeting, introduce this procedure to the people
   involved in training, as well as advertise in the relevant communication
 - Collect all questions that teachers think are useful anonymously,
   creating `Data Set 1`
