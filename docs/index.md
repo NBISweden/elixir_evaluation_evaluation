@@ -11,8 +11,17 @@ An evaluation of the ELIXIR course evaluation.
 
 - [Abstract](abstract.md)
 - [Introduction](introduction.md)
+- [Research questions](research_questions.md)
+- [Methods](methods.md)
+- Results:
+  - [RQ1 Results](results_1.md)
+  - [RQ2 Results](results_2.md)
+  - [RQ3 Results](results_3.md)
+  - [RQ4 Results](results_4.md)
+- [Conclusion](conclusion.md)
+- [Discussion](discussion.md)
 - Appendix
-  - [The current ELIXIR short-term evaluation](elixir_evaluation.md)
+    - [The current ELIXIR short-term evaluation](elixir_evaluation.md)
 
 ### How good are these questions?
 

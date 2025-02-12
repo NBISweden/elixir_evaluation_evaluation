@@ -9,4 +9,4 @@ were crafted and selected,
 one concludes that no selection criterium has been written down.
 This paper is the first to transparently show the crafting and
 selection of evaluation questions to be used for NBIS evaluation,
-being the 'future work' as mentioned in its most important paper.
+being the 'future work' as mentioned in its paper most important to this topic.
