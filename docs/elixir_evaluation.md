@@ -116,8 +116,6 @@ well as for wider quality/impact analyses.
 
 6. Will you use the tools/resource(s) covered in the course again? `will_use_resources_future`
 
-<!-- markdownlint-enable MD013 -->
-
 - v. Yes
 - vi. No
 - vii. Maybe
@@ -189,8 +187,6 @@ These are suggested questions that may be of interest (not compulsory):
 
 11. STATEMENTS REGARDING WHAT PARTICIPANTS CAN DO after TRAINING (customised to a specific training) skills_after
 
-<!-- markdownlint-enble MD013 -->
-
 12. What other topics would you like to see covered in the future? future_topics
 
 13. Any other comments? Comments_1
@@ -222,4 +218,3 @@ Now go make something great!
 
 <!-- markdownlint-enable MD013 -->
 <!-- markdownlint-enable MD029 -->
-
