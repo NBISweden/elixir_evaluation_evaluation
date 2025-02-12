@@ -14,10 +14,10 @@ An evaluation of the ELIXIR course evaluation.
 - [Research questions](research_questions.md)
 - [Methods](methods.md)
 - Results:
-  - [RQ1 Results](results_1.md)
-  - [RQ2 Results](results_2.md)
-  - [RQ3 Results](results_3.md)
-  - [RQ4 Results](results_4.md)
+    - [RQ1 Results](results_1.md)
+    - [RQ2 Results](results_2.md)
+    - [RQ3 Results](results_3.md)
+    - [RQ4 Results](results_4.md)
 - [Conclusion](conclusion.md)
 - [Discussion](discussion.md)
 - Appendix
