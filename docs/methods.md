@@ -24,6 +24,25 @@ The results can be found at [RQ2 results](results_2.md).
 
 <!-- markdownlint-enable MD013 -->
 
+
+```mermaid
+flowchart TD
+  data_set_1[1.All suggested questions]
+  data_set_2[2.All suggested and NBIS questions]
+  data_set_3[3.Reasons for/against each question]
+  data_set_4[4.Votes for/against each question]
+  data_set_5[5.Useful questions]
+
+  data_set_1 --> data_set_2
+  data_set_2 --> data_set_3
+  data_set_2 --> data_set_4
+  data_set_3 --> data_set_4
+  data_set_2 --> data_set_5
+  data_set_4 --> data_set_5
+```
+
+> Figure 1. Overview of the procedure
+
 The procedure is as follows:
 
 - At an NBIS Training Liaison meeting, introduce this procedure to the people
