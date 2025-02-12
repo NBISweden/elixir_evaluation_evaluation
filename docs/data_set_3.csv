@@ -1,0 +1,7 @@
+question,reply,vote,reason
+What is your favorite color?,orange;red,Con,Irrelevant to the course
+Would you recommend the course?,Yes;No;Maybe,Con,This is irrelavant for course quality
+Would you recommend the course?,Yes;No;Maybe,Pro,This is a good proxy for course quality
+What is your favorite animal?,Open question,Con,Irrelevant to the course
+What is your favorite animal?,Open question,Pro,Would be nice to know
+What is your favorite color?,Open question,Con,Irrelevant to the course

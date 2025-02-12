@@ -29,18 +29,91 @@ The procedure is as follows:
 - At an NBIS Training Liaison meeting, introduce this procedure to the people
   involved in training, as well as advertise in the relevant communication
 - Collect all questions that teachers think are useful anonymously,
-  creating `Data Set 1`
+  creating [data_set_1.csv](data_set_1.csv)
+
+???- question "How does that data set look like?"
+
+    Here is an example:
+
+    ```text
+    question,reply
+    What is your favorite animal?,Open question
+    What is your favorite color?,Open question
+    What is your favorite color?,orange;red
+    ```
+
 - Combine `Data Set 1` with the current NBIS questions. Mix these questions
-  randomly. Per question, as the teachers anonymously for reasons why
+  randomly, 
+  creating [data_set_2.csv](data_set_2.csv)
+
+???- question "How does that data set look like?"
+
+    Here is an example:
+
+    ```text
+    question,reply
+    What is your favorite color?,orange;red
+    Would you recommend the course?,Yes;No;Maybe
+    What is your favorite animal?,Open question
+    What is your favorite color?,Open question
+    ```
+
+- Per question, as the teachers anonymously for reasons why
   they would be for or against each question.
-  The collection of reasonings per questions results in `Data Set 2`
+  The collection of reasonings per questions results in
+  [data_set_3.csv](data_set_3.csv)
+
+???- question "How does that data set look like?"
+
+    Here is an example:
+
+    ```text
+    question,reply,vote,reason
+    What is your favorite color?,orange;red,Con,Irrelevant to the course
+    Would you recommend the course?,Yes;No;Maybe,Con,This is irrelavant for course quality
+    Would you recommend the course?,Yes;No;Maybe,Pro,This is a good proxy for course quality
+    What is your favorite animal?,Open question,Con,Irrelevant to the course
+    What is your favorite animal?,Open question,Pro,Would be nice to know
+    What is your favorite color?,Open question,Con,Irrelevant to the course
+    ```
+
 - Per question, and its pros and cons, vote anonymously if the question
   is useful enough to be included in a survey. Allow 'no', 'yes' and neutral
+  [data_set_4.csv](data_set_4.csv)
+
+???- question "How does that data set look like?"
+
+    Here is an example:
+
+    ```text
+    question,reply,vote
+    What is your favorite color?,orange;red,No
+    What is your favorite color?,orange;red,No
+    What is your favorite color?,orange;red,Neutral
+    Would you recommend the course?,Yes;No;Maybe,No
+    Would you recommend the course?,Yes;No;Maybe,Yes
+    Would you recommend the course?,Yes;No;Maybe,Yes
+    What is your favorite animal?,Open question,No
+    What is your favorite animal?,Open question,No
+    What is your favorite animal?,Open question,Yes
+    What is your favorite color?,Open question,No
+    What is your favorite color?,Open question,No
+    What is your favorite color?,Open question,Neutral
+    ```
 
 The end product is the set of questions that had more 'yes' than 'no' votes:
 these are the questions that this NBIS community thinks are useful.
 
-The results can be found at [RQ3 results](results_3.md).
+???- question "How does that data set look like?"
+
+    From the example data, this would be the result:
+
+    ```text
+    question,reply,vote
+    Would you recommend the course?,Yes;No;Maybe
+    ```
+
+The results can be found at [data_set_5.csv](data_set_5.csv).
 
 ## RQ4: How different are the newly suggested questions from the current ones?
 
