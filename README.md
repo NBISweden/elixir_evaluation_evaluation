@@ -11,7 +11,7 @@ An evaluation of the ELIXIR course evaluation.
 
 <!-- markdownlint-enable MD013 -->
 
-- [Go to the nicely rendered site](https://uppmax.github.io/elixir_evaluation_evaluation/)
+- [Go to the nicely rendered site](https://nbisweden.github.io/elixir_evaluation_evaluation/)
 
 ## Files used by continuous integration scripts
 
