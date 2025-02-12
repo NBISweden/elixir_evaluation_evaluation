@@ -17,7 +17,6 @@ literature at the time of writing.
 ## Notes
 
 
-
 ## Epilogue
 
 We know that teachers reflecting on their work is one of the
@@ -34,6 +33,6 @@ doing the things that actually work?
 
 ## References
 
-- `[Roxå et al., 2021]` Roxå, Torgny, et al. 
+- `[Roxå et al., 2021]` Roxå, Torgny, et al.
   "Reconceptualizing student ratings of teaching to support quality discourse
   on student learning: a systems perspective." Higher Education (2021): 1-21.

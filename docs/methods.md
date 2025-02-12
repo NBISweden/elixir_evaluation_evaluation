@@ -43,7 +43,7 @@ The procedure is as follows:
     ```
 
 - Combine `Data Set 1` with the current NBIS questions. Mix these questions
-  randomly, 
+  randomly,
   creating [data_set_2.csv](data_set_2.csv)
 
 ???- question "How does that data set look like?"

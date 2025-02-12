@@ -22,7 +22,7 @@ flowchart TD
 To get a second idea of how good these evaluation questions are can be
 obtained by reading the goal of the questions.
 
-Here is the ELIXIR goal `[Gurwitz et al., 2020]`: 
+Here is the ELIXIR goal `[Gurwitz et al., 2020]`:
 
 > We were interested in participant satisfaction as a reflection on training
 > quality in order to be able to inform best practice for ELIXIR training.
