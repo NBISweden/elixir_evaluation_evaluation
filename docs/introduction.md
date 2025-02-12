@@ -1,6 +1,6 @@
 # Introduction
 
-On 2025-01-20 the NBIS Training Steering Group had 
+On 2025-01-20 the NBIS Training Steering Group had
 a meeting on course evaluations.
 The first question was 'How are evaluations evaluated?'.
 
@@ -45,7 +45,7 @@ and how the best questions of this set were selected.
   "Continuing education workshops in bioinformatics positively impact
  research and careers." PLoS computational biology 12.6 (2016): e1004916.
 - `[Gurwitz et al., 2020]`
-  Gurwitz, Kim T., et al. 
+  Gurwitz, Kim T., et al.
   "A framework to assess the quality and impact of bioinformatics training
   across ELIXIR." PLoS computational biology 16.7 (2020): e1007976.
   [website](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976)

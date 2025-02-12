@@ -78,7 +78,7 @@ and with which reasoning the best were selected.
   "Continuing education workshops in bioinformatics positively impact
  research and careers." PLoS computational biology 12.6 (2016): e1004916.
 - `[Gurwitz et al., 2020]`
-  Gurwitz, Kim T., et al. 
+  Gurwitz, Kim T., et al.
   "A framework to assess the quality and impact of bioinformatics training
   across ELIXIR." PLoS computational biology 16.7 (2020): e1007976.
   [website](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976)
@@ -86,6 +86,6 @@ and with which reasoning the best were selected.
   Jordan, Kari, François Michonneau, and Belinda Weaver.
   "Analysis of Software and Data Carpentry’s pre-and post-workshop surveys."
   Software Carpentry. Retrieved April 13 (2018): 2023.
-- `[Roxå et al., 2021]` Roxå, Torgny, et al. 
+- `[Roxå et al., 2021]` Roxå, Torgny, et al.
   "Reconceptualizing student ratings of teaching to support quality discourse
   on student learning: a systems perspective." Higher Education (2021): 1-21.
