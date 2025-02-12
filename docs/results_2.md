@@ -9,7 +9,7 @@ short-term evaluation:
 ## Question 5
 
 ```text
-5. Have you used the tools/resource(s) covered in the course before? 
+5. Have you used the tools/resource(s) covered in the course before?
 
 - Never - Unaware of them
 - Never - Used other service
@@ -23,7 +23,7 @@ because it is about something learners have done
 
 ???- question "What are the metrics for this question?"
 
-    These are the metrics collected at 2025-01-24 7:04 Stockholm 
+    These are the metrics collected at 2025-01-24 7:04 Stockholm
     time ([https://training-metrics-dev.elixir-europe.org/feedback-report](https://training-metrics-dev.elixir-europe.org/feedback-report)):
 
     Reponse                   |n   |Frequency (%)
@@ -54,7 +54,7 @@ combined with predicting the future.
 
 ???- question "What are the metrics for this question?"
 
-    These are the metrics collected at 2025-01-24 7:16 Stockholm 
+    These are the metrics collected at 2025-01-24 7:16 Stockholm
     time ([https://training-metrics-dev.elixir-europe.org/feedback-report](https://training-metrics-dev.elixir-europe.org/feedback-report)):
 
     Reponse |n    |Frequency (%)
@@ -84,7 +84,7 @@ may be true `[Ang et al., 2018]`.
 
 ???- question "What are the metrics for this question?"
 
-    These are the metrics collected at 2025-01-24 8:27 Stockholm 
+    These are the metrics collected at 2025-01-24 8:27 Stockholm
     time ([https://training-metrics-dev.elixir-europe.org/feedback-report](https://training-metrics-dev.elixir-europe.org/feedback-report)):
 
     Reponse |n    |Frequency (%)
@@ -124,7 +124,7 @@ gives some examples how problematic this metric is.
 
 ???- question "What are the metrics for this question?"
 
-    These are the metrics collected at 2025-01-24 8:28 Stockholm 
+    These are the metrics collected at 2025-01-24 8:28 Stockholm
     time ([https://training-metrics-dev.elixir-europe.org/feedback-report](https://training-metrics-dev.elixir-europe.org/feedback-report)):
 
     Reponse     |n    |Frequency (%)
@@ -151,7 +151,7 @@ of the section `Section 3 - Quality Metrics`.
 
 ???- question "What are the metrics for this question?"
 
-    These are the metrics collected at 2025-01-24 8:32 Stockholm 
+    These are the metrics collected at 2025-01-24 8:32 Stockholm
     time ([https://training-metrics-dev.elixir-europe.org/feedback-report](https://training-metrics-dev.elixir-europe.org/feedback-report)):
 
     Reponse |n    |Frequency (%)
