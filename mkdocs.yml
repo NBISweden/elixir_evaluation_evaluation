@@ -6,6 +6,15 @@ nav:
   - Start: index.md
   - Abstract: abstract.md
   - Introduction: introduction.md
+  - Research questions: research_questions.md
+  - Methods: methods.md
+  - Results: 
+    - Results 1: results_1.md
+    - Results 2: results_2.md
+    - Results 3: results_3.md
+    - Results 4: results_4.md
+  - Conclusion: conclusion.md
+  - Discussion: discussion.md
   - Misc:
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
