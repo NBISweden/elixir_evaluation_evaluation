@@ -1,4 +1,4 @@
-# elixir_evaluation_evaluation
+# ELIXIR evaluation evaluation
 
 An evaluation of the ELIXIR course evaluation.
 
@@ -8,6 +8,9 @@ An evaluation of the ELIXIR course evaluation.
 - If possible, propose a better one
 
 ## Overview
+
+This evaluation is written as a scientific paper,
+split over multiple pages (for now):
 
 - [Abstract](abstract.md)
 - [Introduction](introduction.md)
