@@ -4,10 +4,12 @@ edit_uri: blob/main/docs/
 
 nav:
   - Start: index.md
-  - ELIXIR evaluation: elixir_evaluation.md
+  - Abstract: abstract.md
+  - Introduction: introduction.md
   - Misc:
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
+    - ELIXIR evaluation: elixir_evaluation.md
 
 theme:
   name: material
