@@ -16,7 +16,7 @@ evaluation questions are.
 Upon reading the literature on how these questions
 were crafted and selected,
 one concludes that no selection criterium has been written down.
-This paper is the first to transparantly show the crafting and
+This paper is the first to transparently show the crafting and
 selection of evaluation questions to be used for NBIS evaluation,
 being the 'future work' as mentioned in its most important paper.
 
@@ -89,7 +89,7 @@ nor for its ancester questions,
 it is not described how the evaluation questions
 came to be and with which reasoning the best were selected.
 
-This paper is a first to give a fully transparant process
+This paper is a first to give a fully transparent process
 on how evaluation questions came to be from an ELIXIR node
 and with which reasoning the best were selected.
 
