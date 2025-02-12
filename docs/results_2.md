@@ -78,7 +78,7 @@ the quality of a course.
 ```
 
 Question 7 attempt to measure course quality by asking the learner
-if he/she would recommend the course. 
+if he/she would recommend the course.
 The (little) research on this practice shows that this
 may be true `[Ang et al., 2018]`.
 
