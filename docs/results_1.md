@@ -10,6 +10,8 @@ their questions originated from.
 
 ## What are the goals of these questions?
 
+<!-- markdownlint-disable MD013 --><!-- Mermaid diagrams cannot be split up over lines, hence will break 80 characters per line -->
+
 ```mermaid
 flowchart TD
   goal_1[ELIXIR: Determine training quality]
@@ -18,6 +20,10 @@ flowchart TD
   goal_1 <-.-> |similarish| goal_3
   goal_2 <-.-> |dissimilar| goal_3
 ```
+
+<!-- markdownlint-enable MD013 -->
+
+> Figure 2. Overview of the goals of the evaluation questions
 
 To get a second idea of how good these evaluation questions are can be
 obtained by reading the goal of the questions.

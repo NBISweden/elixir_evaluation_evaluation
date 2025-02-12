@@ -86,6 +86,8 @@ The procedure is as follows:
 
     Here is an example:
 
+    <!-- markdownlint-disable MD013 --><!-- Plain text cannot be split up over lines, hence will break 80 characters per line -->
+
     ```text
     question,reply,vote,reason
     What is your favorite color?,orange;red,Con,Irrelevant to the course
@@ -95,6 +97,8 @@ The procedure is as follows:
     What is your favorite animal?,Open question,Pro,Would be nice to know
     What is your favorite color?,Open question,Con,Irrelevant to the course
     ```
+
+    <!-- markdownlint-enable MD013 -->
 
 - Per question, and its pros and cons, vote anonymously if the question
   is useful enough to be included in a survey. Allow 'no', 'yes' and neutral
