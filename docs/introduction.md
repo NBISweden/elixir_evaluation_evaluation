@@ -32,6 +32,24 @@ where the literature is searched for how these questions
 came to be and by which criteria the best were selected,
 in the hope of establishing the usefulness of this survey.
 
+???- question "Which alternatives are suggested?"
+
+    One alternative that is suggested is to use learning outcomes:
+
+    - [An example evaluation using learning outcomes](https://uppmax.github.io/bianca_workshops/evaluations/20241111/)
+
+    Another alternative that is suggested is to ask for written feedback
+    only to rate teachers:
+
+    - [An example reflection that used written feedback for its teachers](https://uppmax.github.io/programming_formalisms/reflections/2024_autumn/20241122_richel/)
+
+    Also, there is a clear rule to assess the usefulness of an evaluation
+    questions: 'An evaluation question is useful if it is used in a reflection'.
+    Reflections that apply these rules:
+
+    - [Example 1, where some questions are assessed to be useless](https://github.com/UPPMAX/R-python-julia-matlab-HPC/blob/main/reflections/20241024_richel/README.md#evaluation-results)
+    - [Example 2, where all questions are used](https://uppmax.github.io/programming_formalisms/reflections/2024_autumn/20241122_richel/)
+
 Besides discussing the current survey question,
 this paper is the first to give a fully transparent process
 on how, with the same goals in mind, a similar set of

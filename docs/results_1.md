@@ -1,6 +1,47 @@
 # Results of RQ1: What is the history of the ELIXIR evaluation questions?
 
-The NBIS short-term evaluation questions are based on the ones by ELIXIR.
+## What is the ancestry of the NBIS questions?
+
+The paper where these questions were described first
+in `[Gurwitz et al., 2020]` . We can read that these questions
+are based on `[Jordan et al., 2023]` and `[Brazas & Ouellette, 2016]`.
+These last two papers do not reference any academic papers on where
+their questions originated from.
+
+## What are the goals of these questions?
+
+```mermaid
+flowchart TD
+  goal_1[ELIXIR: Determine training quality]
+  goal_2[NBIS: Find out how participants have used the skills and knowledge they gained]
+  goal_3[NBIS: Improve the course and the materials we deliver]
+  goal_1 <-.-> |similarish| goal_3
+  goal_2 <-.-> |dissimilar| goal_3
+```
+
+To get a second idea of how good these evaluation questions are can be
+obtained by reading the goal of the questions.
+
+Here is the ELIXIR goal `[Gurwitz et al., 2020]`: 
+
+> We were interested in participant satisfaction as a reflection on training
+> quality in order to be able to inform best practice for ELIXIR training.
+
+Here the intention of the NBIS short-term evaluation form is quoted:
+
+> The intention of the STF survey is to find out how participants have used the
+> skills and knowledge they gained through participating in the NBIS course.
+
+To me, this seems like a copy-paste error from the long-term survey
+by NBIS...? Section 1 seems to be more in line with a short term
+evaluation:
+
+> It is really important to us in order to continually
+> improve the course and the materials we deliver
+
+So it seems the goal of the STF is to improve the course and its materials.
+
+## Development of the questions
 
 ELIXIR developed these evaluation questions to,
 as quoted from `[Gurwitz et al., 2020]`:
@@ -58,14 +99,9 @@ Neither does the referred literature:
   Also here, it is not described how the evaluation questions
   came to be and with which reasoning the best were selected
 
-We may conclude that for neither the ELIXIR evaluation questions,
-nor for its ancester questions,
-it is not described how the evaluation questions
-came to be and with which reasoning the best were selected.
-
-This paper is a first to give a fully transparent process
-on how evaluation questions came to be from an ELIXIR node
-and with which reasoning the best were selected.
+Taking a closer look at the evaluation questions of `[Jordan et al., 2023]`,
+we see that some questions of its questions were not used.
+The reasoning behind this is absent in `[Gurwitz et al., 2020]`.
 
 ## References
 
