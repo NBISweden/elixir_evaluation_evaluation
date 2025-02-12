@@ -32,7 +32,7 @@ where the literature is searched for how these questions
 came to be and by which criteria the best were selected,
 in the hope of establishing the usefulness of this survey.
 
-Besides disussing the current survey question,
+Besides discussing the current survey question,
 this paper is the first to give a fully transparent process
 on how, with the same goals in mind, a similar set of
 evaluation questions were developed

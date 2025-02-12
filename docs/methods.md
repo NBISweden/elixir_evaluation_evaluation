@@ -4,7 +4,7 @@
 
 A literature search is performed to find out the history
 of the current ELIXIR evaluation questions,
-with a focus on answering the subquestions:
+with a focus on answering the following sub-questions:
 
 - How were these evaluation questions developed?
 - By which criteria where the best questions selected?
