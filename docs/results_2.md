@@ -6,7 +6,7 @@ described in the previous paragraph.
 Here is `Section 3 - Quality Metrics` of the NBIS
 short-term evaluation:
 
-#### Question 5
+## Question 5
 
 ```text
 5. Have you used the tools/resource(s) covered in the course before? 
@@ -38,7 +38,7 @@ Does this indicate good or bad courses? Are the right people reached?
 It would be interesting to know, how these values are used to determine
 the quality of a course.
 
-#### Question 6
+## Question 6
 
 ```text
 6. Will you use the tools/resource(s) covered in the course again?
@@ -67,7 +67,7 @@ Also here, does this indicate good or bad courses?
 It would be interesting to know, how these values are used to determine
 the quality of a course.
 
-#### Question 7
+## Question 7
 
 ```text
 7. Would you recommend the course?
@@ -93,7 +93,7 @@ may be true `[Ang et al., 2018]`.
     No      |1790 |8.2
     Yes     |519  |2.4
 
-#### Question 8
+## Question 8
 
 ```text
 8. What is your overall rating for the course
@@ -135,7 +135,7 @@ gives some examples how problematic this metric is.
     Satisfactory|993  |4.8
     Poor        |192  |0.9
 
-#### Question 9
+## Question 9
 
 ```text
 9. A. May we contact you by email in the future for more feedback?
