@@ -7,22 +7,91 @@ An evaluation of the ELIXIR course evaluation.
 - To evaluate the ELIXIR course evaluation
 - If possible, propose a better one
 
-# Introduction
+## Abstract
 
-### How it started
+NBIS teaches, among others, bioinformatics courses, which are
+evaluated with an anonymous survey sent its learners.
+However, there is discussion in how good/useful the survey's
+evaluation questions are.
+Upon reading the literature on how these questions
+were crafted and selected,
+one concludes that no selection criterium has been written down.
+This paper is the first to transparantly show the crafting and
+selection of evaluation questions to be used for NBIS evaluation,
+being the 'future work' as mentioned in its most important paper.
+
+## Introduction
 
 On 2025-01-20 the NBIS Training Steering Group had 
 a meeting on course evaluations.
 The first question was 'How are evaluations evaluated?'.
 
-### History of the NBIS short-term evaluation
-
 The NBIS short-term evaluation questions are based on the ones by ELIXIR.
-ELIXIR developed these evaluation questions to
-assess the quality and impact of bioinformatics
-training `[Gurwitz et al., 2020]`.
-and the resulting metrics can be found at
+
+ELIXIR developed these evaluation questions to,
+as quoted from `[Gurwitz et al., 2020]`:
+
+- describe the audience demographic being reached
+  by ELIXIR training events'
+- assess the quality of ELIXIR training events directly
+  after they have taken place'
+
+The resulting metrics can be found at
 [https://training-metrics-dev.elixir-europe.org/all-reports](https://training-metrics-dev.elixir-europe.org/all-reports).
+
+This is what is written about how the ELIXIR short-term
+evaluation questions came to be (quote from `[Gurwitz et al., 2020]`):
+
+> We were interested in participant satisfaction as a reflection
+> on training quality in order to be able to inform best practice for ELIXIR
+> training.
+> We acknowledge that training quality is more complex than solely participant
+> satisfaction and that the community would benefit from future work
+> to obtain a fuller picture on training quality.
+
+This paragraph gives a glimmer of the
+idea that the evaluation questions can be improved, referring
+to future work, such as -among others- this paper.
+
+Again from `[Gurwitz et al., 2020]` we read:
+
+> These metrics were developed out of those already collected by ELIXIR
+> training providers, as well as from discussions with stakeholders,
+> external training providers, and literature review
+> `[Brazas & Ouellette, 2016][Jordan et al., 2023]`
+
+(note that using the term 'literature review' for 2 papers may be considered
+a misnomer, informal sources, such as my
+[first](https://www.clrn.org/how-many-sources-do-you-need-in-a-literature-review/)
+and [second](https://www.clrn.org/how-many-sources-in-a-literature-review/)
+on 'how many sources does a literature review need?' om Google
+recommend at least 20 and 5 sources (for a 'brief review') respectively).
+
+Nowhere has it been described how the evaluation questions
+came to be and with which reasoning the best were selected.
+
+Neither does the referred literature:
+
+- `[Brazas & Ouellette, 2016]` shows the results of surveys from
+  bioinformatics workshops. The survey questions where
+  taken from other sources (i.e., the Society for Experimental Biology
+  and the Global Organisation for Bioinformatics Learning, Education and
+  Training), without any reference to the literature.
+  It is not described how the evaluation questions
+  came to be and with which reasoning the best were selected
+- `[Jordan et al., 2023]` shows the results of surveys from
+  Data Carpentry workshops.
+  Also here, it is not described how the evaluation questions
+  came to be and with which reasoning the best were selected
+
+We may conclude that for neither the ELIXIR evaluation questions,
+nor for its ancester questions,
+it is not described how the evaluation questions
+came to be and with which reasoning the best were selected.
+
+This paper is a first to give a fully transparant process
+on how evaluation questions came to be from an ELIXIR node
+and with which reasoning the best were selected.
 
 ### How good are these questions?
 
@@ -269,6 +338,9 @@ Here is an example of how useful questions can be determined:
 - https://uppmax.github.io/programming_formalisms/reflections/2024_autumn/20241122_richel/
 
 ## References
+
+
+
 
 - `[Ang et al., 2018]` Ang, Lawrence, Yvonne Alexandra Breyer, and Joseph Pitt.
   "Course recommendation as a construct in student evaluations:
