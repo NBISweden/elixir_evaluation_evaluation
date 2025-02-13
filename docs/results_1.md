@@ -4,7 +4,7 @@
 
 The paper where these questions were described first
 in `[Gurwitz et al., 2020]` . We can read that these questions
-are based on `[Jordan et al., 2023]` and `[Brazas & Ouellette, 2016]`.
+are based on `[Jordan et al., 2018]` and `[Brazas & Ouellette, 2016]`.
 These last two papers do not reference any academic papers on where
 their questions originated from.
 
@@ -79,7 +79,7 @@ Again from `[Gurwitz et al., 2020]` we read:
 > These metrics were developed out of those already collected by ELIXIR
 > training providers, as well as from discussions with stakeholders,
 > external training providers, and literature review
-> `[Brazas & Ouellette, 2016][Jordan et al., 2023]`
+> `[Brazas & Ouellette, 2016][Jordan et al., 2018]`
 
 (note that using the term 'literature review' for 2 papers may be considered
 a misnomer, informal sources, such as my
@@ -100,14 +100,16 @@ Neither does the referred literature:
   Training), without any reference to the literature.
   It is not described how the evaluation questions
   came to be and with which reasoning the best were selected
-- `[Jordan et al., 2023]` shows the results of surveys from
+- `[Jordan et al., 2018]` shows the results of surveys from
   Data Carpentry workshops.
   Also here, it is not described how the evaluation questions
   came to be and with which reasoning the best were selected
 
-Taking a closer look at the evaluation questions of `[Jordan et al., 2023]`,
+Taking a closer look at the evaluation questions of `[Jordan et al., 2018]`,
 we see that some questions of its questions were not used.
 The reasoning behind this is absent in `[Gurwitz et al., 2020]`.
+
+
 
 ## References
 
@@ -124,10 +126,11 @@ The reasoning behind this is absent in `[Gurwitz et al., 2020]`.
   "A framework to assess the quality and impact of bioinformatics training
   across ELIXIR." PLoS computational biology 16.7 (2020): e1007976.
   [website](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976)
-- `[Jordan et al., 2023]`
+- `[Jordan et al., 2018]`
   Jordan, Kari, François Michonneau, and Belinda Weaver.
   "Analysis of Software and Data Carpentry’s pre-and post-workshop surveys."
   Software Carpentry. Retrieved April 13 (2018): 2023.
+  [PDF](papers/jordan_et_al_2018.pdf)
 - `[Roxå et al., 2021]` Roxå, Torgny, et al.
   "Reconceptualizing student ratings of teaching to support quality discourse
   on student learning: a systems perspective." Higher Education (2021): 1-21.

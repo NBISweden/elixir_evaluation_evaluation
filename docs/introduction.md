@@ -5,7 +5,7 @@ a meeting on course evaluations.
 The first question was 'How are evaluations evaluated?'.
 
 It is common practice that courses are evaluated by surveys
-`[Brazas & Ouellette, 2016][Gurwitz et al., 2020][Jordan et al., 2023]`.
+`[Brazas & Ouellette, 2016][Gurwitz et al., 2020][Jordan et al., 2018]`.
 
 This does not mean that the questions in such surveys are useful.
 For example, 2 out of 3 teachers of one NBIS course have the shared verdict
@@ -67,7 +67,8 @@ and how the best questions of this set were selected.
   "A framework to assess the quality and impact of bioinformatics training
   across ELIXIR." PLoS computational biology 16.7 (2020): e1007976.
   [website](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007976)
-- `[Jordan et al., 2023]`
+- `[Jordan et al., 2018]`
   Jordan, Kari, François Michonneau, and Belinda Weaver.
   "Analysis of Software and Data Carpentry’s pre-and post-workshop surveys."
   Software Carpentry. Retrieved April 13 (2018): 2023.
+  [PDF](papers/jordan_et_al_2018.pdf)
