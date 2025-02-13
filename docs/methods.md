@@ -43,6 +43,16 @@ flowchart TD
 
 > Figure 1. Overview of the procedure
 
+
+Phase|Goal
+-----|----------------------------------------------------------------------
+1    |Collect all questions that are considered 'good' by at least 1 NBIS trainer
+2    |Collect all questions that are considered 'good' by NBIS and ELIXIR
+3    |Collect all reasons for and against each question
+4    |Rate all questions
+5    |Select the questions that are considered good by the NBIS community
+6    |Merge overlapping questions
+
 The procedure is as follows:
 
 - At an NBIS Training Liaison meeting, introduce this procedure to the people
