@@ -19,6 +19,7 @@ nav:
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
     - ELIXIR evaluation: elixir_evaluation.md
+    - Papers: papers/README.md
 
 theme:
   name: material
