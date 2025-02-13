@@ -108,12 +108,17 @@ Neither does the referred literature:
 
 Taking a closer look at the evaluation questions of `[Jordan et al., 2018]`,
 we see that some questions of its questions were not used.
-The reasoning behind this is absent in `[Gurwitz et al., 2020]`.
-
 One such removed evaluation question is to let learners self-assess
 their confidence in learning outcomes.
 
 ???- question "How does such a question look like?"
+
+    Here is an example of questions to let learners self-assess
+    themselves (from `[Plaza et al., 2002]`):
+
+    ![Figure from Plaza et al., 2002](plaza_et_al_2002_fig.png)
+
+???- question "How are the analysing such questions look like?"
 
     Here we can see the results of learners self-assessing
     their competences before and after the teaching session,
@@ -129,9 +134,14 @@ their confidence in learning outcomes.
 We know that this self-assessment does not relate to actual
 skill `[Liaw et al., 2012]` (with more studies showing this in that paper).
 However, there is some evidence that self-assessment 
-does correlate to teacher effectiveness `[Raupach et al., 2011]`,
+is informative to evaluate a course curriculum `[Plaza et al., 2002]`
+and teacher effectiveness `[Raupach et al., 2011]`,
 although other studies argue that more measurements are needed to
 properly assess teacher effectiveness `[Darling‐Hammond et al., 2010]`.
+
+Why ELIXIR chose to not use this instrument of evaluating
+is not described in the paper in which it announced the
+evaluation questions `[Gurwitz et al., 2020]`.
 
 ## References
 
@@ -168,3 +178,7 @@ properly assess teacher effectiveness `[Darling‐Hammond et al., 2010]`.
   Raupach, Tobias, et al. "Towards outcome-based programme evaluation:
   using student comparative self-assessments to determine teaching
   effectiveness." Medical teacher 33.8 (2011): e446-e453.
+- `[Plaza et al., 2002]`
+  Plaza, Cecilia M., et al. 
+  "Curricular evaluation using self-efficacy measurements."
+  American Journal of Pharmaceutical Education 66.1 (2002): 51-54.
