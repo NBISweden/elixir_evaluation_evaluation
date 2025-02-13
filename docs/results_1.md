@@ -133,7 +133,7 @@ their confidence in learning outcomes.
 
 We know that this self-assessment does not relate to actual
 skill `[Liaw et al., 2012]` (with more studies showing this in that paper).
-However, there is some evidence that self-assessment 
+However, there is some evidence that self-assessment
 is informative to evaluate a course curriculum `[Plaza et al., 2002]`
 and teacher effectiveness `[Raupach et al., 2011]`,
 although other studies argue that more measurements are needed to
@@ -179,6 +179,6 @@ evaluation questions `[Gurwitz et al., 2020]`.
   using student comparative self-assessments to determine teaching
   effectiveness." Medical teacher 33.8 (2011): e446-e453.
 - `[Plaza et al., 2002]`
-  Plaza, Cecilia M., et al. 
+  Plaza, Cecilia M., et al.
   "Curricular evaluation using self-efficacy measurements."
   American Journal of Pharmaceutical Education 66.1 (2002): 51-54.
