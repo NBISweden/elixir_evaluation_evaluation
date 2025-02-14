@@ -5,12 +5,12 @@
 The ELIXIR student evaluation is based on two evaluations.
 Neither evaluation describes (1) how its questions were developed,
 (2) by which criteria the best questions were
-selected. 
+selected.
 
 From these two questionnaires, some (but not all) questions were
 selected to be put in the ELIXIR evaluation.
 Additionally, ELIXIR added new questions, regarding student
-satisfactions. 
+satisfactions.
 The criteria for neither not copying questions for the earlier
 questionnaires, not for adding adding questions were not written down.
 
@@ -43,5 +43,4 @@ course quality can be criticized, with
 ## RQ4: How different are the newly suggested questions from the current ones?
 
 `TODO`
-
 

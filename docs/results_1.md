@@ -80,7 +80,7 @@ This paragraph shows that this ELIXIR group took the liberty
 of adding questions besides its two primary sources,
 even though there is a hint of uncertainty in doing
 so for this choice. This uncertainty is definitely valid,
-as a big meta-analysis found that 'student evaluation of teaching ratings 
+as a big meta-analysis found that 'student evaluation of teaching ratings
 and student learning are not related' `[Uttl et al., 2017]`:
 a paper that was published three years before the ELIXIR paper.
 
@@ -193,7 +193,7 @@ evaluation questions `[Gurwitz et al., 2020]`.
   "Curricular evaluation using self-efficacy measurements."
   American Journal of Pharmaceutical Education 66.1 (2002): 51-54.
 - `[Uttl et al., 2017]`
-  Uttl, Bob, Carmela A. White, and Daniela Wong Gonzalez. 
+  Uttl, Bob, Carmela A. White, and Daniela Wong Gonzalez.
   "Meta-analysis of faculty's teaching effectiveness:
   Student evaluation of teaching ratings and student learning are not related."
   Studies in Educational Evaluation 54 (2017): 22-42.
