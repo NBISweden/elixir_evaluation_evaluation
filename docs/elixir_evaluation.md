@@ -84,15 +84,15 @@ well as for wider quality/impact analyses.
 
 1. Where did you see the course advertised? `advertised`
 
-- a. NBIS website
-- b. SciLifeLab website
-- c. Social Media (e.g. NBIS twitter)
-- d. Host Institute website
-- e. Colleague
-- f. TeSS
-- g. Email
-- h. Internet search
-- i. Other (comments)
+- `a`. NBIS website
+- `b`. SciLifeLab website
+- `c`. Social Media (e.g. NBIS twitter)
+- `d`. Host Institute website
+- `e`. Colleague
+- `f`. TeSS
+- `g`. Email
+- `h`. Internet search
+- `i`. Other (comments)
 
 2. What is your career stage? `career_stage`
 
