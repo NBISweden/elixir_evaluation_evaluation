@@ -8,7 +8,7 @@ The first question was 'How are evaluations evaluated?'.
 
     You can find the ELIXIR evaluation questions [here](elixir_evaluation.md).
 
-    This paper deals only with the mandatory questions 1 to and including 9.
+    This paper deals only with the mandatory questions 5 to and including 9.
 
 It is common practice that courses are evaluated by surveys
 `[Brazas & Ouellette, 2016][Gurwitz et al., 2020][Jordan et al., 2018]`.

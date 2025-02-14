@@ -4,8 +4,16 @@ An evaluation of the ELIXIR course evaluation.
 
 # Goals
 
-- To evaluate the ELIXIR course evaluation
-- If possible, propose a better one
+- To evaluate the mandatory ELIXIR course evaluation questions
+  regarding course quality
+
+???- question "What are these ELIXIR evaluation questions?"
+
+    You can find the ELIXIR evaluation questions [here](elixir_evaluation.md).
+
+    This paper deals only with the mandatory questions 5 to and including 9.
+
+- If possible, propose a better set of questions
 
 ## Overview
 
