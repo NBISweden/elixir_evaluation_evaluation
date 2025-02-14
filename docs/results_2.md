@@ -116,7 +116,7 @@ may be true `[Ang et al., 2018]`.
 ```
 
 Question 8 too attempts to measure course quality by asking the learner
-to rate it. 
+to rate it.
 This question is absent from the two
 questionnaires (i.e. those described in `[Brazas & Ouellette, 2016]`
 and `[Jordan et al., 2018]`) this questionairre is based one.
