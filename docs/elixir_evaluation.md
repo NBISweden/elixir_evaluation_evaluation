@@ -96,57 +96,57 @@ well as for wider quality/impact analyses.
 
 `2`. What is your career stage? `career_stage`
 
-- a. PhD candidate
-- b. Postdoctoral researcher
-- c. Senior researcher/Principal investigator
-- d. Staff scientist
-- e. Industry scientist
-- f. Other (comments)
+- `a`. PhD candidate
+- `b`. Postdoctoral researcher
+- `c`. Senior researcher/Principal investigator
+- `d`. Staff scientist
+- `e`. Industry scientist
+- `f`. Other (comments)
 
 `3`. What is your host university? `host_university`
 
 `4`. Gender `gender`
 
-- a. Male
-- b. Female
-- c. Prefer not to say
-- d. Other (please specify)
+- `a`. Male
+- `b`. Female
+- `c`. Prefer not to say
+- `d`. Other (please specify)
 
 ## Section 3 - Quality Metrics
 
-5. Have you used the tools/resource(s) covered in the course before? `have_used_resources_before`
+`5`. Have you used the tools/resource(s) covered in the course before? `have_used_resources_before`
 
-- i. Never - Unaware of them
-- ii. Never - Used other service
-- iii. Occasionally
-- iv. Frequently
+- `1`. Never - Unaware of them
+- `2`. Never - Used other service
+- `3`. Occasionally
+- `4`. Frequently
 
-6. Will you use the tools/resource(s) covered in the course again? `will_use_resources_future`
+`6`. Will you use the tools/resource(s) covered in the course again? `will_use_resources_future`
 
-- v. Yes
-- vi. No
-- vii. Maybe
+- `1`. Yes
+- `2`. No
+- `3`. Maybe
 
-7. Would you recommend the course? `would_recommend_course`
+`7`. Would you recommend the course? `would_recommend_course`
 
-- viii. Yes
-- ix. No
-- x. Maybe
+- `1`. Yes
+- `2`. No
+- `3`. Maybe
 
-8. What is your overall rating for the course*. `overall_satisfaction`
+`8`. What is your overall rating for the course*. `overall_satisfaction`
 
-- a. Poor (1)
-- b. Satisfactory (2)
-- c. Good (3)
-- d. Very Good (4)
-- e. Excellent (5)
+- `a`. Poor (1)
+- `b`. Satisfactory (2)
+- `c`. Good (3)
+- `d`. Very Good (4)
+- `e`. Excellent (5)
 
 (*please include both numeric and categorical scale for this question.)
 
-9. A. May we contact you by email in the future for more feedback? `contact_future`
+`9`. A. May we contact you by email in the future for more feedback? `contact_future`
 
-- i. Yes
-- ii. No
+- `1`. Yes
+- `2`. No
 
 9 B**. If you answered ‘yes’ to the above question, please enter your email address, below. email
 (** Information for question 9B must be collected and stored by each Node/Institution, but should NOT be shared with the Q&I subtask or any other third party due to GDPR considerations.)
@@ -155,70 +155,70 @@ well as for wider quality/impact analyses.
 
 These are suggested questions that may be of interest (not compulsory):
 
-1. What part of the training did you enjoy the most? `enjoy`
+`1`. What part of the training did you enjoy the most? `enjoy`
 
-2. What part of the training did you enjoy the least? `to_improve`
+`2`. What part of the training did you enjoy the least? `to_improve`
 
-3. The balance of theoretical and practical content was `theoretical_practical`
+`3`. The balance of theoretical and practical content was `theoretical_practical`
 
-- a. Too practical
-- b. About right
-- c. Too theoretical
+- `a`. Too practical
+- `b`. About right
+- `c`. Too theoretical
 
-4. How do you rate the pre-course information given? pre_course_information
+`4`. How do you rate the pre-course information given? pre_course_information
 
 - Linear scale 1-5
-- 1. (Very unsatisfactory/Not useful)
-- 5. Very good/Very useful
+- `1`. (Very unsatisfactory/Not useful)
+- `5`. Very good/Very useful
 
-5. What other topics would you like to see covered in the future? `future_topics`
+`5`. What other topics would you like to see covered in the future? `future_topics`
 
-6. Any other comments? Comments
+`6`. Any other comments? Comments
 
-7. PLEASE RATE EACH SESSION OF THE COURSE `satisfaction_per_session_YYYY_MM_DD_am/pm`
+`7`. PLEASE RATE EACH SESSION OF THE COURSE `satisfaction_per_session_YYYY_MM_DD_am/pm`
 
-- a. Did not attend
-- b. Poor (1)
-- c. Satisfactory (2)
-- d. Good (3)
-- e. Very Good (4)
-- f. Excellent (5)
+- `a`. Did not attend
+- `b`. Poor (1)
+- `c`. Satisfactory (2)
+- `d`. Good (3)
+- `e`. Very Good (4)
+- `f`. Excellent (5)
 
-8. Comments on teaching staff `teaching_staff`
+`8`. Comments on teaching staff `teaching_staff`
     Help our teaching staff to improve by providing constructive feedback
     Paragraph text answer
 
-9. Was the course held at a teaching level matching your training? teaching_training_level
+`9`. Was the course held at a teaching level matching your training? teaching_training_level
 
-10. STATEMENTS REGARDING WHAT PARTICIPANTS COULD DO before TRAINING (customised to a specific training) skills_before
+`10`. STATEMENTS REGARDING WHAT PARTICIPANTS COULD DO before TRAINING (customised to a specific training) skills_before
 
-11. STATEMENTS REGARDING WHAT PARTICIPANTS CAN DO after TRAINING (customised to a specific training) skills_after
+`11`. STATEMENTS REGARDING WHAT PARTICIPANTS CAN DO after TRAINING (customised to a specific training) skills_after
 
-12. What other topics would you like to see covered in the future? future_topics
+`12`. What other topics would you like to see covered in the future? future_topics
 
-13. Any other comments? Comments_1
+`13`. Any other comments? Comments_1
 
 ## Additional Questions - Training logistics
 
 These are suggested questions that may be of interest (not compulsory):
 
-1. What would be the preferred length of the course? `preferred_length`
+`1`. What would be the preferred length of the course? `preferred_length`
 
 - Linear scale 1-5 Days
 
-2. How did you like the facilities/localities of the course (rooms and surroundings)? `course_localities`
+`2`. How did you like the facilities/localities of the course (rooms and surroundings)? `course_localities`
 
 - Linear scale 1-5
-- 1. Not at all
-- 5. Very much
+- `1`. Not at all
+- `5`. Very much
 
-3. How did you like the lunch(es) and “fika(s)”? lunch_fikas
+`3`. How did you like the lunch(es) and “fika(s)”? lunch_fikas
 
 - Linear scale 1-5
-- 1. Not at all
-- 5. Very much
+- `1`. Not at all
+- `5`. Very much
 
-4. Any other comments? `Comments_2`
+`4`. Any other comments? `Comments_2`
 
 It was a great experience and we are working hard to make it even better.
 Now go make something great!
