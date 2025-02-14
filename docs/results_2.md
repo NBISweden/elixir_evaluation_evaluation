@@ -1,5 +1,11 @@
 # Results of RQ2: Can the current ELIXIR evaluation questions be criticized?
 
+???- question "What are the ELIXIR evaluation questions?"
+
+    You can find the ELIXIR evaluation questions [here](elixir_evaluation.md).
+
+    This paper deals only with the mandatory questions 1 to and including 9.
+
 With the goal of the SFT ('to improve the course and its materials')
 in mind, here we go through the questions that resulted from the process
 described in the previous paragraph.

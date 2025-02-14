@@ -1,5 +1,11 @@
 # Results of RQ1: What is the history of the ELIXIR evaluation questions?
 
+???- question "What are the ELIXIR evaluation questions?"
+
+    You can find the ELIXIR evaluation questions [here](elixir_evaluation.md).
+
+    This paper deals only with the mandatory questions 1 to and including 9.
+
 ## What is the ancestry of the NBIS questions?
 
 The paper where these questions were described first
@@ -70,9 +76,13 @@ evaluation questions came to be (quote from `[Gurwitz et al., 2020]`):
 > satisfaction and that the community would benefit from future work
 > to obtain a fuller picture on training quality.
 
-This paragraph gives a glimmer of the
-idea that the evaluation questions can be improved, referring
-to future work, such as -among others- this paper.
+This paragraph shows that this ELIXIR group took the liberty
+of adding questions besides its two primary sources,
+even though there is a hint of uncertainty in doing
+so for this choice. This uncertainty is definitely valid,
+as a big meta-analysis found that 'student evaluation of teaching ratings 
+and student learning are not related' `[Uttl et al., 2017]`:
+a paper that was published three years before the ELIXIR paper.
 
 Again from `[Gurwitz et al., 2020]` we read:
 
@@ -182,3 +192,8 @@ evaluation questions `[Gurwitz et al., 2020]`.
   Plaza, Cecilia M., et al.
   "Curricular evaluation using self-efficacy measurements."
   American Journal of Pharmaceutical Education 66.1 (2002): 51-54.
+- `[Uttl et al., 2017]`
+  Uttl, Bob, Carmela A. White, and Daniela Wong Gonzalez. 
+  "Meta-analysis of faculty's teaching effectiveness:
+  Student evaluation of teaching ratings and student learning are not related."
+  Studies in Educational Evaluation 54 (2017): 22-42.
