@@ -15,12 +15,12 @@ The criteria for neither not copying questions for the earlier
 questionnaires, not for adding adding questions were not written down.
 
 As none of these evaluations describe the process on how questions
-were developed, it comes as no surpise that neither
+were developed, it comes as no surprise that neither
 evaluation refers to evidence-based best practices in the literature.
 
 ## RQ2: Can the current ELIXIR evaluation questions be criticized?
 
-The mandatory ELIXIR evalution question with the goal of evaluating
+The mandatory ELIXIR evaluation questions with the goal of evaluating
 course quality can be criticized, with
 
 - 1 question that can be answered before taking the course (question 5)
@@ -36,7 +36,7 @@ course quality can be criticized, with
 
 ## RQ3: Which ELIXIR evaluation questions are concluded from a fully transparent process?
 
-<!-- markdownlint-enable MD013 --><!-- Headings cannot be split up over lines, hence will break 80 characters per line -->
+<!-- markdownlint-enable MD013 -->
 
 `TODO`
 

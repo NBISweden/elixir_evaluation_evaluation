@@ -41,9 +41,9 @@ between the answers on these two questions.
 
 Regarding these two questions, however, only one is modestly supported
 by the literature ('Would you recommend the course?'),
-where the other ('How satisfied are you with the coure?')
+where the other ('How satisfied are you with the course?')
 has strong support against it. Note that the former question came
-from the Data Carpentries questionnaire (as descibed
+from the Data Carpentries questionnaire (as described
 in `[Jordan et al., 2018]`), where the latter has been added by ELIXIR.
 
 
