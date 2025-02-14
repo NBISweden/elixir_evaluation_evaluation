@@ -82,7 +82,7 @@ well as for wider quality/impact analyses.
 
 ## Section 2 - Demographic Information
 
-1. Where did you see the course advertised? `advertised`
+`1`. Where did you see the course advertised? `advertised`
 
 - `a`. NBIS website
 - `b`. SciLifeLab website
@@ -94,7 +94,7 @@ well as for wider quality/impact analyses.
 - `h`. Internet search
 - `i`. Other (comments)
 
-2. What is your career stage? `career_stage`
+`2`. What is your career stage? `career_stage`
 
 - a. PhD candidate
 - b. Postdoctoral researcher
@@ -103,9 +103,9 @@ well as for wider quality/impact analyses.
 - e. Industry scientist
 - f. Other (comments)
 
-3. What is your host university? `host_university`
+`3`. What is your host university? `host_university`
 
-4. Gender `gender`
+`4`. Gender `gender`
 
 - a. Male
 - b. Female
