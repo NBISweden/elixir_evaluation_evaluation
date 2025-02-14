@@ -7,10 +7,12 @@
     This paper deals only with the mandatory questions 1 to and including 9.
 
 With the goal of the SFT ('to improve the course and its materials')
-in mind, here we go through the questions that resulted from the process
-described in the previous paragraph.
-Here is `Section 3 - Quality Metrics` of the NBIS
-short-term evaluation:
+in mind, here we go through the mandatory
+questions that resulted from the process
+described in the results of Research Question 1.
+The relevant questions are found in `Section 3 - Quality Metrics`
+of the NBIS short-term evaluation.
+Here, we go through each of these questions in detail.
 
 ## Question 5
 
