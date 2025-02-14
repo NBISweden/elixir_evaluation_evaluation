@@ -26,7 +26,7 @@ course quality can be criticized, with
 - 1 question that can be answered before taking the course (question 5)
 - 1 question that requires predicting the future (question 6)
 - 1 question having some research findings hinting it may be a valid
-  way to assess course quality(question 7)
+  way to assess course quality (question 7)
 - 1 question which has no relation to course quality according to a
   meta-analysis (question 8)
 - 1 question that gives no information, except the learner being

@@ -87,6 +87,8 @@ the quality of a course.
 
 Question 7 attempt to measure course quality by asking the learner
 if he/she would recommend the course.
+It can already be found in one of the two evaluations that ELIXIR based
+this on, which is `[Jordan et al., 2018]`.
 The (little) research on this practice shows that this
 may be true `[Ang et al., 2018]`.
 
@@ -114,12 +116,17 @@ may be true `[Ang et al., 2018]`.
 ```
 
 Question 8 too attempts to measure course quality by asking the learner
-to rate it. There seems to be overlap between this and previous
+to rate it. 
+This question is absent from the two
+questionnaires (i.e. those described in `[Brazas & Ouellette, 2016]`
+and `[Jordan et al., 2018]`) this questionairre is based one.
+
+There seems to be overlap between this and previous
 question, hinged on the assumption that if a course is recommended
 that is likely to be rated positively.
 
 Asking learners for their course satifaction however,
-is sketch. This is already acknowledged by ELIXIR:
+is sketchy. This is already acknowledged by ELIXIR:
 
 > We acknowledge that training quality is more complex than solely
 > participant satisfaction and that the community would benefit from future
@@ -173,8 +180,18 @@ of the section `Section 3 - Quality Metrics`.
   "Course recommendation as a construct in student evaluations:
   will students recommend your course?." Studies in Higher Education 43.6
   (2018): 944-959.
+- `[Brazas & Ouellette, 2016]`
+  Brazas, Michelle D., and BF Francis Ouellette.
+  "Continuing education workshops in bioinformatics positively impact
+ research and careers." PLoS computational biology 12.6 (2016): e1004916.
+- `[Jordan et al., 2018]`
+  Jordan, Kari, François Michonneau, and Belinda Weaver.
+  "Analysis of Software and Data Carpentry’s pre-and post-workshop surveys."
+  Software Carpentry. Retrieved April 13 (2018): 2023.
+  [PDF](papers/jordan_et_al_2018.pdf)
 - [Uttl et al., 2017]
   Uttl, Bob, Carmela A. White, and Daniela Wong Gonzalez.
   "Meta-analysis of faculty's teaching effectiveness:
   Student evaluation of teaching ratings and student learning are not related."
   Studies in Educational Evaluation 54 (2017): 22-42.
+
