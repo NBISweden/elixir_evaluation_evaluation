@@ -28,7 +28,7 @@ The results can be found at [RQ2 results](results_2.md).
 ```mermaid
 flowchart TD
   data_set_1[1.All suggested questions]
-  data_set_2[2.All suggested and NBIS questions]
+  data_set_2[2.All suggested and ELIXIR questions]
   data_set_3[3.Reasons for/against each question]
   data_set_4[4.Votes for/against each question]
   data_set_5[5.Useful -sometimes overlapping- questions]
