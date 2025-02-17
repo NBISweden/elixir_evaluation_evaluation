@@ -20,6 +20,7 @@ nav:
     - Contributing: CONTRIBUTING.md
     - ELIXIR evaluation: elixir_evaluation.md
     - Papers: papers/README.md
+    - Presentations: presentations/README.md
 
 theme:
   name: material
