@@ -10,7 +10,8 @@
 To find out which evaluation questions are concluded
 from a fully transparent process,
 we use a procedure that involves multiple phases (as shown
-in figure `M3-1`, each hav
+in figure `M3-F1`, each having goals as shown
+in table `M3-T1`
 
 !!! info "Overview of the procedure"
 
@@ -32,7 +33,7 @@ in figure `M3-1`, each hav
       data_set_5 --> |reduce overlap| data_set_6
     ```
 
-    > Figure `M3-1`. Overview of the procedure
+    > Figure `M3-F1`. Overview of the procedure
 
 !!! info "Goals of each phase in the procedure"
 
@@ -44,6 +45,8 @@ in figure `M3-1`, each hav
     4    |Rate all questions
     5    |Select the questions that are considered good by the NBIS community
     6    |Merge overlapping questions
+
+    > Table `M3-T1`
 
 Here each step of the procedure is described.
 
@@ -101,6 +104,34 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
     What is your favorite color?,Open question
     What is your favorite color?,orange;red
     ```
+
+    ???- question "How does the process description look like?"
+
+    Here is an example:
+
+    ``````text
+    # Data set 1 merge
+
+    There were 5 questions.
+
+    Of those 5, here are 2 questions with different spelling:
+
+    ```
+    What is your favorite color?,Open question
+    What is your favorite colour?,Open question
+    ```
+
+    RJCB removed the one with `colour`, resulting in 4 questions.
+
+    Of the remaining 4, here are 2 identical questions:
+
+    ```
+    What is your favorite animal?,Open question
+    What is your favorite animal?,Open question
+    ```
+
+    RJCB removed one of these duplicates, resulting in 3 questions.
+    ``````
 
 ## Phase 2
 
