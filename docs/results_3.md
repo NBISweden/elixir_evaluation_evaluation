@@ -19,7 +19,7 @@ On 2025-02-17:
 ???- question "Where can I find the presentations and video?"
 
     The presentations and videos can be found at
-    [presentations](presentations.md).
+    [presentations](presentations/README.md).
 
 - NBIS teachers were invited to participate
 
