@@ -116,7 +116,7 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
 
     Of those 5, here are 2 questions with different spelling:
 
-    ```
+    ```text
     What is your favorite color?,Open question
     What is your favorite colour?,Open question
     ```
@@ -125,7 +125,7 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
 
     Of the remaining 4, here are 2 identical questions:
 
-    ```
+    ```text
     What is your favorite animal?,Open question
     What is your favorite animal?,Open question
     ```
