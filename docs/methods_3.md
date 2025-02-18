@@ -7,42 +7,89 @@
     Which ELIXIR evaluation questions are concluded
     from a fully transparent process?
 
-```mermaid
-flowchart TD
-  data_set_1[1.All suggested questions]
-  data_set_2[2.All suggested and ELIXIR questions]
-  data_set_3[3.Reasons for/against each question]
-  data_set_4[4.Votes for/against each question]
-  data_set_5[5.Useful -sometimes overlapping- questions]
-  data_set_6[6.Useful questions]
+To find out which evaluation questions are concluded
+from a fully transparent process,
+we use a procedure that involves multiple phases (as shown
+in figure `M3-1`, each hav
 
-  data_set_1 --> data_set_2
-  data_set_2 --> data_set_3
-  data_set_2 --> data_set_4
-  data_set_3 --> data_set_4
-  data_set_2 --> data_set_5
-  data_set_4 --> data_set_5
-  data_set_5 --> data_set_6
-```
+!!! info "Overview of the procedure"
 
-> Figure 1. Overview of the procedure
+    ```mermaid
+    flowchart TD
+      data_set_1[1.All suggested questions]
+      data_set_2[2.All suggested and ELIXIR questions]
+      data_set_3[3.Reasons for/against each question]
+      data_set_4[4.Votes for/against each question]
+      data_set_5[5.Useful -sometimes overlapping- questions]
+      data_set_6[6.Useful questions]
 
+      data_set_1 --> |merge identical questions| data_set_2
+      data_set_2 --> data_set_3
+      data_set_2 --> data_set_4
+      data_set_3 --> |merge reasons| data_set_4
+      data_set_2 --> data_set_5
+      data_set_4 --> |follow decision rule| data_set_5
+      data_set_5 --> |reduce overlap| data_set_6
+    ```
 
-Phase|Goal
------|----------------------------------------------------------------------
-1    |Collect all questions that are considered 'good' by at least 1 NBIS trainer
-2    |Collect all questions that are considered 'good' by NBIS and ELIXIR
-3    |Collect all reasons for and against each question
-4    |Rate all questions
-5    |Select the questions that are considered good by the NBIS community
-6    |Merge overlapping questions
+    > Figure `M3-1`. Overview of the procedure
 
-The procedure is as follows:
+!!! info "Goals of each phase in the procedure"
 
-- At an NBIS Training Liaison meeting, introduce this procedure to the people
-  involved in training, as well as advertise in the relevant communication
-- Collect all questions that teachers think are useful anonymously,
-  creating [data_set_1.csv](data_set_1.csv)
+    Phase|Goal
+    -----|----------------------------------------------------------------------
+    1    |Collect all questions that are considered 'good' by at least 1 NBIS trainer
+    2    |Collect all questions that are considered 'good' by NBIS and ELIXIR
+    3    |Collect all reasons for and against each question
+    4    |Rate all questions
+    5    |Select the questions that are considered good by the NBIS community
+    6    |Merge overlapping questions
+
+Here each step of the procedure is described.
+
+## Phase 1
+
+The goal of phase 1 is to collect all questions that are considered
+'good' by at least 1 NBIS trainer.
+
+To do so, trainers need to
+
+- be aweare of this experiment
+- know the goals of ELIXIR
+- be invited to submit their questions
+- do this before a deadline
+
+At an NBIS Training Liaison meeting, introduce this procedure to the people
+involved in training, as well as advertise in the relevant communication
+channels. Present, or share an online presentation online that shows the
+rationale behind this experiment, as well as the goals of ELIXIR.
+
+In an online anonymous survey, repeat the rationale of this experiment,
+as well as the ELIXIR goal of the evaluation.
+
+Set a deadline of several weeks. Remind trainers to submit 1 week before
+the deadline ends.
+
+Collect all questions that teachers think are useful anonymously,
+creating [data_set_1_raw.csv](data_set_1_raw.csv)
+
+???- question "How does that data set look like?"
+
+    Here is an example:
+
+    ```text
+    question,reply
+    What is your favorite animal?,Open question
+    What is your favorite color?,Open question
+    What is your favorite colour?,Open question
+    What is your favorite color?,orange;red
+    What is your favorite animal?,Open question
+    ```
+
+As there may be duplicates in the data set,
+remove the duplicates transparantly,
+creating [data_set_1.csv](data_set_1.csv)
+and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
 
 ???- question "How does that data set look like?"
 
@@ -54,6 +101,8 @@ The procedure is as follows:
     What is your favorite color?,Open question
     What is your favorite color?,orange;red
     ```
+
+## Phase 2
 
 - Combine `Data Set 1` with the current NBIS questions. Mix these questions
   randomly,
