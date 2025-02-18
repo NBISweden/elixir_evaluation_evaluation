@@ -11,8 +11,10 @@
 
 On 2025-02-17:
 
-- a presentation was given at the NBIS TrSG, with 5 people attending
-- a video of that presentation was recorded afterwards
+- a presentation was given at the NBIS TrSG, with 5 people attending.
+  The presentation lasted around 10 minutes, after which there
+  was 15 minutes of questions
+- after the meeting, a video of that presentation was recorded
 
 ???- question "Where can I find the presentations and video?"
 
@@ -44,3 +46,4 @@ On 2025-02-17:
     is useful enough to ask to all our course participants.
 
     Thanks and cheers, Richel
+
