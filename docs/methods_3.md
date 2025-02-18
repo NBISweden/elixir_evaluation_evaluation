@@ -57,7 +57,7 @@ The goal of phase 1 is to collect all questions that are considered
 
 To do so, trainers need to
 
-- be aweare of this experiment
+- be aware of this experiment
 - know the goals of ELIXIR
 - be invited to submit their questions
 - do this before a deadline
@@ -90,7 +90,7 @@ creating [data_set_1_raw.csv](data_set_1_raw.csv)
     ```
 
 As there may be duplicates in the data set,
-remove the duplicates transparantly,
+remove the duplicates transparently,
 creating [data_set_1.csv](data_set_1.csv)
 and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
 
