@@ -135,9 +135,10 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
 
 ## Phase 2
 
-- Combine `Data Set 1` with the current NBIS questions. Mix these questions
-  randomly,
-  creating [data_set_2.csv](data_set_2.csv)
+Combine `Data Set 1` with the current NBIS questions.
+Shuffle these questions
+randomly,
+creating [data_set_2.csv](data_set_2.csv)
 
 ???- question "How does that data set look like?"
 
@@ -150,6 +151,8 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
     What is your favorite animal?,Open question
     What is your favorite color?,Open question
     ```
+
+## Phase 3
 
 - Per question, as the teachers anonymously for reasons why
   they would be for or against each question.
@@ -173,6 +176,8 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
     ```
 
     <!-- markdownlint-enable MD013 -->
+
+## Phase 4
 
 - Per question, and its pros and cons, vote anonymously if the question
   is useful enough to be included in a survey. Allow 'no', 'yes' and neutral
@@ -198,7 +203,10 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
     What is your favorite color?,Open question,Neutral
     ```
 
-The end product is the set of questions that had more 'yes' than 'no' votes:
+## Phase 5
+
+From the questions and votes, select the set of questions
+that had more 'yes' than 'no' votes:
 these are the questions that this NBIS community thinks are useful.
 
 ???- question "How does that data set look like?"
@@ -212,6 +220,10 @@ these are the questions that this NBIS community thinks are useful.
 
 The results can be found at [data_set_5.csv](data_set_5.csv).
 
-## RQ4: How different are the newly suggested questions from the current ones?
+## Phase 6
 
-The results can be found at [RQ4 results](results_4.md).
+From the questions that had more 'yes' than 'no' votes,
+merge potential overlap in questions.
+
+The results can be found at [data_set_6.csv](data_set_6.csv).
+
