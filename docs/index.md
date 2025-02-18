@@ -23,7 +23,11 @@ split over multiple pages (for now):
 - [Abstract](abstract.md)
 - [Introduction](introduction.md)
 - [Research questions](research_questions.md)
-- [Methods](methods.md)
+- Methods:
+    - [RQ1 Methods](methods_1.md)
+    - [RQ2 Methods](methods_2.md)
+    - [RQ3 Methods](methods_3.md)
+    - [RQ4 Methods](methods_4.md)
 - Results:
     - [RQ1 Results](results_1.md)
     - [RQ2 Results](results_2.md)
