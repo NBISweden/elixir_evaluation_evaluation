@@ -7,7 +7,11 @@ nav:
   - Abstract: abstract.md
   - Introduction: introduction.md
   - Research questions: research_questions.md
-  - Methods: methods.md
+  - Methods: 
+    - Methods 1: methods_1.md
+    - Methods 2: methods_2.md
+    - Methods 3: methods_3.md
+    - Methods 4: methods_4.md
   - Results: 
     - Results 1: results_1.md
     - Results 2: results_2.md

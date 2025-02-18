@@ -1,29 +1,11 @@
-# Methods
+# Methods 3
 
-## RQ1: What is the history of the ELIXIR evaluation questions?
+???- question "Which research question does this answer?"
 
-A literature search is performed to find out the history
-of the current ELIXIR evaluation questions,
-with a focus on answering the following sub-questions:
+    This part of the methods is related to RQ3:
 
-- How were these evaluation questions developed?
-- By which criteria where the best questions selected?
-
-The results can be found at [RQ1 results](results_1.md).
-
-## RQ2: Can the current ELIXIR evaluation questions be criticized?
-
-A literature search is performed to assess the usefulness of the questions
-in the ELIXIR SFT.
-
-The results can be found at [RQ2 results](results_2.md).
-
-<!-- markdownlint-disable MD013 --><!-- Headings cannot be split up over lines, hence will break 80 characters per line -->
-
-## RQ3: Which ELIXIR evaluation questions are concluded from a fully transparent process?
-
-<!-- markdownlint-enable MD013 -->
-
+    Which ELIXIR evaluation questions are concluded
+    from a fully transparent process?
 
 ```mermaid
 flowchart TD
