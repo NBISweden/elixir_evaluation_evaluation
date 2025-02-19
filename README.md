@@ -8,6 +8,7 @@ An evaluation of the ELIXIR course evaluation.
 [![Check markdown](https://github.com/NBISweden/elixir_evaluation_evaluation/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/NBISweden/elixir_evaluation_evaluation/actions/workflows/check_markdown.yaml)
 [![Check spelling](https://github.com/NBISweden/elixir_evaluation_evaluation/actions/workflows/check_spelling.yaml/badge.svg?branch=main)](https://github.com/NBISweden/elixir_evaluation_evaluation/actions/workflows/check_spelling.yaml)
 [![Create website](https://github.com/NBISweden/elixir_evaluation_evaluation/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/NBISweden/elixir_evaluation_evaluation/actions/workflows/create_website.yaml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14893418.svg)](https://doi.org/10.5281/zenodo.14893418)
 
 <!-- markdownlint-enable MD013 -->
 
