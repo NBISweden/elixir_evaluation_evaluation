@@ -1,4 +1,4 @@
-# elixir_evaluation_evaluation
+# Improving the ELIXIR evaluation for both management and trainers
 
 An evaluation of the ELIXIR course evaluation.
 
