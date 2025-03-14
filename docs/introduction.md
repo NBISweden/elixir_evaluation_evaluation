@@ -63,7 +63,7 @@ this paper is the first to give a fully transparent process
 on how, with the same goals in mind, a similar set of
 evaluation questions were developed
 and how the best questions of this set were selected,
-with the goal of helping to make course evalutions (even) more useful.
+with the goal of helping to make course evaluations (even) more useful.
 
 ## References
 
