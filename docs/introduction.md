@@ -13,7 +13,7 @@ The first question was 'How are evaluations evaluated?'.
 It is common practice that courses are evaluated by surveys
 `[Brazas & Ouellette, 2016][Gurwitz et al., 2020][Jordan et al., 2018]`.
 
-Although these surveys are developed with the best intentions, 
+Although these surveys are developed with the best intentions,
 it does not necessarily mean that the questions in such surveys are useful.
 For example, 2 out of 3 teachers of one NBIS course have the shared verdict
 that the NBIS questions are -I quote- 'useless', where 1 is neutral and

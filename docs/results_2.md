@@ -27,7 +27,7 @@ Here, we go through each of these questions in detail.
 
 Question 5 is an interesting way to evaluate the quality of a course,
 because it is about something learners have done
-**before** the course took place. 
+**before** the course took place.
 Searching the literature
 for 'using previous experience in course evaluations' (and sentences
 alike) resulted in zero hits.
