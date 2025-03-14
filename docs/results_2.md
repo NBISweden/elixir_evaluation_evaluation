@@ -1,4 +1,4 @@
-# Results of RQ2: How does the academic literature relate to the ELIXIR evaluation questions?
+# Results of RQ2
 
 ???- question "What are the ELIXIR evaluation questions?"
 
