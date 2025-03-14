@@ -19,33 +19,36 @@ yet in unpublished and more informal documents.
 However, it seems unlikely that references to the literature are
 used in informal communication, yet subsequently omitted when
 a formal academic paper is written.
-To us, it seems more likely that only a shallow research search has been
-performed, hence that there was little awareness of the evidence-based
-literature at the time of writing.
 
-## RQ2: Can the current ELIXIR evaluation questions be criticized?
+To us, it seems more likely that a too short amount of time
+was allocated to researching the academic literature,
+resulting in missing the papers mentioned in this paper.
+
+## RQ2: How does the academic literature relate to the ELIXIR evaluation questions?
 
 The majority of the ELIXIR mandatory evaluation questions,
-in the section to assess course quality can be criticized.
-Three out of five questions (i.e. questions 5, 6 and 9), however,
-simply seem to be in the wrong session. Why it was chosen to put these
+in the section to assess course quality have little connection
+to the academic literature.
+Three out of five questions (i.e. questions 5, 6 and 9)
+resulted in zero papers being written on their effectiveness.
+
+To us, these questions simply seem to be in the wrong session.
+Why it was chosen to put these
 questions in the section called 'quality metrics', instead of a (new)
 section with a better fitting name is unknown.
 
-Of the two questions that do seem in place, they seem to be measuring
+Regarding the two questions that seem to be in the correct section,
+however, only one is supported
+by the literature ('Would you recommend the course?') by one paper,
+where the other ('How satisfied are you with the course?')
+has strong support **against** its effectiveness.
+
+Regarding these two questions, they seem to be measuring
 the same thing: course satisfaction (on its own),
 and recommending a course (because the learner is satisfied with the course).
 It is unknown why these two similar questions are both in the evaluation
 and it would be interesting to see how strong the correlation is
 between the answers on these two questions.
-
-Regarding these two questions, however, only one is modestly supported
-by the literature ('Would you recommend the course?'),
-where the other ('How satisfied are you with the course?')
-has strong support against it. Note that the former question came
-from the Data Carpentries questionnaire (as described
-in `[Jordan et al., 2018]`), where the latter has been added by ELIXIR.
-
 
 ## Epilogue
 

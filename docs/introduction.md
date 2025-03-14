@@ -13,9 +13,10 @@ The first question was 'How are evaluations evaluated?'.
 It is common practice that courses are evaluated by surveys
 `[Brazas & Ouellette, 2016][Gurwitz et al., 2020][Jordan et al., 2018]`.
 
-This does not mean that the questions in such surveys are useful.
+Although these surveys are developed with the best intentions, 
+it does not necessarily mean that the questions in such surveys are useful.
 For example, 2 out of 3 teachers of one NBIS course have the shared verdict
-that the NBIS questions are useless, where 1 is neutral and
+that the NBIS questions are -I quote- 'useless', where 1 is neutral and
 reasoning 'it is what we commonly do'.
 
 ???- question "Source?"
@@ -36,7 +37,8 @@ This disagreement is used as a starting point in evaluating the
 NBIS course evaluation questions,
 where the literature is searched for how these questions
 came to be and by which criteria the best were selected,
-in the hope of establishing the usefulness of this survey.
+in the hope of establishing the usefulness of this survey,
+as well as suggestions for improvements.
 
 ???- question "Which alternatives are suggested?"
 
@@ -60,7 +62,8 @@ Besides discussing the current survey question,
 this paper is the first to give a fully transparent process
 on how, with the same goals in mind, a similar set of
 evaluation questions were developed
-and how the best questions of this set were selected.
+and how the best questions of this set were selected,
+with the goal of helping to make course evalutions (even) more useful.
 
 ## References
 

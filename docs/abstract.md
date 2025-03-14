@@ -7,7 +7,7 @@ course quality.
 However, there is discussion in how useful these questions are
 in achieving their goal.
 Here, we describe the history of this survey, how its questions
-were crafted and selected, followed by a critical evaluation
+were crafted and selected, followed by an evaluation
 of its final form.
 We find that no selection criterium has been written down
 and evidence-based best practices by the academic literature

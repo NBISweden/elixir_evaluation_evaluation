@@ -18,19 +18,22 @@ As none of these evaluations describe the process on how questions
 were developed, it comes as no surprise that neither
 evaluation refers to evidence-based best practices in the literature.
 
-## RQ2: Can the current ELIXIR evaluation questions be criticized?
+## RQ2: How does the academic literature relate to the ELIXIR evaluation questions?
 
 The mandatory ELIXIR evaluation questions with the goal of evaluating
-course quality can be criticized, with
+course quality have the following relation to the academic literature
 
-- 1 question that can be answered before taking the course (question 5)
-- 1 question that requires predicting the future (question 6)
-- 1 question having some research findings hinting it may be a valid
-  way to assess course quality (question 7)
-- 1 question which has no relation to course quality according to a
-  meta-analysis (question 8)
-- 1 question that gives no information, except the learner being
-  willing to be contacted in the future (question 9)
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+Question|Relation to the literature
+--------|-----------------------------------------------------------------------------------------
+5       |None found
+6       |None found
+7       |One paper which states that this question is suitable to assess course quality
+8       |Many papers, including a meta-analysis that this question is unsuitable to assess course quality
+9       |None found
+
+<!-- markdownlint-enable MD013 -->
 
 <!-- markdownlint-disable MD013 --><!-- Headings cannot be split up over lines, hence will break 80 characters per line -->
 

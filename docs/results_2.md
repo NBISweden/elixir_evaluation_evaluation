@@ -1,4 +1,4 @@
-# Results of RQ2: Can the current ELIXIR evaluation questions be criticized?
+# Results of RQ2: How does the academic literature relate to the ELIXIR evaluation questions?
 
 ???- question "What are the ELIXIR evaluation questions?"
 
@@ -27,7 +27,10 @@ Here, we go through each of these questions in detail.
 
 Question 5 is an interesting way to evaluate the quality of a course,
 because it is about something learners have done
-**before** the course took place.
+**before** the course took place. 
+Searching the literature
+for 'using previous experience in course evaluations' (and sentences
+alike) resulted in zero hits.
 
 ???- question "What are the metrics for this question?"
 
@@ -42,10 +45,6 @@ because it is about something learners have done
     Occasionally              |6974|37.7
     Frequently                |1528|8.3
 
-Does this indicate good or bad courses? Are the right people reached?
-It would be interesting to know, how these values are used to determine
-the quality of a course.
-
 ## Question 6
 
 ```text
@@ -59,6 +58,9 @@ the quality of a course.
 Question 6 is another interesting way to evaluate the quality of a course,
 because it is about the usefulness of the topic being taught,
 combined with predicting the future.
+Searching the literature
+for 'using self-predicted future use of content in course evaluations'
+(and sentences alike) resulted in zero hits.
 
 ???- question "What are the metrics for this question?"
 
@@ -70,10 +72,6 @@ combined with predicting the future.
     Maybe   |2822 |15.1
     No      |105  |0.6
     Yes     |15792|84.4
-
-Also here, does this indicate good or bad courses?
-It would be interesting to know, how these values are used to determine
-the quality of a course.
 
 ## Question 7
 
@@ -87,10 +85,16 @@ the quality of a course.
 
 Question 7 attempt to measure course quality by asking the learner
 if he/she would recommend the course.
-It can already be found in one of the two evaluations that ELIXIR based
-this on, which is `[Jordan et al., 2018]`.
-The (little) research on this practice shows that this
-may be true `[Ang et al., 2018]`.
+This question originates from one of the two evaluations that
+this ELIXIR evaluation is based
+on (`[Jordan et al., 2018]`).
+
+Searching the literature
+for 'using course recommendation in evaluation'
+(and sentences alike) resulted in one relevant hit.
+This paper, `[Ang et al., 2018]`, shows that using
+this question may indeed be a valid way to asses course
+quality `[Ang et al., 2018]`.
 
 ???- question "What are the metrics for this question?"
 
@@ -121,19 +125,12 @@ This question is absent from the two
 questionnaires (i.e. those described in `[Brazas & Ouellette, 2016]`
 and `[Jordan et al., 2018]`) this questionnaire is based one.
 
-There seems to be overlap between this and previous
-question, hinged on the assumption that if a course is recommended
-that is likely to be rated positively.
-
-Asking learners for their course satifaction however,
-is sketchy. This is already acknowledged by ELIXIR:
-
-> We acknowledge that training quality is more complex than solely
-> participant satisfaction and that the community would benefit from future
-> work to obtain a fuller picture on training quality [Gurwitz et al., 2020]
-
-There is, however, according to a meta-analysis,
-no relation between training quality and participant
+Searching the literature
+for 'using course satisfaction in evaluations'
+(and sentences alike) resulted in many relevant papers.
+The most important paper is a meta-analysis,
+which concluded that there is no relation
+between training quality and participant
 satisfaction `[Uttl et al., 2017]` and this meta-analysis
 gives some examples how problematic this metric is.
 
@@ -163,6 +160,10 @@ Question 9 is an interesting way to measure the course quality, based
 on the learner being willing to answer questions on the future.
 It seems more likely that question should be placed outside
 of the section `Section 3 - Quality Metrics`.
+
+Searching the literature
+for 'using future contact in course evaluation'
+(and sentences alike) resulted in zero relevant hits.
 
 ???- question "What are the metrics for this question?"
 
@@ -194,4 +195,3 @@ of the section `Section 3 - Quality Metrics`.
   "Meta-analysis of faculty's teaching effectiveness:
   Student evaluation of teaching ratings and student learning are not related."
   Studies in Educational Evaluation 54 (2017): 22-42.
-

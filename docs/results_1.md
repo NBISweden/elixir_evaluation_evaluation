@@ -9,49 +9,10 @@
 ## What is the ancestry of the NBIS questions?
 
 The paper where these questions were described first
-in `[Gurwitz et al., 2020]` . We can read that these questions
+in `[Gurwitz et al., 2020]` . In that paper, one can read that these questions
 are based on `[Jordan et al., 2018]` and `[Brazas & Ouellette, 2016]`.
 These last two papers do not reference any academic papers on where
 their questions originated from.
-
-## What are the goals of these questions?
-
-<!-- markdownlint-disable MD013 --><!-- Mermaid diagrams cannot be split up over lines, hence will break 80 characters per line -->
-
-```mermaid
-flowchart TD
-  goal_1[ELIXIR: Determine training quality]
-  goal_2[NBIS: Find out how participants have used the skills and knowledge they gained]
-  goal_3[NBIS: Improve the course and the materials we deliver]
-  goal_1 <-.-> |similarish| goal_3
-  goal_2 <-.-> |dissimilar| goal_3
-```
-
-<!-- markdownlint-enable MD013 -->
-
-> Figure 2. Overview of the goals of the evaluation questions
-
-To get a second idea of how good these evaluation questions are can be
-obtained by reading the goal of the questions.
-
-Here is the ELIXIR goal `[Gurwitz et al., 2020]`:
-
-> We were interested in participant satisfaction as a reflection on training
-> quality in order to be able to inform best practice for ELIXIR training.
-
-Here the intention of the NBIS short-term evaluation form is quoted:
-
-> The intention of the STF survey is to find out how participants have used the
-> skills and knowledge they gained through participating in the NBIS course.
-
-To me, this seems like a copy-paste error from the long-term survey
-by NBIS...? Section 1 seems to be more in line with a short term
-evaluation:
-
-> It is really important to us in order to continually
-> improve the course and the materials we deliver
-
-So it seems the goal of the STF is to improve the course and its materials.
 
 ## Development of the questions
 
@@ -59,7 +20,7 @@ ELIXIR developed these evaluation questions to,
 as quoted from `[Gurwitz et al., 2020]`:
 
 - describe the audience demographic being reached
-  by ELIXIR training events'
+  by ELIXIR training events
 - assess the quality of ELIXIR training events directly
   after they have taken place'
 
@@ -77,12 +38,7 @@ evaluation questions came to be (quote from `[Gurwitz et al., 2020]`):
 > to obtain a fuller picture on training quality.
 
 This paragraph shows that this ELIXIR group took the liberty
-of adding questions besides its two primary sources,
-even though there is a hint of uncertainty in doing
-so for this choice. This uncertainty is definitely valid,
-as a big meta-analysis found that 'student evaluation of teaching ratings
-and student learning are not related' `[Uttl et al., 2017]`:
-a paper that was published three years before the ELIXIR paper.
+of adding questions besides its two primary sources.
 
 Again from `[Gurwitz et al., 2020]` we read:
 
@@ -91,15 +47,8 @@ Again from `[Gurwitz et al., 2020]` we read:
 > external training providers, and literature review
 > `[Brazas & Ouellette, 2016][Jordan et al., 2018]`
 
-(note that using the term 'literature review' for 2 papers may be considered
-a misnomer, informal sources, such as my
-[first](https://www.clrn.org/how-many-sources-do-you-need-in-a-literature-review/)
-and [second](https://www.clrn.org/how-many-sources-in-a-literature-review/)
-on 'how many sources does a literature review need?' om Google
-recommend at least 20 and 5 sources (for a 'brief review') respectively).
-
-Nowhere has it been described how the evaluation questions
-came to be and with which reasoning the best were selected.
+There are no references to the literature that was reviewed
+besides these two papers.
 
 Neither does the referred literature:
 
@@ -117,9 +66,14 @@ Neither does the referred literature:
   this paper has zero references to the literature
 
 Taking a closer look at the evaluation questions of `[Jordan et al., 2018]`,
-we see that some questions of its questions were not used.
-One such removed evaluation question is to let learners self-assess
-their confidence in learning outcomes.
+we see that some questions of its evaluations were not copied to
+the ELIXIR evaluation. The reasoning why some questions were copied
+and some not is unpublished.
+
+???- question "Which questions were not copied to the ELIXIR evaluation?"
+
+    One such removed evaluation question is to let learners self-assess
+    their confidence in learning outcomes.
 
 ???- question "How does such a question look like?"
 
@@ -141,17 +95,17 @@ their confidence in learning outcomes.
 
     ![Figure from Raupach et al., 2011](raupach_et_al_2011_fig.png)
 
-We know that this self-assessment does not relate to actual
-skill `[Liaw et al., 2012]` (with more studies showing this in that paper).
-However, there is some evidence that self-assessment
-is informative to evaluate a course curriculum `[Plaza et al., 2002]`
-and teacher effectiveness `[Raupach et al., 2011]`,
-although other studies argue that more measurements are needed to
-properly assess teacher effectiveness `[Darling‐Hammond et al., 2010]`.
+???- question "Should that question have been copied to the ELIXIR evaluation?"
 
-Why ELIXIR chose to not use this instrument of evaluating
-is not described in the paper in which it announced the
-evaluation questions `[Gurwitz et al., 2020]`.
+    Probably.
+
+    We know that this self-assessment does not relate to actual
+    skill `[Liaw et al., 2012]` (with more studies showing this in that paper).
+    However, there is some evidence that self-assessment
+    is informative to evaluate a course curriculum `[Plaza et al., 2002]`
+    and teacher effectiveness `[Raupach et al., 2011]`,
+    although other studies argue that more measurements are needed to
+    properly assess teacher effectiveness `[Darling‐Hammond et al., 2010]`.
 
 ## References
 
