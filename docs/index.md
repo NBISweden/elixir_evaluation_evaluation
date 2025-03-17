@@ -30,6 +30,7 @@ An evaluation of the ELIXIR course evaluation.
 This evaluation is written as a scientific paper,
 split over multiple pages (for now):
 
+- Authors: Richèl Bilderbeek, Daniel Wibberg
 - [Abstract](abstract.md)
 - [Introduction](introduction.md)
 - [Research questions](research_questions.md)
