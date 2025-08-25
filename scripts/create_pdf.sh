@@ -34,7 +34,9 @@ fi
 echo "Creating single-file document at ${build_file}"
 
 # Concatenate all markdown files, convert those to one PDF
-echo "# Improving the ELIXIR evaluation for both management and trainers" > ${build_file}
+echo " " > ${build_file} # Start here. TOC will be placed above this line"
+echo " " >> ${build_file}; echo "\pagebreak" >> ${build_file}; echo " " >> ${build_file}
+echo "# Improving the ELIXIR evaluation for both management and trainers" >> ${build_file}
 echo " " >> ${build_file}
 echo "- Authors: Richèl Bilderbeek, Daniel Wibberg" >> ${build_file}
 echo " " >> ${build_file}
