@@ -31,6 +31,8 @@ if [ ! -d ${build_folder} ]; then
   exit 1
 fi
 
+echo "Creating single-file document at ${build_file}"
+
 # Concatenate all markdown files, convert those to one PDF
 echo "# Improving the ELIXIR evaluation for both management and trainers" > ${build_file}
 echo " " >> ${build_file}
@@ -67,15 +69,16 @@ echo "## Appendix" >> ${build_file}
 echo " " >> ${build_file}; echo "\pagebreak" >> ${build_file}; echo " " >> ${build_file}
 cat docs/elixir_evaluation.md >> ${build_file}
 echo " " >> ${build_file}; echo "\pagebreak" >> ${build_file}; echo " " >> ${build_file}
-cat docs/presentations.md >> ${build_file}
+cat docs/presentations/README.md >> ${build_file}
 echo " " >> ${build_file}; echo "\pagebreak" >> ${build_file}; echo " " >> ${build_file}
 
-
-Rscript -e "mkdocs2md::convert_file_to_markdown("${build_file}", "${build_file}")"
-
+echo "Convert MkDocs to regular Markdown"
+Rscript -e "remotes::install_github(\"richelbilderbeek/mkdocs2md\")"
+Rscript -e "mkdocs2md::convert_file_to_markdown(\"${build_file}\", \"${build_file}\")"
 cp scripts/guide_style.theme $build_folder
 
-cd "${build_folder}" || exit 41
+echo "Convert Markdown to PDF"
+cd ${build_folder} || exit 41
 
 #
 # We are in the 'build' folder
