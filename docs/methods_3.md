@@ -13,24 +13,20 @@ we use a procedure that involves multiple phases (as shown
 in figure `M3-F1`, each having goals as shown
 in table `M3-T1`
 
-!!! info "Overview of the procedure"
+![Overview of the procedure](methods_3_figure_1.png)
 
-    ![Overview of the procedure](methods_3_figure_1.png)
+> Figure `M3-F1`. Overview of the procedure
 
-    > Figure `M3-F1`. Overview of the procedure
+Phase|Goal
+-----|----------------------------------------------------------------------
+1    |Collect all questions that are considered 'good' by at least 1 NBIS trainer
+2    |Collect all questions that are considered 'good' by NBIS and ELIXIR
+3    |Collect all reasons for and against each question
+4    |Rate all questions
+5    |Select the questions that are considered good by the NBIS community
+6    |Merge overlapping questions
 
-!!! info "Goals of each phase in the procedure"
-
-    Phase|Goal
-    -----|----------------------------------------------------------------------
-    1    |Collect all questions that are considered 'good' by at least 1 NBIS trainer
-    2    |Collect all questions that are considered 'good' by NBIS and ELIXIR
-    3    |Collect all reasons for and against each question
-    4    |Rate all questions
-    5    |Select the questions that are considered good by the NBIS community
-    6    |Merge overlapping questions
-
-    > Table `M3-T1`: goals of each phase in the procedure
+> Table `M3-T1`: goals of each phase in the procedure
 
 Here each step of the procedure is described.
 
