@@ -13,7 +13,7 @@ we use a procedure that involves multiple phases (as shown
 in figure `M3-F1`, each having goals as shown
 in table `M3-T1`
 
-![Figure `M3-F1`. Overview of the procedure](methods_3_figure_1_50.png)
+![Figure `M3-F1`. Overview of the procedure](methods_3_figure_1_wide.png)
 
 > Figure `M3-F1`. Overview of the procedure
 

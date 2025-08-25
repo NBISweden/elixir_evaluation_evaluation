@@ -34,7 +34,7 @@ fi
 echo "Creating single-file document at ${build_file}"
 
 # Copy all images to the build folder
-cp docs/methods_3_figure_1.png ${build_folder}
+cp docs/*.png ${build_folder}
 
 # Concatenate all markdown files, convert those to one PDF
 echo " " > ${build_file} # Start here. TOC will be placed above this line"
