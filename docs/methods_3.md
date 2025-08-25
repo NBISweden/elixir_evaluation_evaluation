@@ -74,7 +74,11 @@ Set a deadline of several weeks. Remind trainers to submit 1 week before
 the deadline ends.
 
 Collect all questions that teachers think are useful anonymously,
-creating [data_set_1_raw.csv](data_set_1_raw.csv)
+creating [data_set_1_raw.csv](data_set_1_raw.csv).
+
+If less than 10 questions are collected, this experiment is cancelled.
+If more than 10 questions are collected, the authors of this paper
+are allowed to add their favorite questions too.
 
 ???- question "How does that data set look like?"
 
