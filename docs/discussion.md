@@ -1,4 +1,4 @@
-# Discussion
+# 6. Discussion
 
 First and foremost, one can argue that a questionnaire
 is simply a questionnaire. That the development of a
@@ -10,7 +10,7 @@ this questionnaire. If we care about our participants,
 maybe we should care about the usefulness of a questionnaire
 we send to each of them.
 
-## RQ1: What is the history of the ELIXIR evaluation questions?
+## 6.1. RQ1: What is the history of the ELIXIR evaluation questions?
 
 Although this is not formally published,
 maybe the current survey (or the surveys it is based on)
@@ -24,7 +24,7 @@ To us, it seems more likely that a too short amount of time
 was allocated to researching the academic literature,
 resulting in missing the papers mentioned in this paper.
 
-## RQ2: How does the academic literature relate to the ELIXIR evaluation questions?
+## 6.2. RQ2: How does the academic literature relate to the ELIXIR evaluation questions?
 
 The majority of the ELIXIR mandatory evaluation questions,
 in the section to assess course quality have little connection
@@ -50,7 +50,7 @@ It is unknown why these two similar questions are both in the evaluation
 and it would be interesting to see how strong the correlation is
 between the answers on these two questions.
 
-## Epilogue
+## 6.3. Epilogue
 
 We know that a teacher reflecting on his/her work is one of the
 best ways to increase his/her teaching quality.
@@ -64,7 +64,7 @@ Note that neither practice needs an evaluations.
 If we really care about teaching quality, shouldn't we encourage
 doing the things that actually work?
 
-## References
+## 6.4. References
 
 - `[Roxå et al., 2021]` Roxå, Torgny, et al.
   "Reconceptualizing student ratings of teaching to support quality discourse

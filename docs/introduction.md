@@ -1,4 +1,4 @@
-# Introduction
+# 1. Introduction
 
 On 2025-01-20 the NBIS Training Steering Group had
 a meeting on course evaluations.
@@ -26,7 +26,7 @@ reasoning 'it is what we commonly do'.
     He openly uses the term 'useless'.
 
     You can find the meeting notes where it was decided unanymously
-    *against* using the survey in unmodified form
+    against using the survey in unmodified form
     [here](https://uppmax.github.io/programming_formalisms/meeting_notes/20241010/).
     In this meeting, only orally, the verdict on this survey was:
 

@@ -1,4 +1,4 @@
-# Methods 4
+# 3.4. Methods 4
 
 ???- question "Which research question does this answer?"
 

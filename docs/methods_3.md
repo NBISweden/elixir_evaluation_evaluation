@@ -1,4 +1,4 @@
-# Methods 3
+# 3.3. Methods 3
 
 ???- question "Which research question does this answer?"
 
@@ -13,28 +13,24 @@ we use a procedure that involves multiple phases (as shown
 in figure `M3-F1`, each having goals as shown
 in table `M3-T1`
 
-!!! info "Overview of the procedure"
+![Figure `M3-F1`. Overview of the procedure](methods_3_figure_1_wide.png)
 
-    ![Overview of the procedure](methods_3_figure_1.png)
+> Figure `M3-F1`. Overview of the procedure
 
-    > Figure `M3-F1`. Overview of the procedure
+Phase|Goal
+-----|----------------------------------------------------------------------
+1    |Collect all questions that are considered 'good' by at least 1 NBIS trainer
+2    |Collect all questions that are considered 'good' by NBIS and ELIXIR
+3    |Collect all reasons for and against each question
+4    |Rate all questions
+5    |Select the questions that are considered good by the NBIS community
+6    |Merge overlapping questions
 
-!!! info "Goals of each phase in the procedure"
-
-    Phase|Goal
-    -----|----------------------------------------------------------------------
-    1    |Collect all questions that are considered 'good' by at least 1 NBIS trainer
-    2    |Collect all questions that are considered 'good' by NBIS and ELIXIR
-    3    |Collect all reasons for and against each question
-    4    |Rate all questions
-    5    |Select the questions that are considered good by the NBIS community
-    6    |Merge overlapping questions
-
-    > Table `M3-T1`: goals of each phase in the procedure
+> Table `M3-T1`: goals of each phase in the procedure
 
 Here each step of the procedure is described.
 
-## Phase 1
+## 3.3.1. Phase 1
 
 The goal of phase 1 is to collect all questions that are considered
 'good' by at least 1 NBIS trainer.
@@ -121,7 +117,7 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
     RJCB removed one of these duplicates, resulting in 3 questions.
     ``````
 
-## Phase 2
+## 3.3.2. Phase 2
 
 Combine `Data Set 1` with the current NBIS questions.
 Shuffle these questions
@@ -140,7 +136,7 @@ creating [data_set_2.csv](data_set_2.csv)
     What is your favorite color?,Open question
     ```
 
-## Phase 3
+## 3.3.3. Phase 3
 
 - Per question, as the teachers anonymously for reasons why
   they would be for or against each question.
@@ -165,7 +161,7 @@ creating [data_set_2.csv](data_set_2.csv)
 
     <!-- markdownlint-enable MD013 -->
 
-## Phase 4
+## 3.3.4. Phase 4
 
 - Per question, and its pros and cons, vote anonymously if the question
   is useful enough to be included in a survey. Allow 'no', 'yes' and neutral
@@ -191,7 +187,7 @@ creating [data_set_2.csv](data_set_2.csv)
     What is your favorite color?,Open question,Neutral
     ```
 
-## Phase 5
+## 3.3.5. Phase 5
 
 From the questions and votes, select the set of questions
 that had more 'yes' than 'no' votes:
@@ -208,7 +204,7 @@ these are the questions that this NBIS community thinks are useful.
 
 The results can be found at [data_set_5.csv](data_set_5.csv).
 
-## Phase 6
+## 3.3.6. Phase 6
 
 From the questions that had more 'yes' than 'no' votes,
 merge potential overlap in questions.
