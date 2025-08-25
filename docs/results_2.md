@@ -14,7 +14,7 @@ The relevant questions are found in `Section 3 - Quality Metrics`
 of the NBIS short-term evaluation.
 Here, we go through each of these questions in detail.
 
-## Question 5
+## 4.2.1. Question 5
 
 ```text
 5. Have you used the tools/resource(s) covered in the course before?
@@ -45,7 +45,7 @@ alike) resulted in zero hits.
     Occasionally              |6974|37.7
     Frequently                |1528|8.3
 
-## Question 6
+## 4.2.2. Question 6
 
 ```text
 6. Will you use the tools/resource(s) covered in the course again?
@@ -73,7 +73,7 @@ for 'using self-predicted future use of content in course evaluations'
     No      |105  |0.6
     Yes     |15792|84.4
 
-## Question 7
+## 4.2.3. Question 7
 
 ```text
 7. Would you recommend the course?
@@ -107,7 +107,7 @@ quality `[Ang et al., 2018]`.
     No      |1790 |8.2
     Yes     |519  |2.4
 
-## Question 8
+## 4.2.4. Question 8
 
 ```text
 8. What is your overall rating for the course
@@ -147,7 +147,7 @@ gives some examples how problematic this metric is.
     Satisfactory|993  |4.8
     Poor        |192  |0.9
 
-## Question 9
+## 4.2.5. Question 9
 
 ```text
 9. A. May we contact you by email in the future for more feedback?
@@ -175,7 +175,7 @@ for 'using future contact in course evaluation'
     No      |8756 |49.7
     Yes     |8860 |50.3
 
-## References
+## 4.2.6. References
 
 - `[Ang et al., 2018]` Ang, Lawrence, Yvonne Alexandra Breyer, and Joseph Pitt.
   "Course recommendation as a construct in student evaluations:

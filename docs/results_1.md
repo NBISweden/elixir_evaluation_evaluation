@@ -6,7 +6,7 @@
 
     This paper deals only with the mandatory questions 5 to and including 9.
 
-## What is the ancestry of the NBIS questions?
+## 4.1.1. What is the ancestry of the NBIS questions?
 
 The paper where these questions were described first
 in `[Gurwitz et al., 2020]` . In that paper, one can read that these questions
@@ -14,7 +14,7 @@ are based on `[Jordan et al., 2018]` and `[Brazas & Ouellette, 2016]`.
 These last two papers do not reference any academic papers on where
 their questions originated from.
 
-## Development of the questions
+## 4.1.2. Development of the questions
 
 ELIXIR developed these evaluation questions to,
 as quoted from `[Gurwitz et al., 2020]`:
@@ -107,7 +107,7 @@ and some not is unpublished.
     although other studies argue that more measurements are needed to
     properly assess teacher effectiveness `[Darling‐Hammond et al., 2010]`.
 
-## References
+## 4.1.3. References
 
 - `[Ang et al., 2018]` Ang, Lawrence, Yvonne Alexandra Breyer, and Joseph Pitt.
   "Course recommendation as a construct in student evaluations:
