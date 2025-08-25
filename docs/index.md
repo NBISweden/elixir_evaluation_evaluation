@@ -12,6 +12,8 @@
 
 An evaluation of the ELIXIR course evaluation.
 
+- [Download the PDF of the draft paper](paper.pdf)
+
 # Goals
 
 - To evaluate the mandatory ELIXIR course evaluation questions
