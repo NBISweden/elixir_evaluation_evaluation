@@ -28,7 +28,7 @@ reasoning 'it is what we commonly do'.
 
     This was followed by
     [the meeting notes](https://uppmax.github.io/programming_formalisms/meeting_notes/20241010/)
-    where it was decided unanymously 
+    where it was decided unanymously
     **against** using the survey in unmodified form.
     In this meeting, only orally, the verdict on this survey was:
 
