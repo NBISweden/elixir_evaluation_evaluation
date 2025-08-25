@@ -28,7 +28,7 @@ reasoning 'it is what we commonly do'.
 
     This was followed by
     [the meeting notes](https://uppmax.github.io/programming_formalisms/meeting_notes/20241010/)
-    where it was decided unanymously 
+    where it was decided unanymously
     **against** using the survey in unmodified form.
     In this meeting, only orally, the verdict on this survey was:
 
@@ -57,7 +57,7 @@ rather than offering insights into student experiences'.
     > As a result, they fall short in helping to identify specific aspects
     > of the course that could benefit from revision or innovation.
     >
-    > Daniel Wibberg, co-author of `[Gurwitz et al., 2020]`, 
+    > Daniel Wibberg, co-author of `[Gurwitz et al., 2020]`,
     > co-author of this paper
     > and a trainer
     > using this evaluation
