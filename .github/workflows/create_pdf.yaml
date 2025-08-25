@@ -8,7 +8,7 @@ on:
   pull_request:
 
 jobs:
-  deploy:
+   create_pdf:
     runs-on: ubuntu-latest
 
     env:
@@ -17,11 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: See the PDF is there
-        run: ls docs/paper.pdf
-
-      - name: Delete the PDF
-        run: rm docs/paper.pdf
+      - name: Delete the PDF, ignore if it does not exist
+        run: rm --force docs/paper.pdf
 
       - name: See PDFs are gone
         run: ls docs/paper.pdf

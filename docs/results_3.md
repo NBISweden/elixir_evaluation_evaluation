@@ -23,6 +23,10 @@ On 2025-02-17:
 
 - NBIS teachers were invited to participate
 
+
+<!-- markdownlint-disable MD059 -->
+<!-- Use verbatim copy, regardless of the indescriptive link -->
+
 ???- question "How did the invite on Slack look like?"
 
     Dear trainers,
@@ -46,4 +50,6 @@ On 2025-02-17:
     is useful enough to ask to all our course participants.
 
     Thanks and cheers, Richel
+
+<!-- markdownlint-enable MD059 -->
 
