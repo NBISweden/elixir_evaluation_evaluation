@@ -23,7 +23,7 @@ On 2025-02-17:
 
 - NBIS teachers were invited to participate
 
-???- question "How did the invite on Slack look like?
+???- question "How did the invite on Slack look like?"
 
     Dear trainers,
 
