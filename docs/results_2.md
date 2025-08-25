@@ -2,7 +2,7 @@
 
 ???- question "What are the ELIXIR evaluation questions?"
 
-    You can find the ELIXIR evaluation questions [here](elixir_evaluation.md).
+    Read [the ELIXIR evaluation questions](elixir_evaluation.md).
 
     This paper deals only with the mandatory questions 5 to and including 9.
 
