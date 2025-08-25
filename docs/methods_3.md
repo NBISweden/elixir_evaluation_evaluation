@@ -15,23 +15,7 @@ in table `M3-T1`
 
 !!! info "Overview of the procedure"
 
-    ```mermaid
-    flowchart TD
-      data_set_1[1.All suggested questions]
-      data_set_2[2.All suggested and ELIXIR questions]
-      data_set_3[3.Reasons for/against each question]
-      data_set_4[4.Votes for/against each question]
-      data_set_5[5.Useful -sometimes overlapping- questions]
-      data_set_6[6.Useful questions]
-
-      data_set_1 --> |merge identical questions| data_set_2
-      data_set_2 --> data_set_3
-      data_set_2 --> data_set_4
-      data_set_3 --> |merge reasons| data_set_4
-      data_set_2 --> data_set_5
-      data_set_4 --> |follow decision rule| data_set_5
-      data_set_5 --> |reduce overlap| data_set_6
-    ```
+    ![Overview of the procedure](methods_3_figure_1.png)
 
     > Figure `M3-F1`. Overview of the procedure
 
@@ -46,7 +30,7 @@ in table `M3-T1`
     5    |Select the questions that are considered good by the NBIS community
     6    |Merge overlapping questions
 
-    > Table `M3-T1`
+    > Table `M3-T1`: goals of each phase in the procedure
 
 Here each step of the procedure is described.
 
