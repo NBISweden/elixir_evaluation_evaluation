@@ -25,7 +25,7 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v2
 
       - name: Install pdflatex
-        run: sudo apt-get install texlive-latex-base texlive-latex-recommended
+        run: sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-latex-extra
 
       - name: Install libcurl4-openssl-dev
         run: sudo apt install -qq libcurl4-openssl-dev
