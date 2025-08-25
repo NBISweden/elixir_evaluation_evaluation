@@ -74,8 +74,6 @@ echo "## Appendix" >> ${build_file}
 echo " " >> ${build_file}; echo "\pagebreak" >> ${build_file}; echo " " >> ${build_file}
 cat docs/elixir_evaluation.md >> ${build_file}
 echo " " >> ${build_file}; echo "\pagebreak" >> ${build_file}; echo " " >> ${build_file}
-cat docs/presentations/README.md >> ${build_file}
-echo " " >> ${build_file}; echo "\pagebreak" >> ${build_file}; echo " " >> ${build_file}
 
 echo "Convert MkDocs to regular Markdown"
 Rscript -e "remotes::install_github(\"richelbilderbeek/mkdocs2md\")"

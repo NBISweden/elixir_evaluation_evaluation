@@ -1,4 +1,4 @@
-# Introduction
+# 1. Introduction
 
 On 2025-01-20 the NBIS Training Steering Group had
 a meeting on course evaluations.
@@ -65,7 +65,7 @@ evaluation questions were developed
 and how the best questions of this set were selected,
 with the goal of helping to make course evaluations (even) more useful.
 
-## References
+## 1.1. References
 
 - `[Brazas & Ouellette, 2016]`
   Brazas, Michelle D., and BF Francis Ouellette.

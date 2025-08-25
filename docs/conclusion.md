@@ -1,6 +1,6 @@
-# Conclusion
+# 5. Conclusion
 
-## RQ1: What is the history of the ELIXIR evaluation questions?
+## 5.1. RQ1: What is the history of the ELIXIR evaluation questions?
 
 The ELIXIR student evaluation is based on two evaluations.
 Neither evaluation describes (1) how its questions were developed,
@@ -18,7 +18,7 @@ As none of these evaluations describe the process on how questions
 were developed, it comes as no surprise that neither
 evaluation refers to evidence-based best practices in the literature.
 
-## RQ2: How does the academic literature relate to the ELIXIR evaluation questions?
+## 5.2. RQ2: How does the academic literature relate to the ELIXIR evaluation questions?
 
 The mandatory ELIXIR evaluation questions with the goal of evaluating
 course quality have the following relation to the academic literature
@@ -37,13 +37,13 @@ Question|Relation to the literature
 
 <!-- markdownlint-disable MD013 --><!-- Headings cannot be split up over lines, hence will break 80 characters per line -->
 
-## RQ3: Which ELIXIR evaluation questions are concluded from a fully transparent process?
+## 5.3. RQ3: Which ELIXIR evaluation questions are concluded from a fully transparent process?
 
 <!-- markdownlint-enable MD013 -->
 
 `TODO`
 
-## RQ4: How different are the newly suggested questions from the current ones?
+## 5.4. RQ4: How different are the newly suggested questions from the current ones?
 
 `TODO`
 

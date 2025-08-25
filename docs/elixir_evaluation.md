@@ -1,4 +1,4 @@
-# NBIS Short Term Feedback (STF)
+# A1. NBIS Short Term Feedback (STF)
 
 ??? info "About this page"
 
@@ -10,7 +10,7 @@
 <!-- markdownlint-disable MD013 --><!-- Accept that survey has a long header x -->
 <!-- markdownlint-disable MD029 --><!-- Accept that survey uses non-standard indentation values -->
 
-## Core question set information
+## A1.1.Core question set information
 
 The intention of the STF survey is to find out how participants have used the
 skills and knowledge they gained through participating in the NBIS course.
@@ -31,7 +31,7 @@ modified for respective course.
 - Additional Questions - Training content/information
 - Additional Questions - Training logistics
 
-## Important Information
+## A1.2. Important Information
 
 Below are the core questions for NBIS short term feedback (STF),
 which are required to be captured for all NBIS training events
@@ -69,9 +69,9 @@ If possible, please name the dataset file as follows to assist with data
 handling:
 `YYYY-MM-DD_L/STF_Location_CourseName`, e.g. `2018-06-11_STF_Visby_RaukR`
 
-## Core Question Set
+## A1.3. Core Question Set
 
-## Section 1 - Template: NBIS Short Term Feedback (STF) survey `COURSE NAME, LOCATION, YYYY-MM-DD`
+## A1.4. Section 1 - Template: NBIS Short Term Feedback (STF) survey `COURSE NAME, LOCATION, YYYY-MM-DD`
 
 Thank you for filling the questionnaire.
 It is really important to us in order to continually improve the course and the
@@ -80,7 +80,7 @@ your comments - which are not mandatory - are especially precious.
 We may share anonymised information with course presenters and developers as
 well as for wider quality/impact analyses.
 
-## Section 2 - Demographic Information
+## A1.5. Section 2 - Demographic Information
 
 `1`. Where did you see the course advertised? `advertised`
 
@@ -112,7 +112,7 @@ well as for wider quality/impact analyses.
 - `c`. Prefer not to say
 - `d`. Other (please specify)
 
-## Section 3 - Quality Metrics
+## A1.6. Section 3 - Quality Metrics
 
 `5`. Have you used the tools/resource(s) covered in the course before? `have_used_resources_before`
 
@@ -151,7 +151,7 @@ well as for wider quality/impact analyses.
 9 B**. If you answered ‘yes’ to the above question, please enter your email address, below. email
 (** Information for question 9B must be collected and stored by each Node/Institution, but should NOT be shared with the Q&I subtask or any other third party due to GDPR considerations.)
 
-## Additional Questions - Training content/information
+## A1.7. Additional Questions - Training content/information
 
 These are suggested questions that may be of interest (not compulsory):
 
@@ -198,7 +198,7 @@ These are suggested questions that may be of interest (not compulsory):
 
 `13`. Any other comments? Comments_1
 
-## Additional Questions - Training logistics
+## A1.8. Additional Questions - Training logistics
 
 These are suggested questions that may be of interest (not compulsory):
 

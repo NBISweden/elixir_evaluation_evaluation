@@ -1,4 +1,4 @@
-# Results of RQ2
+# 4.2. Results of RQ2
 
 ???- question "What are the ELIXIR evaluation questions?"
 
