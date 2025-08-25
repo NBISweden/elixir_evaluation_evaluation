@@ -89,3 +89,5 @@ cd ${build_folder} || exit 41
 # Thinner margin of 0.5 inch
 # Do not cut code blocks
 pandoc README.md -o paper.pdf --toc --toc-depth=1 --highlight-style=guide_style.theme -V geometry:margin=0.5in
+
+echo "Done! PDF created at 'build/paper.pdf'"
