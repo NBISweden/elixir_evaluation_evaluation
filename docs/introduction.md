@@ -26,14 +26,41 @@ reasoning 'it is what we commonly do'.
     He openly uses the term 'useless'.
 
     You can find the meeting notes where it was decided unanymously
-    against using the survey in unmodified form
+    *against* using the survey in unmodified form
     [here](https://uppmax.github.io/programming_formalisms/meeting_notes/20241010/).
     In this meeting, only orally, the verdict on this survey was:
 
     - 2x: useless
     - 1x: neutral, as '[such surveys] is what we commonly do'
 
-This disagreement is used as a starting point in evaluating the
+Another example comes from a personal communication between
+two of the authors from this paper, where Bilderbeek
+contacted Wibberg, as the latter was one of the
+authors of the paper that presented the survey (`[Gurwitz et al., 2020]`).
+Before Wibberg was aware of this paper being written,
+he stated, among others, that
+'the questions focus more on statistical outputs
+rather than offering insights into student experiences'.
+
+???- question "Source?"
+
+    > Honestly, I haven't found the ELIXIR questions particularly useful
+    > in improving my course.
+    > While they do serve the purpose of collecting numbers for KPIs,
+    > they don't provide the in-depth, qualitative feedback needed
+    > to make substantial course improvements.
+    > The questions focus more on statistical outputs
+    > rather than offering insights into student experiences
+    > or areas for pedagogical enhancement.
+    > As a result, they fall short in helping to identify specific aspects
+    > of the course that could benefit from revision or innovation.
+    >
+    > Daniel Wibberg, co-author of `[Gurwitz et al., 2020]`, 
+    > co-author of this paper
+    > and a trainer
+    > using this evaluation
+
+These quotes were a starting point in evaluating the
 NBIS course evaluation questions,
 where the literature is searched for how these questions
 came to be and by which criteria the best were selected,
