@@ -109,7 +109,7 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
     What is your favorite color?,orange;red
     ```
 
-    ???- question "How does the process description look like?"
+???- question "How does the process description look like?"
 
     Here is an example:
 
