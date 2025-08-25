@@ -6,7 +6,7 @@ The first question was 'How are evaluations evaluated?'.
 
 ???- question "What are the ELIXIR evaluation questions?"
 
-    You can find the ELIXIR evaluation questions [here](elixir_evaluation.md).
+    Read [the ELIXIR evaluation questions](elixir_evaluation.md).
 
     This paper deals only with the mandatory questions 5 to and including 9.
 
@@ -21,13 +21,15 @@ reasoning 'it is what we commonly do'.
 
 ???- question "Source?"
 
-    You can find one teacher's written-down criticism
-    [here](https://uppmax.github.io/programming_formalisms/misc/evaluation/).
-    He openly uses the term 'useless'.
+    This story started with
+    [one teacher's written-down criticism](https://uppmax.github.io/programming_formalisms/misc/evaluation/20241010)
+    going through the ELIXIS evaluation,
+    where he uses the term 'useless'.
 
-    You can find the meeting notes where it was decided unanymously
-    against using the survey in unmodified form
-    [here](https://uppmax.github.io/programming_formalisms/meeting_notes/20241010/).
+    This was followed by
+    [the meeting notes](https://uppmax.github.io/programming_formalisms/meeting_notes/20241010/)
+    where it was decided unanymously 
+    **against** using the survey in unmodified form.
     In this meeting, only orally, the verdict on this survey was:
 
     - 2x: useless
@@ -92,7 +94,7 @@ evaluation questions were developed
 and how the best questions of this set were selected,
 with the goal of helping to make course evaluations (even) more useful.
 
-## References
+## 1.1. References
 
 - `[Brazas & Ouellette, 2016]`
   Brazas, Michelle D., and BF Francis Ouellette.
