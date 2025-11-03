@@ -25,13 +25,13 @@ course quality have the following relation to the academic literature
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Question|Relation to the literature
---------|-----------------------------------------------------------------------------------------
-5       |None found
-6       |None found
-7       |One paper which states that this question is suitable to assess course quality
-8       |Many papers, including a meta-analysis that this question is unsuitable to assess course quality
-9       |None found
+Index|Question                                                         |Connection to the academic literature
+-----|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------
+5    |Have you used the tools/resource(s) covered in the course before?|None found
+6    |Will you use the tools/resource(s) covered in the course again?  |None found
+7    |Would you recommend the course?                                  |One paper which states that this question is suitable to assess course quality
+8    |What is your overall rating for the course?                      |Many papers, including a meta-analysis that this question is unsuitable to assess course quality
+9    |May we contact you by email in the future for more feedback?     |None found
 
 <!-- markdownlint-enable MD013 -->
 
