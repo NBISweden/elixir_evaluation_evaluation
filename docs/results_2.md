@@ -125,6 +125,44 @@ This question is absent from the two
 questionnaires (i.e. those described in `[Brazas & Ouellette, 2016]`
 and `[Jordan et al., 2018]`) this questionnaire is based one.
 
+We did a modest literature search by 
+searching Google Scholar for the most relevant papers
+for 'student rating of courses meta analysis'
+and investigating the first ten.
+
+???- question "Which papers were that?
+
+- `[Cohen, 1981]`
+- `[Cohen, 1980]`
+- `[Clayson, 2009]`
+- `[Schiekirka and Raupach, 2015]`
+- `[Falchikov and Boud, 1989]`
+- `[Vo and Diep, 2017]`
+- `[Strelan et al., 2020]`
+- `[d'Apollonia and Abrami, 1997]`
+- `[Benton and Cashin, 2013]`
+- `[Denson et al., 2021]`
+
+Based on the titles of the papers, 2 of these were labelled as irrelevant
+to this study, 2 needed closer investigation and 6 were included.
+
+???- question "Which papers were that?
+
+    Paper                           |Included|What is rated
+    --------------------------------|--------|-----------------------------------
+    `[Cohen, 1981]`                 |Yes     |Instruction and student achievement
+    `[Cohen, 1980]`                 |Yes     |Instruction
+    `[Clayson, 2009]`               |Yes     |How much students learn
+    `[Schiekirka and Raupach, 2015]`|Yes     |Course as a whole
+    `[Falchikov and Boud, 1989]`    |Unsure  |Students themselves
+    `[Vo and Diep, 2017]`           |No      |Irrelevant
+    `[Strelan et al., 2020]`        |Maybe   |Courses and instructors
+    `[d'Apollonia and Abrami, 1997]`|Yes     |Instruction
+    `[Benton and Cashin, 2013]`     |Yes     |Instruction
+    `[Denson et al., 2021]`         |No      |Irrelevant
+
+
+
 Searching the literature
 for 'using course satisfaction in evaluations'
 (and sentences alike) resulted in many relevant papers.
@@ -195,3 +233,13 @@ for 'using future contact in course evaluation'
   "Meta-analysis of faculty's teaching effectiveness:
   Student evaluation of teaching ratings and student learning are not related."
   Studies in Educational Evaluation 54 (2017): 22-42.
+- `[Cohen, 1981]` Cohen, Peter A. "Student ratings of instruction and student achievement: A meta-analysis of multisection validity studies." Review of educational research 51.3 (1981): 281-309.
+- `[Cohen, 1980]` Cohen, Peter A. "Effectiveness of student-rating feedback for improving college instruction: A meta-analysis of findings." Research in higher education 13.4 (1980): 321-341.
+- `[Clayson, 2009]` Clayson, Dennis E. "Student evaluations of teaching: Are they related to what students learn? A meta-analysis and review of the literature." Journal of marketing education 31.1 (2009): 16-30.
+- `[Schiekirka and Raupach, 2015]` [Ignore, too specialized] Schiekirka, Sarah, and Tobias Raupach. "A systematic review of factors influencing student ratings in undergraduate medical education course evaluations." BMC medical education 15.1 (2015): 30.
+- `[Falchikov and Boud, 1989]` [Ignore, off-topic] Falchikov, Nancy, and David Boud. "Student self-assessment in higher education: A meta-analysis." Review of educational research 59.4 (1989): 395-430. 
+- `[Vo and Diep, 2017]` Vo, Hien M., Chang Zhu, and Nguyet A. Diep. "The effect of blended learning on student performance at course-level in higher education: A meta-analysis." Studies in Educational Evaluation 53 (2017): 17-28.
+- `[Strelan et al., 2020]` Strelan, Peter, Amanda Osborn, and Edward Palmer. "Student satisfaction with courses and instructors in a flipped classroom: A meta‐analysis." Journal of Computer Assisted Learning 36.3 (2020): 295-314.
+- `[d'Apollonia and Abrami, 1997]` d'Apollonia, Sylvia, and Philip C. Abrami. "Navigating student ratings of instruction." American psychologist 52.11 (1997): 1198.
+- `[Benton and Cashin, 2013]` Benton, Stephen L., and William E. Cashin. "Student ratings of instruction in college and university courses." Higher education: Handbook of theory and research: Volume 29. Dordrecht: Springer Netherlands, 2013. 279-326.
+- `[Denson et al., 2021]` Denson, Nida, et al. "Do diversity courses improve college student outcomes? A meta-analysis." Journal of Diversity in Higher Education 14.4 (2021): 544.
