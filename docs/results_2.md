@@ -185,7 +185,7 @@ flowchart TD
   dapollonia_and_abrami_1997 --- cohen_1981 
 ```
 
-The two meta analyses have different conclusions:
+The three meta analyses have different conclusions:
 
 - `[Clayson, 2009]`: this meta analysis concludes that there are
   many papers that report a link between
@@ -198,6 +198,13 @@ The two meta analyses have different conclusions:
   studes and repeats that there does exist a small positive
   association between the ratings given by learners
   and measures of learning
+- [Schiekirka and Raupach, 2015]` (which curiously enough does not mention
+  the other two meta analyses) concludes that overall course ratings 
+  are not influenced by high quality teaching. They remark with
+  with a reference to earlier work:
+  'With regard to overall course ratings, students
+  tended to rely on their 'gut feelings' rather than using
+  objective benchmarks of course quality' `[Schiekirka et al., 2015]`
 
 <!--
 
@@ -257,21 +264,8 @@ instructor’s teaching effectiveness (Cashin 2003)'.
 
 -->
 
-
-
-
-
-
-
-
-Searching the literature
-for 'using course satisfaction in evaluations'
-(and sentences alike) resulted in many relevant papers.
-The most important paper is a meta-analysis,
-which concluded that there is no relation
-between training quality and participant
-satisfaction `[Uttl et al., 2017]` and this meta-analysis
-gives some examples how problematic this metric is.
+We conclude that there is no relation
+between training quality and ratings given by learners.
 
 ???- question "What are the metrics for this question?"
 
