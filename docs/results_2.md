@@ -143,23 +143,124 @@ and investigating the first ten.
 - `[Benton and Cashin, 2013]`
 - `[Denson et al., 2021]`
 
-Based on the titles of the papers, 2 of these were labelled as irrelevant
-to this study, 2 needed closer investigation and 6 were included.
+Based on the titles of the papers, 5 of these were labelled as irrelevant
+to this study.
 
 ???- question "Which papers were that?
 
-    Paper                           |Included|What is rated
-    --------------------------------|--------|-----------------------------------
-    `[Cohen, 1981]`                 |Yes     |Instruction and student achievement
-    `[Cohen, 1980]`                 |Yes     |Instruction
-    `[Clayson, 2009]`               |Yes     |How much students learn
-    `[Schiekirka and Raupach, 2015]`|Yes     |Course as a whole
-    `[Falchikov and Boud, 1989]`    |Unsure  |Students themselves
-    `[Vo and Diep, 2017]`           |No      |Irrelevant
-    `[Strelan et al., 2020]`        |Maybe   |Courses and instructors
-    `[d'Apollonia and Abrami, 1997]`|Yes     |Instruction
-    `[Benton and Cashin, 2013]`     |Yes     |Instruction
-    `[Denson et al., 2021]`         |No      |Irrelevant
+    Paper                           |Included|Intervention    |What is rated
+    --------------------------------|--------|----------------|----------------------
+    `[Cohen, 1981]`                 |Yes     |Rating          |Instruction and student achievement
+    `[Cohen, 1980]`                 |No      |Written feedback|Diverse
+    `[Clayson, 2009]`               |Yes     |Rating          |How much students learn
+    `[Schiekirka and Raupach, 2015]`|Yes     |Rating          |Course as a whole
+    `[Falchikov and Boud, 1989]`    |No      |Self-rating     |Students 
+    `[Vo and Diep, 2017]`           |No      |Blended learning|Learner course performance
+    `[Strelan et al., 2020]`        |No      |Satisfaction    |Flipped classroom
+    `[d'Apollonia and Abrami, 1997]`|Yes     |Rating          |Instruction
+    `[Benton and Cashin, 2013]`     |Yes     |Rating          |Instruction
+    `[Denson et al., 2021]`         |No      |Diversity       |Student outcome
+
+Of the 5 papers relevant to this study, 2 were meta-analyses:
+`[Clayson, 2009]` and `[Benton and Cashin, 2013]`.
+The relations between the papers can be seen in the figure below:
+
+```mermaid
+flowchart TD
+  cohen_1981[Cohen, 1981]
+  dapollonia_and_abrami_1997[d'Apollonia and Abrami, 1997]
+  clayson_2009[Clayson, 2009]
+  benton_and_cashin_2013[Benton and Cashin, 2013]
+  schiekirka_and_raupach_2015[Schiekirka and Raupach, 2015]
+
+  %% schiekirka_and_raupach_2015 does not cite the literature
+
+  benton_and_cashin_2013 --- cohen_1981
+  benton_and_cashin_2013 --- dapollonia_and_abrami_1997
+  benton_and_cashin_2013 --- clayson_2009
+
+  clayson_2009 --- cohen_1981
+  clayson_2009 --- dapollonia_and_abrami_1997
+
+  dapollonia_and_abrami_1997 --- cohen_1981 
+```
+
+The two meta analyses have different conclusions:
+
+- `[Clayson, 2009]`: this meta analysis concludes that there are
+  many papers that report a link between
+  learner ratings and any metric. However, this effect vanishes
+  for bigger studies and/or studies with rigorous metrics.
+  It concludes that there is no relation between
+  ratings given by learners and any metric.
+- `[Benton and Cashin, 2013]`, which also refers to `[Clayson, 2009]`,
+  ignores the conclusion that correlations vanish for more rigid
+  studes and repeats that there does exist a small positive
+  association between the ratings given by learners
+  and measures of learning
+
+<!--
+
+All included papers are read with the goal to find how much the
+question 'What is your overall rating for the course?'
+helps 'to improve the course and its materials'.
+
+`[Cohen, 1981]`: 'The average correlation between an overall instructor rating and
+student achievement was .43; the average correlation between an overall course
+rating and student achievement was .47.', based on 41 independent studies.
+There is 'strong support for the validity of student ratings as measures of teaching effectiveness'.
+
+`[Clayson, 2009]`: this meta analysis concludes that there are
+many papers that report a link between
+learner ratings and any metric. However, this effect vanishes
+for bigger studies and/or studies with rigorous metrics.
+It concludes that there is no relation between
+ratings given by learners and any metric.
+
+`[Schiekirka and Raupach, 2015]`: 'Qualitative research (2 studies) indicated that overall course
+ratings are mainly influenced by student satisfaction with teaching and exam difficulty rather than objective
+determinants of high quality teaching.' (note link to Uttl et al., here)
+and 'no firm conclusions can be drawn from this review'
+
+Also: 'With regard to overall course ratings, students
+tended to rely on their 'gut feelings' rather than using
+objective benchmarks of course quality' `[Schiekirka et al., 2015]`
+
+`[d'Apollonia and Abrami, 1997]`: 'student ratings are moderately valid; however, administrative, instructor, and course characteristics influence student ratings of instruction',
+uses 7 studies all before 1980. 
+
+`[Benton and Cashin, 2013]`: 'Students are very consistent in their ratings of teacher behaviors, their own learning,
+and of overall impressions of the course and teacher',
+'Student ratings instruments that are backed by reliability and validity evidence typically assess more than what students think of the teacher',
+'Combining consultation with feedback from student ratings is more useful for improv-
+ing instruction than providing feedback alone.'
+
+Criticism on older work: 
+
+'the correlations reported in, among others `[Cohen, 1981]`, are impres-
+sive. Moreover, because teachers are not the only cause of student learning, and prob-
+ably not the most important one, one would not expect students’ ratings of instruction
+to correlate perfectly with how much they learn in a course'
+
+Agreement on older work:
+- 'He, `[Clayson, 2009]` found, in general, a small positive association between mea-
+sures of learning and SRIs ('student ratings of instruction'), which is consistent with previous research'.
+THIS IS A MISREPRESENTATION!
+
+'In general, student ratings tend to be statistically reliable,
+valid, and relatively free from bias or the need for control, perhaps more so than any
+other data used for faculty evaluation. Moreover, they can help instructors improve
+their teaching, especially when combined with self-reflection and consultation.'
+and 'Student ratings must be interpreted. We should not confuse a source of data with the evaluators who use
+it—in combination with other kinds of information—to make judgments about an
+instructor’s teaching effectiveness (Cashin 2003)'.
+
+-->
+
+
+
+
+
 
 
 
@@ -237,6 +338,9 @@ for 'using future contact in course evaluation'
 - `[Cohen, 1980]` Cohen, Peter A. "Effectiveness of student-rating feedback for improving college instruction: A meta-analysis of findings." Research in higher education 13.4 (1980): 321-341.
 - `[Clayson, 2009]` Clayson, Dennis E. "Student evaluations of teaching: Are they related to what students learn? A meta-analysis and review of the literature." Journal of marketing education 31.1 (2009): 16-30.
 - `[Schiekirka and Raupach, 2015]` [Ignore, too specialized] Schiekirka, Sarah, and Tobias Raupach. "A systematic review of factors influencing student ratings in undergraduate medical education course evaluations." BMC medical education 15.1 (2015): 30.
+
+- `[Schiekirka et al., 2015]` Schiekirka, Sarah, et al. "Student perceptions of evaluation in undergraduate medical education: A qualitative study from one medical school." BMC medical education 12.1 (2012): 45.
+
 - `[Falchikov and Boud, 1989]` [Ignore, off-topic] Falchikov, Nancy, and David Boud. "Student self-assessment in higher education: A meta-analysis." Review of educational research 59.4 (1989): 395-430. 
 - `[Vo and Diep, 2017]` Vo, Hien M., Chang Zhu, and Nguyet A. Diep. "The effect of blended learning on student performance at course-level in higher education: A meta-analysis." Studies in Educational Evaluation 53 (2017): 17-28.
 - `[Strelan et al., 2020]` Strelan, Peter, Amanda Osborn, and Edward Palmer. "Student satisfaction with courses and instructors in a flipped classroom: A meta‐analysis." Journal of Computer Assisted Learning 36.3 (2020): 295-314.
