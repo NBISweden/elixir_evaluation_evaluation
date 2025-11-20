@@ -132,16 +132,16 @@ and investigating the first ten.
 
 ???- question "Which papers were that?
 
-- `[Cohen, 1981]`
-- `[Cohen, 1980]`
-- `[Clayson, 2009]`
-- `[Schiekirka and Raupach, 2015]`
-- `[Falchikov and Boud, 1989]`
-- `[Vo and Diep, 2017]`
-- `[Strelan et al., 2020]`
-- `[d'Apollonia and Abrami, 1997]`
-- `[Benton and Cashin, 2013]`
-- `[Denson et al., 2021]`
+    - `[Cohen, 1981]`
+    - `[Cohen, 1980]`
+    - `[Clayson, 2009]`
+    - `[Schiekirka and Raupach, 2015]`
+    - `[Falchikov and Boud, 1989]`
+    - `[Vo and Diep, 2017]`
+    - `[Strelan et al., 2020]`
+    - `[d'Apollonia and Abrami, 1997]`
+    - `[Benton and Cashin, 2013]`
+    - `[Denson et al., 2021]`
 
 Based on the titles of the papers, 5 of these were labelled as irrelevant
 to this study.
@@ -206,63 +206,78 @@ The three meta analyses have different conclusions:
   tended to rely on their 'gut feelings' rather than using
   objective benchmarks of course quality' `[Schiekirka et al., 2015]`
 
-<!--
+???- question "What are the rough notes made during the literature review?"
 
-All included papers are read with the goal to find how much the
-question 'What is your overall rating for the course?'
-helps 'to improve the course and its materials'.
+    Below are rough notes that were made during the literature review.
+    These are made public here for full transparency and are not
+    to be reviewed.
 
-`[Cohen, 1981]`: 'The average correlation between an overall instructor rating and
-student achievement was .43; the average correlation between an overall course
-rating and student achievement was .47.', based on 41 independent studies.
-There is 'strong support for the validity of student ratings as measures of teaching effectiveness'.
+    All included papers are read with the goal to find how much the
+    question 'What is your overall rating for the course?'
+    helps 'to improve the course and its materials'.
 
-`[Clayson, 2009]`: this meta analysis concludes that there are
-many papers that report a link between
-learner ratings and any metric. However, this effect vanishes
-for bigger studies and/or studies with rigorous metrics.
-It concludes that there is no relation between
-ratings given by learners and any metric.
+    `[Cohen, 1981]`: 'The average correlation between an overall instructor
+    rating and
+    student achievement was .43; the average correlation between an overall
+    course
+    rating and student achievement was .47.', based on 41 independent studies.
+    There is 'strong support for the validity of student ratings as measures
+    of teaching effectiveness'.
 
-`[Schiekirka and Raupach, 2015]`: 'Qualitative research (2 studies) indicated that overall course
-ratings are mainly influenced by student satisfaction with teaching and exam difficulty rather than objective
-determinants of high quality teaching.' (note link to Uttl et al., here)
-and 'no firm conclusions can be drawn from this review'
+    `[Clayson, 2009]`: this meta analysis concludes that there are
+    many papers that report a link between
+    learner ratings and any metric. However, this effect vanishes
+    for bigger studies and/or studies with rigorous metrics.
+    It concludes that there is no relation between
+    ratings given by learners and any metric.
 
-Also: 'With regard to overall course ratings, students
-tended to rely on their 'gut feelings' rather than using
-objective benchmarks of course quality' `[Schiekirka et al., 2015]`
+    `[Schiekirka and Raupach, 2015]`: 'Qualitative research (2 studies)
+    indicated that overall course
+    ratings are mainly influenced by student satisfaction with teaching and
+    exam difficulty rather than objective
+    determinants of high quality teaching.' (note link to Uttl et al., here)
+    and 'no firm conclusions can be drawn from this review'
 
-`[d'Apollonia and Abrami, 1997]`: 'student ratings are moderately valid; however, administrative, instructor, and course characteristics influence student ratings of instruction',
-uses 7 studies all before 1980. 
+    Also: 'With regard to overall course ratings, students
+    tended to rely on their 'gut feelings' rather than using
+    objective benchmarks of course quality' `[Schiekirka et al., 2015]`
 
-`[Benton and Cashin, 2013]`: 'Students are very consistent in their ratings of teacher behaviors, their own learning,
-and of overall impressions of the course and teacher',
-'Student ratings instruments that are backed by reliability and validity evidence typically assess more than what students think of the teacher',
-'Combining consultation with feedback from student ratings is more useful for improv-
-ing instruction than providing feedback alone.'
+    `[d'Apollonia and Abrami, 1997]`: 'student ratings are moderately
+    valid; however, administrative, instructor, and course characteristics
+    influence student ratings of instruction',
+    uses 7 studies all before 1980. 
 
-Criticism on older work: 
+    `[Benton and Cashin, 2013]`: 'Students are very consistent in their
+    ratings of teacher behaviors, their own learning,
+    and of overall impressions of the course and teacher',
+    'Student ratings instruments that are backed by reliability and validity
+    evidence typically assess more than what students think of the teacher',
+    'Combining consultation with feedback from student ratings is more
+    useful for improving instruction than providing feedback alone.'
 
-'the correlations reported in, among others `[Cohen, 1981]`, are impres-
-sive. Moreover, because teachers are not the only cause of student learning, and prob-
-ably not the most important one, one would not expect students’ ratings of instruction
-to correlate perfectly with how much they learn in a course'
+    Criticism on older work: 
 
-Agreement on older work:
-- 'He, `[Clayson, 2009]` found, in general, a small positive association between mea-
-sures of learning and SRIs ('student ratings of instruction'), which is consistent with previous research'.
-THIS IS A MISREPRESENTATION!
+    'the correlations reported in, among others `[Cohen, 1981]`, are impres-
+    sive. Moreover, because teachers are not the only cause of student learning, and prob-
+    ably not the most important one, one would not expect students’ ratings of instruction
+    to correlate perfectly with how much they learn in a course'
 
-'In general, student ratings tend to be statistically reliable,
-valid, and relatively free from bias or the need for control, perhaps more so than any
-other data used for faculty evaluation. Moreover, they can help instructors improve
-their teaching, especially when combined with self-reflection and consultation.'
-and 'Student ratings must be interpreted. We should not confuse a source of data with the evaluators who use
-it—in combination with other kinds of information—to make judgments about an
-instructor’s teaching effectiveness (Cashin 2003)'.
+    Agreement on older work:
+    - 'He, `[Clayson, 2009]` found, in general, a small positive association between mea-
+    sures of learning and SRIs ('student ratings of instruction'), which is
+    consistent with previous research'.
+    THIS IS A MISREPRESENTATION!
 
--->
+    'In general, student ratings tend to be statistically reliable,
+    valid, and relatively free from bias or the need for control,
+    perhaps more so than any
+    other data used for faculty evaluation.
+    Moreover, they can help instructors improve their teaching,
+    especially when combined with self-reflection and consultation.'
+    and 'Student ratings must be interpreted.
+    We should not confuse a source of data with the evaluators who use
+    it—in combination with other kinds of information—to make judgments about an
+    instructor’s teaching effectiveness (Cashin 2003)'.
 
 We conclude that there is no relation
 between training quality and ratings given by learners.
