@@ -59,7 +59,7 @@ to their networks.
 On 2025-11-13, Bilderbeek presented 
 a poster on this research at a pedagogy conference.
 
-???- question "Where can I find that poster?
+???- question "Where can I find that poster?"
 
     The poster can be found at
     [`https://github.com/richelbilderbeek/poster_teaching_conference_20251113`](https://github.com/richelbilderbeek/poster_teaching_conference_20251113)
