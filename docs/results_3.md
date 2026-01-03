@@ -56,7 +56,7 @@ On 2025-02-17:
 From February to May 2025, both Bilderbeek and Wibberg reached out
 to their networks.
 
-On 2025-11-13, Bilderbeek presented 
+On 2025-11-13, Bilderbeek presented
 a poster on this research at a pedagogy conference.
 
 ???- question "Where can I find that poster?"
