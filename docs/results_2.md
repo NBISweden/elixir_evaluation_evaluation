@@ -148,6 +148,8 @@ to this study.
 
 ???- question "Which papers were that?
 
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
     Paper                           |Included|Intervention    |What is rated
     --------------------------------|--------|----------------|----------------------
     `[Cohen, 1981]`                 |Yes     |Rating          |Instruction and student achievement
@@ -160,6 +162,8 @@ to this study.
     `[d'Apollonia and Abrami, 1997]`|Yes     |Rating          |Instruction
     `[Benton and Cashin, 2013]`     |Yes     |Rating          |Instruction
     `[Denson et al., 2021]`         |No      |Diversity       |Student outcome
+
+    <!-- markdownlint-enable MD013 -->
 
 Of the 5 papers relevant to this study, 2 were meta-analyses:
 `[Clayson, 2009]` and `[Benton and Cashin, 2013]`.
@@ -257,16 +261,18 @@ The three meta analyses have different conclusions:
 
     Criticism on older work: 
 
-    'the correlations reported in, among others `[Cohen, 1981]`, are impres-
-    sive. Moreover, because teachers are not the only cause of student learning, and prob-
-    ably not the most important one, one would not expect students’ ratings of instruction
+    'the correlations reported in, among others `[Cohen, 1981]`,
+    are impressive. Moreover, because teachers are not the only cause of student
+    learning, and probably not the most important one,
+    one would not expect students' ratings of instruction
     to correlate perfectly with how much they learn in a course'
 
     Agreement on older work:
-    - 'He, `[Clayson, 2009]` found, in general, a small positive association between mea-
-    sures of learning and SRIs ('student ratings of instruction'), which is
-    consistent with previous research'.
-    THIS IS A MISREPRESENTATION!
+    - 'He, `[Clayson, 2009]` found, in general,
+      a small positive association between measures of learning and
+      SRIs ('student ratings of instruction'), which is
+      consistent with previous research'.
+      THIS IS A MISREPRESENTATION!
 
     'In general, student ratings tend to be statistically reliable,
     valid, and relatively free from bias or the need for control,
@@ -365,9 +371,29 @@ for 'using future contact in course evaluation'
   "Student perceptions of evaluation in undergraduate medical education:
   A qualitative study from one medical school."
   BMC medical education 12.1 (2012): 45.
-- `[Falchikov and Boud, 1989]` [Ignore, off-topic] Falchikov, Nancy, and David Boud. "Student self-assessment in higher education: A meta-analysis." Review of educational research 59.4 (1989): 395-430.
-- `[Vo and Diep, 2017]` Vo, Hien M., Chang Zhu, and Nguyet A. Diep. "The effect of blended learning on student performance at course-level in higher education: A meta-analysis." Studies in Educational Evaluation 53 (2017): 17-28.
-- `[Strelan et al., 2020]` Strelan, Peter, Amanda Osborn, and Edward Palmer. "Student satisfaction with courses and instructors in a flipped classroom: A meta‐analysis." Journal of Computer Assisted Learning 36.3 (2020): 295-314.
-- `[d'Apollonia and Abrami, 1997]` d'Apollonia, Sylvia, and Philip C. Abrami. "Navigating student ratings of instruction." American psychologist 52.11 (1997): 1198.
-- `[Benton and Cashin, 2013]` Benton, Stephen L., and William E. Cashin. "Student ratings of instruction in college and university courses." Higher education: Handbook of theory and research: Volume 29. Dordrecht: Springer Netherlands, 2013. 279-326.
-- `[Denson et al., 2021]` Denson, Nida, et al. "Do diversity courses improve college student outcomes? A meta-analysis." Journal of Diversity in Higher Education 14.4 (2021): 544.
+- `[Falchikov and Boud, 1989]` [Ignore, off-topic]
+  Falchikov, Nancy, and David Boud.
+  "Student self-assessment in higher education: A meta-analysis."
+  Review of educational research 59.4 (1989): 395-430.
+- `[Vo and Diep, 2017]`
+  Vo, Hien M., Chang Zhu, and Nguyet A. Diep.
+  "The effect of blended learning on student performance at course-level
+  in higher education: A meta-analysis."
+  Studies in Educational Evaluation 53 (2017): 17-28.
+- `[Strelan et al., 2020]`
+  Strelan, Peter, Amanda Osborn, and Edward Palmer.
+  "Student satisfaction with courses and instructors in a flipped classroom:
+  A meta‐analysis." Journal of Computer Assisted Learning 36.3 (2020): 295-314.
+- `[d'Apollonia and Abrami, 1997]`
+  d'Apollonia, Sylvia, and Philip C. Abrami.
+  "Navigating student ratings of instruction."
+  American psychologist 52.11 (1997): 1198.
+- `[Benton and Cashin, 2013]`
+  Benton, Stephen L., and William E. Cashin.
+  "Student ratings of instruction in college and university courses."
+  Higher education: Handbook of theory and research:
+  Volume 29. Dordrecht: Springer Netherlands, 2013. 279-326.
+- `[Denson et al., 2021]`
+  Denson, Nida, et al.
+  "Do diversity courses improve college student outcomes?
+  A meta-analysis." Journal of Diversity in Higher Education 14.4 (2021): 544.
