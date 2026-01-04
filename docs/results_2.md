@@ -156,7 +156,7 @@ to this study.
     `[Cohen, 1980]`                 |No      |Written feedback|Diverse
     `[Clayson, 2009]`               |Yes     |Rating          |How much students learn
     `[Schiekirka and Raupach, 2015]`|Yes     |Rating          |Course as a whole
-    `[Falchikov and Boud, 1989]`    |No      |Self-rating     |Students 
+    `[Falchikov and Boud, 1989]`    |No      |Self-rating     |Students
     `[Vo and Diep, 2017]`           |No      |Blended learning|Learner course performance
     `[Strelan et al., 2020]`        |No      |Satisfaction    |Flipped classroom
     `[d'Apollonia and Abrami, 1997]`|Yes     |Rating          |Instruction
@@ -186,7 +186,7 @@ flowchart TD
   clayson_2009 --- cohen_1981
   clayson_2009 --- dapollonia_and_abrami_1997
 
-  dapollonia_and_abrami_1997 --- cohen_1981 
+  dapollonia_and_abrami_1997 --- cohen_1981
 ```
 
 The three meta analyses have different conclusions:
@@ -249,7 +249,7 @@ The three meta analyses have different conclusions:
     `[d'Apollonia and Abrami, 1997]`: 'student ratings are moderately
     valid; however, administrative, instructor, and course characteristics
     influence student ratings of instruction',
-    uses 7 studies all before 1980. 
+    uses 7 studies all before 1980.
 
     `[Benton and Cashin, 2013]`: 'Students are very consistent in their
     ratings of teacher behaviors, their own learning,
@@ -259,7 +259,7 @@ The three meta analyses have different conclusions:
     'Combining consultation with feedback from student ratings is more
     useful for improving instruction than providing feedback alone.'
 
-    Criticism on older work: 
+    Criticism on older work:
 
     'the correlations reported in, among others `[Cohen, 1981]`,
     are impressive. Moreover, because teachers are not the only cause of student
@@ -268,6 +268,7 @@ The three meta analyses have different conclusions:
     to correlate perfectly with how much they learn in a course'
 
     Agreement on older work:
+
     - 'He, `[Clayson, 2009]` found, in general,
       a small positive association between measures of learning and
       SRIs ('student ratings of instruction'), which is
