@@ -194,7 +194,11 @@ This is a question to assess course quality. It will be labelled `2.13`.
 
     - `[multi-line open answer]` What other topics would you like to see covered in the future?
 
-This is a question to assess course quality. It will be labelled `2.14`.
+This is an adminstrative question and will be filtered out.
+
+I do see how this question may indirectly assesses course quality:
+if topics are suggested for future courses,
+this may somehow be correlated to higher course quality of the course given.
 
     - `[multi-line open answer]` Any other comments?
 
@@ -379,7 +383,7 @@ This is a question to assess course quality. It will be labelled `2.35`.
 
 - Were there sufficient trainers and helpers to answer your questions?
 
-This is a question to assess course quality. It will be labelled `2.36`.
+This is an question about the course logistics and will be filtered out.
 
 ### 1.15
 
@@ -411,4 +415,58 @@ This is a question to assess course quality. It will be labelled `2.40`.
 
 ## Step 2: remove duplicates
 
+Here is are the questions from the previous step, with the identifier added,
+where the first number (always a `2` here) denotes the step.
+The second number denotes the ID within that step.
+
+The raw questions have been assigned a question format.
+
+ID   |Question format      |Question
+-----|---------------------|--------------------------------------------
+2.1  |MCQ, must select 1   |Have you used the tools/resources covered in the course before? `-` Never - unaware of them `-` Never - used others `-` Never - aware of them, but not used them `-` Occasionally (once in a while to monthly) `-` Frequently (weekly to daily)
+2.2  |MCQ, must select 1   |Will you use the tools/resources covered in the course again? `-` Yes `-` No `-` Maybe
+2.3  |MCQ, must select 1   |Would you recommend this course? `-` Yes `-` No `-` Maybe
+2.4  |MCQ, must select 1   |What is your overall rating for the course? `-` Excellent (5) `-` Very Good (4) `-` Good (3) `-` Satisfactory (2) `-` Poor (1)
+2.5  |Free text            |What part of the training did you enjoy the most?
+2.6  |Free text            |What part of the training did you enjoy the least?
+2.7  |MCQ, must select 1   |The balance of theoretical and practical content was `-` Too theoretical `-` Too practical `-` About right
+2.8  |MCQ, must select 1   |How do you rate the pre-course information given? `-` 1 (Very unsatisfactory/Not useful) `-` 2 `-` 3 `-` 4 `-` 5 (Very good/Very useful)
+2.9  |MCQ, must select 1   |Per session: please rate each session of the course `-` Did not attend `-` Poor (1) `-` Satisfactory (2) `-` Good (3) `-` Very Good (4) `-` Excellent (5) `-` Other: `[single-line open answer]`
+2.10 |Free text            |Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback
+2.11 |MCQ, must select 1   |Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s) `-` Yes `-` No `-` Other: `[single-line open answer]`
+2.12 |Free text            |statements regarding what participants could do before the training event
+2.13 |Free text            |statements regarding what participants can do after the training event
+2.14 |.                    |Removed
+2.15 |Free text            |Any other comments?
+2.16 |Unknown              |For each learning outcome, have the participants self-assess if they were fulfilled
+2.17 |Open question        |What is one thing you learned that you didn't expect to?
+2.18 |Open question        |What part of the training was most useful for your work/research?
+2.19 |Free text            |Was there anything you felt was missing from the workshop?
+2.20 |MCQ                  |Do you feel you can apply the knowledge gained in your daily work? `-` Yes `-` Partially `-` No
+2.21 |Open question        |The general feeling after the completion
+2.22 |Open question        |What was difficult to understand
+2.23 |Open question        |What would you change if you could
+2.24a|Yes/no               |Was the course well organised?
+2.24b|Scale                |Was the course well organised?
+2.25a|Yes/no               |Was the course content well structured and balanced between theory and hands on?
+2.25b|Scale                |Was the course content well structured and balanced between theory and hands on?
+2.26a|Yes/no               |Were the material supporting the course well designed and easy to use?
+2.26b|Scale                |Were the material supporting the course well designed and easy to use?
+2.27 |Free text            |What were the strengths of this course ?
+2.28 |Free text            |What aspects of this course could be improved (changes, additions) ?
+2.29 |Free text            |Do you have any feedback for the trainer(s), which could be positive comments or things to improve? They can be related to the effectiveness of training delivery, oral expression, ability to answer questions, attitudes, domain expertise, ease in facilitating training, or any other
+2.30a|Scale                |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
+2.30b|Free text            |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
+2.31 |MCQ, must select 1   |How useful were the training materials (slides, datasets, exercises)? Scale from 1 (not) to 10 (very much)
+2.32 |Free text            |What improvements would you suggest for the materials?
+2.33 |MCQ, must select 1   |I feel confident applying what I learned in my future work. Scale from 1 (not) to 10 (very much)
+2.34 |Free text            |What would help you apply this training more effectively?
+2.35 |Unspecified          |Was the theoretical content useful to carry out the exercises?
+2.36 |.                    |Removed
+2.37 |Free text            |Any (other) feedback?
+2.38 |Free text            |For all teachers: 'Say something positive about teacher X'
+2.39 |Free text            |For all teachers: 'Say something teacher X can improve'
+2.40 |MCQ, can select 0    |For all learning outcomes:  Give you confidence levels of the following statements, using this scale: `-` 0: I don't know even what this is about ...? `-` 1: I have no confidence I can do this `-` 2: I have low confidence I can do this `-` 3: I have some confidence I can do this `-` 4: I have good confidence I can do this `-` 5: I absolutely can do this! 
+
+> MCQ: Multiple choice question
 
