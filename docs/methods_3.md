@@ -117,6 +117,10 @@ and describe the process to do so in [data_set_1_merge.md](data_set_1_merge.md).
     RJCB removed one of these duplicates, resulting in 3 questions.
     ``````
 
+???- question "Where is the processing of raw data described?"
+
+    See [Methods 3 phase 1 processing](methods_3_phase_1_processing.md).
+
 ## 3.3.2. Phase 2
 
 Combine `Data Set 1` with the current NBIS questions.
