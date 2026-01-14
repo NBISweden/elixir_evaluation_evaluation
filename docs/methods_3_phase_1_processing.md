@@ -106,7 +106,8 @@ ID   |Suggestion
 
 <!-- markdownlint-enable MD013 -->
 
-This is an adminstrative question and will be filtered out.
+This multiple choice question ('MCQ') is an adminstrative question
+and will be filtered out.
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -766,7 +767,7 @@ ID   |ID       |Question summary        |Question format      |Question
 2.17 |3.17     |Unexpected learning     |Open question        |What is one thing you learned that you didn't expect to?
 2.18 |3.18     |Most useful part        |Open question        |What part of the training was most useful for your work/research?
 2.19 |3.19     |Feel missing            |Free text            |Was there anything you felt was missing from the workshop?
-2.20 |3.20a    |Apply to work           |MCQ                  |Do you feel you can apply the knowledge gained in your daily work? `-` Yes `-` Partially `-` No
+2.20 |3.20a    |Feel can apply          |MCQ                  |Do you feel you can apply the knowledge gained in your daily work? `-` Yes `-` Partially `-` No
 2.21 |3.21     |Feeling afterwards      |Open question        |The general feeling after the completion
 2.22 |3.22     |Hard to understand      |Open question        |What was difficult to understand
 2.23 |3.23     |Any change              |Open question        |What would you change if you could
@@ -779,8 +780,8 @@ ID   |ID       |Question summary        |Question format      |Question
 2.27 |3.27     |Course strength         |Free text            |What were the strengths of this course ?
 2.28 |3.28     |Improve course          |Free text            |What aspects of this course could be improved (changes, additions) ?
 2.29 |3.29     |Feedback trainer        |Free text            |Do you have any feedback for the trainer(s), which could be positive comments or things to improve? They can be related to the effectiveness of training delivery, oral expression, ability to answer questions, attitudes, domain expertise, ease in facilitating training, or any other
-2.30a|**3.20b**|Apply science           |Scale                |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
-2.30b|**3.20c**|Apply science           |Free text            |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
+2.30a|3.30a    |Able to apply           |Scale                |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
+2.30b|3.30b    |Able to apply           |Free text            |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
 2.31 |3.31     |Materials usefulness    |MCQ, must select 1   |How useful were the training materials (slides, datasets, exercises)? Scale from 1 (not) to 10 (very much)
 2.32 |3.32     |Improvement materials   |Free text            |What improvements would you suggest for the materials?
 2.33 |3.33     |Confidence course       |MCQ, must select 1   |I feel confident applying what I learned in my future work. Scale from 1 (not) to 10 (very much)
