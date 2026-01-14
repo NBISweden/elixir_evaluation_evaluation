@@ -73,6 +73,18 @@ The goal of this step is to assign a new ID (starting with a `2`) for:
   course quality, the question is accepted, as in the next phase
   of the experiment, a less useful question will get voted out anyways
 
+An 'answer type' will be assigned to each suggestion, where the
+question types are:
+
+Answer type       |Description                                                    |GUI element name      |GUI element image
+------------------|---------------------------------------------------------------|----------------------|-----------------------------------
+`RG1`             |A multiple choice answer where 1 option must be chosen         |A radio button group  |![Radio buttons](radio_buttons.png)
+`RG01`            |A multiple choice answer where 0 or 1 options can be chosen    |A radio button group  |![Radio buttons](radio_buttons.png)
+`FT1`             |FTN, 1 line                                                    |A line edit           |![Line edit](line_edit.png)
+`FTN`             |FTN, any amount of lines                                       |A text edit           |![Text edit](text_edit.png)
+`CG1N`            |A multiple choice answer where 1 or more options can be checked|A checkbox group      |![Checkboxes](checkboxes.png)
+`CYN`             |A checkbox that can be checked yes/no                          |A checkbox            |![Checkboxes](checkboxes.png)
+
 Duplicates will be removed in the next step.
 
 ### Submission 1.1
@@ -95,7 +107,7 @@ are useful to assess course quality
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.1|`[single-line open answer]` Event code
+1.1.1|`[FT1]` Event code
 
 <!-- markdownlint-enable MD013 -->
 
@@ -105,7 +117,7 @@ This is an adminstrative question and will be filtered out.
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.2|`[MCQ, must select 1]` What is your career stage? `-` Undergraduate student `-` Masters student `-` PhD candidate `-` Postdoctoral researcher `-` Senior scientist/Principal investigator `-` Research assistant/ Technician / Support staff `-` Research engineer/Staff scientist/Technical scientist `-` Industry scientist `-` Other: `[single-line open answer]`
+1.1.2|`[RG1]` What is your career stage? `-` Undergraduate student `-` Masters student `-` PhD candidate `-` Postdoctoral researcher `-` Senior scientist/Principal investigator `-` Research assistant/ Technician / Support staff `-` Research engineer/Staff scientist/Technical scientist `-` Industry scientist `-` Other: `[FT1]`
 
 <!-- markdownlint-enable MD013 -->
 
@@ -116,7 +128,7 @@ and will be filtered out.
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.3|`[multiple checkbox question]` University/Organisation. Please select all relevant choices. `-` Chalmers `-` Göteborgs Universitet `-` Karolinska Institutet `-` Kungliga Tekniska Högskolan, KTH `-` Linköpings Universitet `-` Luleå Universitet `-` Lunds Universitet `-` Naturhistoriska Riksmuseet `-` Örebro Universitet `-` Stockholms Universitet `-` Sveriges lantbruksuniversitet, SLU `-` Umeå Universitet `-` Uppsala Universitet `-` SciLifeLab `-` Other: `[single-line open answer]`
+1.1.3|`[CG1N]` University/Organisation. Please select all relevant choices. `-` Chalmers `-` Göteborgs Universitet `-` Karolinska Institutet `-` Kungliga Tekniska Högskolan, KTH `-` Linköpings Universitet `-` Luleå Universitet `-` Lunds Universitet `-` Naturhistoriska Riksmuseet `-` Örebro Universitet `-` Stockholms Universitet `-` Sveriges lantbruksuniversitet, SLU `-` Umeå Universitet `-` Uppsala Universitet `-` SciLifeLab `-` Other: `[FT1]`
 
 <!-- markdownlint-enable MD013 -->
 
@@ -126,7 +138,7 @@ This is an adminstrative question and will be filtered out.
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.4|`[MCQ, select 1]` What is your gender? `-` Man `-` Woman `-` Prefer not to say `-` Non-binary `-` Other: `[single-line open answer]`
+1.1.4|`[RG1]` What is your gender? `-` Man `-` Woman `-` Prefer not to say `-` Non-binary `-` Other: `[FT1]`
 
 <!-- markdownlint-enable MD013 -->
 
@@ -136,7 +148,7 @@ This is an adminstrative question and will be filtered out.
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.5|`[MCQ, select 1]` Have you used the tools/resources covered in the course before? `-` Never - unaware of them `-` Never - used others `-` Never - aware of them, but not used them `-` Occasionally (once in a while to monthly) `-` Frequently (weekly to daily)
+1.1.5|`[RG1]` Have you used the tools/resources covered in the course before? `-` Never - unaware of them `-` Never - used others `-` Never - aware of them, but not used them `-` Occasionally (once in a while to monthly) `-` Frequently (weekly to daily)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -155,7 +167,7 @@ course quality, expressed in the **change** of (likelihood of) using tools.
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.6|`[MCQ, select 1]` Will you use the tools/resources covered in the course again? `-` Yes `-` No `-` Maybe
+1.1.6|`[RG1]` Will you use the tools/resources covered in the course again? `-` Yes `-` No `-` Maybe
 
 <!-- markdownlint-enable MD013 -->
 
@@ -166,7 +178,7 @@ called 'Quality metrics'. It will be labelled `2.2`.
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.7|`[MCQ, select 1]` Would you recommend this course? `-` Yes `-` No `-` Maybe
+1.1.7|`[RG1]` Would you recommend this course? `-` Yes `-` No `-` Maybe
 
 <!-- markdownlint-enable MD013 -->
 
@@ -177,7 +189,7 @@ called 'Quality metrics'. It will be labelled `2.3`.
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.8|`[MCQ, select 1]` What is your overall rating for the course? `-` Excellent (5) `-` Very Good (4) `-` Good (3) `-` Satisfactory (2) `-` Poor (1)
+1.1.8|`[RG1]` What is your overall rating for the course? `-` Excellent (5) `-` Very Good (4) `-` Good (3) `-` Satisfactory (2) `-` Poor (1)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -188,7 +200,7 @@ called 'Quality metrics'. It will be labelled `2.4`.
 
 ID   |Suggestion
 -----|-------------------------------------------------------------------------------------------------------------------------------
-1.1.9|`[multi-line open answer]` What part of the training did you enjoy the most?
+1.1.9|`[FTN]` What part of the training did you enjoy the most?
 
 <!-- markdownlint-enable MD013 -->
 
@@ -198,7 +210,7 @@ This is a question to assess course quality. It will be labelled `2.5`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.10|`[multi-line open answer]` What part of the training did you enjoy the least?
+1.1.10|`[FTN]` What part of the training did you enjoy the least?
 
 <!-- markdownlint-enable MD013 -->
 
@@ -208,7 +220,7 @@ This is a question to assess course quality. It will be labelled `2.6`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.11|`[MCQ, must select 1]` The balance of theoretical and practical content was `-` Too theoretical `-` Too practical `-` About right
+1.1.11|`[RG1]` The balance of theoretical and practical content was `-` Too theoretical `-` Too practical `-` About right
 
 <!-- markdownlint-enable MD013 -->
 
@@ -218,7 +230,7 @@ This is a question to assess course quality. It will be labelled `2.7`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.12|`[MCQ, must select 1]` How do you rate the pre-course information given? `-` 1 (Very unsatisfactory/Not useful) `-` 2 `-` 3 `-` 4 `-` 5 (Very good/Very useful)
+1.1.12|`[RG1]` How do you rate the pre-course information given? `-` 1 (Very unsatisfactory/Not useful) `-` 2 `-` 3 `-` 4 `-` 5 (Very good/Very useful)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -228,7 +240,7 @@ This is a question to assess course quality. It will be labelled `2.8`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.13|`[MCQ, must select 1]` Please rate each session of the course `-` Did not attend `-` Poor (1) `-` Satisfactory (2) `-` Good (3) `-` Very Good (4) `-` Excellent (5) `-` Other: `[single-line open answer]`
+1.1.13|`[RG1]` Please rate each session of the course `-` Did not attend `-` Poor (1) `-` Satisfactory (2) `-` Good (3) `-` Very Good (4) `-` Excellent (5) `-` Other: `[FT1]`
 
 <!-- markdownlint-enable MD013 -->
 
@@ -238,7 +250,7 @@ This is a question to assess course quality. It will be labelled `2.9`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.14|`[multi-line open answer]` Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback
+1.1.14|`[FTN]` Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback
 
 <!-- markdownlint-enable MD013 -->
 
@@ -248,7 +260,7 @@ This is a question to assess course quality. It will be labelled `2.10`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.15|`[MCQ, must select 1]` Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s) `-` Yes `-` No `-` Other: `[single-line open answer]`
+1.1.15|`[RG1]` Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s) `-` Yes `-` No `-` Other: `[FT1]`
 
 <!-- markdownlint-enable MD013 -->
 
@@ -258,7 +270,7 @@ This is a question to assess course quality. It will be labelled `2.11`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.16|`[multi-line open answer]` Statements regarding what participants could do before the training event (customised to a specific training)
+1.1.16|`[FTN]` Statements regarding what participants could do before the training event (customised to a specific training)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -277,7 +289,7 @@ this **is** way to get an idea of course quality, expressed in the
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.17|`[multi-line open answer]` Statements regarding what participants can do after the training event (customised to a specific training)
+1.1.17|`[FTN]` Statements regarding what participants can do after the training event (customised to a specific training)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -287,7 +299,7 @@ This is a question to assess course quality. It will be labelled `2.13`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.18|`[multi-line open answer]` What other topics would you like to see covered in the future?
+1.1.18|`[FTN]` What other topics would you like to see covered in the future?
 
 <!-- markdownlint-enable MD013 -->
 
@@ -301,7 +313,7 @@ this may somehow be correlated to higher course quality of the course given.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.19|`[multi-line open answer]` Any other comments?
+1.1.19|`[FTN]` Any other comments?
 
 <!-- markdownlint-enable MD013 -->
 
@@ -311,7 +323,7 @@ This is a question to assess course quality. It will be labelled `2.15`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.20|`[MCQ, must select 1]` What would be the prefered length of the course? `-` 1 day `-` 2 days `-` 3 days `-` 4 days `-` 5 days
+1.1.20|`[RG1]` What would be the prefered length of the course? `-` 1 day `-` 2 days `-` 3 days `-` 4 days `-` 5 days
 
 <!-- markdownlint-enable MD013 -->
 
@@ -324,7 +336,7 @@ It will be filtered out.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.21|`[MCQ, must select 1]` What is the best format for this course? `-` Onsite `-` Online `-` Online but spaced out `-` Other: `[single-line open answer]`
+1.1.21|`[RG1]` What is the best format for this course? `-` Onsite `-` Online `-` Online but spaced out `-` Other: `[FT1]`
 
 <!-- markdownlint-enable MD013 -->
 
@@ -337,7 +349,7 @@ It will be filtered out.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.22|`[MCQ, must select 1]` How did you like the localities of the course (rooms and surrondings)? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)
+1.1.22|`[RG1]` How did you like the localities of the course (rooms and surrondings)? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -348,7 +360,7 @@ the quallity of the learning environment It will be labelled `2.41`.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.23|`[MCQ, must select 1]` How did you like the lunch(es) and "fika(s)"? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)
+1.1.23|`[RG1]` How did you like the lunch(es) and "fika(s)"? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -359,7 +371,7 @@ It will be filtered out.
 
 ID    |Suggestion
 ------|-------------------------------------------------------------------------------------------------------------------------------
-1.1.24|`[multi-line open answer]` Any other comments?
+1.1.24|`[FTN]` Any other comments?
 
 <!-- markdownlint-enable MD013 -->
 
@@ -694,53 +706,53 @@ The raw questions have been assigned a question format.
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-ID   |Question format      |Question
------|---------------------|--------------------------------------------
-2.1  |MCQ, must select 1   |Have you used the tools/resources covered in the course before? `-` Never - unaware of them `-` Never - used others `-` Never - aware of them, but not used them `-` Occasionally (once in a while to monthly) `-` Frequently (weekly to daily)
-2.2  |MCQ, must select 1   |Will you use the tools/resources covered in the course again? `-` Yes `-` No `-` Maybe
-2.3  |MCQ, must select 1   |Would you recommend this course? `-` Yes `-` No `-` Maybe
-2.4  |MCQ, must select 1   |What is your overall rating for the course? `-` Excellent (5) `-` Very Good (4) `-` Good (3) `-` Satisfactory (2) `-` Poor (1)
-2.5  |Free text            |What part of the training did you enjoy the most?
-2.6  |Free text            |What part of the training did you enjoy the least?
-2.7  |MCQ, must select 1   |The balance of theoretical and practical content was `-` Too theoretical `-` Too practical `-` About right
-2.8  |MCQ, must select 1   |How do you rate the pre-course information given? `-` 1 (Very unsatisfactory/Not useful) `-` 2 `-` 3 `-` 4 `-` 5 (Very good/Very useful)
-2.9  |MCQ, must select 1   |Per session: please rate each session of the course `-` Did not attend `-` Poor (1) `-` Satisfactory (2) `-` Good (3) `-` Very Good (4) `-` Excellent (5) `-` Other: `[single-line open answer]`
-2.10 |Free text            |Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback
-2.11 |MCQ, must select 1   |Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s) `-` Yes `-` No `-` Other: `[single-line open answer]`
-2.12 |Free text            |statements regarding what participants could do before the training event
-2.13 |Free text            |statements regarding what participants can do after the training event
-2.14 |.                    |Removed
-2.15 |Free text            |Any other comments?
-2.16 |Unknown              |For each learning outcome, have the participants self-assess if they were fulfilled
-2.17 |Open question        |What is one thing you learned that you didn't expect to?
-2.18 |Open question        |What part of the training was most useful for your work/research?
-2.19 |Free text            |Was there anything you felt was missing from the workshop?
-2.20 |MCQ                  |Do you feel you can apply the knowledge gained in your daily work? `-` Yes `-` Partially `-` No
-2.21 |Open question        |The general feeling after the completion
-2.22 |Open question        |What was difficult to understand
-2.23 |Open question        |What would you change if you could
-2.24a|Yes/no               |Was the course well organised?
-2.24b|Scale                |Was the course well organised?
-2.25a|Yes/no               |Was the course content well structured and balanced between theory and hands on?
-2.25b|Scale                |Was the course content well structured and balanced between theory and hands on?
-2.26a|Yes/no               |Were the material supporting the course well designed and easy to use?
-2.26b|Scale                |Were the material supporting the course well designed and easy to use?
-2.27 |Free text            |What were the strengths of this course ?
-2.28 |Free text            |What aspects of this course could be improved (changes, additions) ?
-2.29 |Free text            |Do you have any feedback for the trainer(s), which could be positive comments or things to improve? They can be related to the effectiveness of training delivery, oral expression, ability to answer questions, attitudes, domain expertise, ease in facilitating training, or any other
-2.30a|Scale                |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
-2.30b|Free text            |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
-2.31 |MCQ, must select 1   |How useful were the training materials (slides, datasets, exercises)? Scale from 1 (not) to 10 (very much)
-2.32 |Free text            |What improvements would you suggest for the materials?
-2.33 |MCQ, must select 1   |I feel confident applying what I learned in my future work. Scale from 1 (not) to 10 (very much)
-2.34 |Free text            |What would help you apply this training more effectively?
-2.35 |Unspecified          |Was the theoretical content useful to carry out the exercises?
-2.36 |.                    |Removed
-2.37 |Free text            |Any (other) feedback?
-2.38 |Free text            |For all teachers: 'Say something positive about teacher X'
-2.39 |Free text            |For all teachers: 'Say something teacher X can improve'
-2.40 |MCQ, can select 0    |For all learning outcomes:  Give you confidence levels of the following statements, using this scale: `-` 0: I don't know even what this is about ...? `-` 1: I have no confidence I can do this `-` 2: I have low confidence I can do this `-` 3: I have some confidence I can do this `-` 4: I have good confidence I can do this `-` 5: I absolutely can do this!
-2.41 |MCQ, must select 1   |How did you like the localities of the course (rooms and surrondings)? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)
+| ID    | Answer type | Question                                                                                                                                                                                                                                                                                                                                                             |
+|-------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2.1   | RG1         | Have you used the tools/resources covered in the course before? `-` Never - unaware of them `-` Never - used others `-` Never - aware of them, but not used them `-` Occasionally (once in a while to monthly) `-` Frequently (weekly to daily)                                                                                                                      |
+| 2.2   | RG1         | Will you use the tools/resources covered in the course again? `-` Yes `-` No `-` Maybe                                                                                                                                                                                                                                                                               |
+| 2.3   | RG1         | Would you recommend this course? `-` Yes `-` No `-` Maybe                                                                                                                                                                                                                                                                                                            |
+| 2.4   | RG1         | What is your overall rating for the course? `-` Excellent (5) `-` Very Good (4) `-` Good (3) `-` Satisfactory (2) `-` Poor (1)                                                                                                                                                                                                                                       |
+| 2.5   | FTN         | What part of the training did you enjoy the most?                                                                                                                                                                                                                                                                                                                    |
+| 2.6   | FTN         | What part of the training did you enjoy the least?                                                                                                                                                                                                                                                                                                                   |
+| 2.7   | RG1         | The balance of theoretical and practical content was `-` Too theoretical `-` Too practical `-` About right                                                                                                                                                                                                                                                           |
+| 2.8   | RG1         | How do you rate the pre-course information given? `-` 1 (Very unsatisfactory/Not useful) `-` 2 `-` 3 `-` 4 `-` 5 (Very good/Very useful)                                                                                                                                                                                                                             |
+| 2.9   | RG1         | Per session: please rate each session of the course `-` Did not attend `-` Poor (1) `-` Satisfactory (2) `-` Good (3) `-` Very Good (4) `-` Excellent (5) `-` Other: `[FT1]`                                                                                                                                                                                         |
+| 2.10  | FTN         | Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback                                                                                                                                                                                                                                                                    |
+| 2.11  | RG1         | Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s) `-` Yes `-` No `-` Other: `[FT1]`                                                                                                                                                                  |
+| 2.12  | FTN         | statements regarding what participants could do before the training event                                                                                                                                                                                                                                                                                            |
+| 2.13  | FTN         | statements regarding what participants can do after the training event                                                                                                                                                                                                                                                                                               |
+| 2.14  | .           | Removed                                                                                                                                                                                                                                                                                                                                                              |
+| 2.15  | FTN         | Any other comments?                                                                                                                                                                                                                                                                                                                                                  |
+| 2.16  | Unknown     | For each learning outcome, have the participants self-assess if they were fulfilled                                                                                                                                                                                                                                                                                  |
+| 2.17  | FTN         | What is one thing you learned that you didn't expect to?                                                                                                                                                                                                                                                                                                             |
+| 2.18  | FTN         | What part of the training was most useful for your work/research?                                                                                                                                                                                                                                                                                                    |
+| 2.19  | FTN         | Was there anything you felt was missing from the workshop?                                                                                                                                                                                                                                                                                                           |
+| 2.20  | RG1         | Do you feel you can apply the knowledge gained in your daily work? `-` Yes `-` Partially `-` No                                                                                                                                                                                                                                                                      |
+| 2.21  | FTN         | The general feeling after the completion                                                                                                                                                                                                                                                                                                                             |
+| 2.22  | FTN         | What was difficult to understand                                                                                                                                                                                                                                                                                                                                     |
+| 2.23  | FTN         | What would you change if you could                                                                                                                                                                                                                                                                                                                                   |
+| 2.24a | CYN         | Was the course well organised?                                                                                                                                                                                                                                                                                                                                       |
+| 2.24b | Scale       | Was the course well organised?                                                                                                                                                                                                                                                                                                                                       |
+| 2.25a | CYN         | Was the course content well structured and balanced between theory and hands on?                                                                                                                                                                                                                                                                                     |
+| 2.25b | Scale       | Was the course content well structured and balanced between theory and hands on?                                                                                                                                                                                                                                                                                     |
+| 2.26a | CYN         | Were the material supporting the course well designed and easy to use?                                                                                                                                                                                                                                                                                               |
+| 2.26b | Scale       | Were the material supporting the course well designed and easy to use?                                                                                                                                                                                                                                                                                               |
+| 2.27  | FTN         | What were the strengths of this course ?                                                                                                                                                                                                                                                                                                                             |
+| 2.28  | FTN         | What aspects of this course could be improved (changes, additions) ?                                                                                                                                                                                                                                                                                                 |
+| 2.29  | FTN         | Do you have any feedback for the trainer(s), which could be positive comments or things to improve? They can be related to the effectiveness of training delivery, oral expression, ability to answer questions, attitudes, domain expertise, ease in facilitating training, or any other                                                                            |
+| 2.30a | Scale       | Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?                                                                                                                                                                                                                                          |
+| 2.30b | FTN         | Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?                                                                                                                                                                                                                                          |
+| 2.31  | RG1         | How useful were the training materials (slides, datasets, exercises)? Scale from 1 (not) to 10 (very much)                                                                                                                                                                                                                                                           |
+| 2.32  | FTN         | What improvements would you suggest for the materials?                                                                                                                                                                                                                                                                                                               |
+| 2.33  | RG1         | I feel confident applying what I learned in my future work. Scale from 1 (not) to 10 (very much)                                                                                                                                                                                                                                                                     |
+| 2.34  | FTN         | What would help you apply this training more effectively?                                                                                                                                                                                                                                                                                                            |
+| 2.35  | Unspecified | Was the theoretical content useful to carry out the exercises?                                                                                                                                                                                                                                                                                                       |
+| 2.36  | .           | Removed                                                                                                                                                                                                                                                                                                                                                              |
+| 2.37  | FTN         | Any (other) feedback?                                                                                                                                                                                                                                                                                                                                                |
+| 2.38  | FTN         | For all teachers: 'Say something positive about teacher X'                                                                                                                                                                                                                                                                                                           |
+| 2.39  | FTN         | For all teachers: 'Say something teacher X can improve'                                                                                                                                                                                                                                                                                                              |
+| 2.40  | RG01        | For all learning outcomes:  Give you confidence levels of the following statements, using this scale: `-` 0: I don't know even what this is about ...? `-` 1: I have no confidence I can do this `-` 2: I have low confidence I can do this `-` 3: I have some confidence I can do this `-` 4: I have good confidence I can do this `-` 5: I absolutely can do this! |
+| 2.41  | RG1         | How did you like the localities of the course (rooms and surrondings)? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)                                                                                                                                                                                                                                        |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -750,51 +762,51 @@ In this table, we remove the duplicates:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-ID   |ID       |Question summary        |Question format      |Question
------|---------|------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-2.1  |3.1      |Use resources before    |MCQ, must select 1   |Have you used the tools/resources covered in the course before? `-` Never - unaware of them `-` Never - used others `-` Never - aware of them, but not used them `-` Occasionally (once in a while to monthly) `-` Frequently (weekly to daily)
-2.2  |3.2      |Use resources after     |MCQ, must select 1   |Will you use the tools/resources covered in the course again? `-` Yes `-` No `-` Maybe
-2.3  |3.3      |Course recommend        |MCQ, must select 1   |Would you recommend this course? `-` Yes `-` No `-` Maybe
-2.4  |3.4      |Course rating           |MCQ, must select 1   |What is your overall rating for the course? `-` Excellent (5) `-` Very Good (4) `-` Good (3) `-` Satisfactory (2) `-` Poor (1)
-2.5  |3.5      |Enjoy most              |Free text            |What part of the training did you enjoy the most?
-2.6  |3.6      |Enjoy least             |Free text            |What part of the training did you enjoy the least?
-2.7  |3.7      |Balance theory/practice |MCQ, must select 1   |The balance of theoretical and practical content was `-` Too theoretical `-` Too practical `-` About right
-2.8  |3.8      |Rate pre-course info    |MCQ, must select 1   |How do you rate the pre-course information given? `-` 1 (Very unsatisfactory/Not useful) `-` 2 `-` 3 `-` 4 `-` 5 (Very good/Very useful)
-2.9  |3.9      |Rate sessions           |MCQ, must select 1   |Per session: please rate each session of the course `-` Did not attend `-` Poor (1) `-` Satisfactory (2) `-` Good (3) `-` Very Good (4) `-` Excellent (5) `-` Other: `[single-line open answer]`
-2.10 |3.10     |Comment teaching staff  |Free text            |Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback
-2.11 |3.11     |Content matching level  |MCQ, must select 1   |Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s) `-` Yes `-` No `-` Other: `[single-line open answer]`
-2.12 |3.12     |Self assess LOs before  |Free text            |statements regarding what participants could do before the training event
-2.13 |3.14     |Self assess LOs after   |Free text            |statements regarding what participants can do after the training event
-2.15 |3.15     |Comments                |Free text            |Any other comments?
-2.16 |**3.14** |Self-assess LOs after   |Unknown              |For each learning outcome, have the participants self-assess if they were fulfilled
-2.17 |3.17     |Unexpected learning     |Open question        |What is one thing you learned that you didn't expect to?
-2.18 |3.18     |Most useful part        |Open question        |What part of the training was most useful for your work/research?
-2.19 |3.19     |Feel missing            |Free text            |Was there anything you felt was missing from the workshop?
-2.20 |3.20a    |Feel can apply          |MCQ                  |Do you feel you can apply the knowledge gained in your daily work? `-` Yes `-` Partially `-` No
-2.21 |3.21     |Feeling afterwards      |Open question        |The general feeling after the completion
-2.22 |3.22     |Hard to understand      |Open question        |What was difficult to understand
-2.23 |3.23     |Any change              |Open question        |What would you change if you could
-2.24a|3.24a    |Course organisation     |Yes/no               |Was the course well organised?
-2.24b|3.24b    |Course organisation     |Scale                |Was the course well organised?
-2.25a|3.25a    |Course content structure|Yes/no               |Was the course content well structured and balanced between theory and hands on?
-2.25b|3.25b    |Course content structure|Scale                |Was the course content well structured and balanced between theory and hands on?
-2.26a|3.26a    |Course material design  |Yes/no               |Were the material supporting the course well designed and easy to use?
-2.26b|3.26a    |Course material design  |Scale                |Were the material supporting the course well designed and easy to use?
-2.27 |3.27     |Course strength         |Free text            |What were the strengths of this course ?
-2.28 |3.28     |Improve course          |Free text            |What aspects of this course could be improved (changes, additions) ?
-2.29 |3.29     |Feedback trainer        |Free text            |Do you have any feedback for the trainer(s), which could be positive comments or things to improve? They can be related to the effectiveness of training delivery, oral expression, ability to answer questions, attitudes, domain expertise, ease in facilitating training, or any other
-2.30a|3.30a    |Able to apply           |Scale                |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
-2.30b|3.30b    |Able to apply           |Free text            |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
-2.31 |3.31     |Materials usefulness    |MCQ, must select 1   |How useful were the training materials (slides, datasets, exercises)? Scale from 1 (not) to 10 (very much)
-2.32 |3.32     |Improvement materials   |Free text            |What improvements would you suggest for the materials?
-2.33 |3.33     |Confidence course       |MCQ, must select 1   |I feel confident applying what I learned in my future work. Scale from 1 (not) to 10 (very much)
-2.34 |3.34     |Suggest help to apply   |Free text            |What would help you apply this training more effectively?
-2.35 |3.35     |Theory usefulness       |Unspecified          |Was the theoretical content useful to carry out the exercises?
-2.36 |.        |.                       |.                    |Removed
-2.37 |3.37     |Any feedback            |Free text            |Any (other) feedback?
-2.38 |3.38     |Positive teacher        |Free text            |For all teachers: 'Say something positive about teacher X'
-2.39 |3.39     |Improve teacher         |Free text            |For all teachers: 'Say something teacher X can improve'
-2.40 |**3.14** |Self assess LOs after   |MCQ, can select 0    |For all learning outcomes:  Give you confidence levels of the following statements, using this scale: `-` 0: I don't know even what this is about ...? `-` 1: I have no confidence I can do this `-` 2: I have low confidence I can do this `-` 3: I have some confidence I can do this `-` 4: I have good confidence I can do this `-` 5: I absolutely can do this!
-2.41 |3.40     |Like locality           |MCQ, must select 1   |How did you like the localities of the course (rooms and surrondings)? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)
+| ID    | ID       | Question summary         | Question format   | Question                                                                                                                                                                                                                                                                                                                                                             |
+|-------|----------|--------------------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2.1   | 3.1      | Use resources before     | RG1               | Have you used the tools/resources covered in the course before? `-` Never - unaware of them `-` Never - used others `-` Never - aware of them, but not used them `-` Occasionally (once in a while to monthly) `-` Frequently (weekly to daily)                                                                                                                      |
+| 2.2   | 3.2      | Use resources after      | RG1               | Will you use the tools/resources covered in the course again? `-` Yes `-` No `-` Maybe                                                                                                                                                                                                                                                                               |
+| 2.3   | 3.3      | Course recommend         | RG1               | Would you recommend this course? `-` Yes `-` No `-` Maybe                                                                                                                                                                                                                                                                                                            |
+| 2.4   | 3.4      | Course rating            | RG1               | What is your overall rating for the course? `-` Excellent (5) `-` Very Good (4) `-` Good (3) `-` Satisfactory (2) `-` Poor (1)                                                                                                                                                                                                                                       |
+| 2.5   | 3.5      | Enjoy most               | FTN               | What part of the training did you enjoy the most?                                                                                                                                                                                                                                                                                                                    |
+| 2.6   | 3.6      | Enjoy least              | FTN               | What part of the training did you enjoy the least?                                                                                                                                                                                                                                                                                                                   |
+| 2.7   | 3.7      | Balance theory/practice  | RG1               | The balance of theoretical and practical content was `-` Too theoretical `-` Too practical `-` About right                                                                                                                                                                                                                                                           |
+| 2.8   | 3.8      | Rate pre-course info     | RG1               | How do you rate the pre-course information given? `-` 1 (Very unsatisfactory/Not useful) `-` 2 `-` 3 `-` 4 `-` 5 (Very good/Very useful)                                                                                                                                                                                                                             |
+| 2.9   | 3.9      | Rate sessions            | RG1               | Per session: please rate each session of the course `-` Did not attend `-` Poor (1) `-` Satisfactory (2) `-` Good (3) `-` Very Good (4) `-` Excellent (5) `-` Other: `[FT1]`                                                                                                                                                                                         |
+| 2.10  | 3.10     | Comment teaching staff   | FTN               | Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback                                                                                                                                                                                                                                                                    |
+| 2.11  | 3.11     | Content matching level   | RG1               | Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s) `-` Yes `-` No `-` Other: `[FT1]`                                                                                                                                                                  |
+| 2.12  | 3.12     | Self assess LOs before   | FTN               | statements regarding what participants could do before the training event                                                                                                                                                                                                                                                                                            |
+| 2.13  | 3.14     | Self assess LOs after    | FTN               | statements regarding what participants can do after the training event                                                                                                                                                                                                                                                                                               |
+| 2.15  | 3.15     | Comments                 | FTN               | Any other comments?                                                                                                                                                                                                                                                                                                                                                  |
+| 2.16  | **3.14** | Self-assess LOs after    | Unknown           | For each learning outcome, have the participants self-assess if they were fulfilled                                                                                                                                                                                                                                                                                  |
+| 2.17  | 3.17     | Unexpected learning      | FTN               | What is one thing you learned that you didn't expect to?                                                                                                                                                                                                                                                                                                             |
+| 2.18  | 3.18     | Most useful part         | FTN               | What part of the training was most useful for your work/research?                                                                                                                                                                                                                                                                                                    |
+| 2.19  | 3.19     | Feel missing             | FTN               | Was there anything you felt was missing from the workshop?                                                                                                                                                                                                                                                                                                           |
+| 2.20  | 3.20a    | Feel can apply           | MCQ               | Do you feel you can apply the knowledge gained in your daily work? `-` Yes `-` Partially `-` No                                                                                                                                                                                                                                                                      |
+| 2.21  | 3.21     | Feeling afterwards       | FTN               | The general feeling after the completion                                                                                                                                                                                                                                                                                                                             |
+| 2.22  | 3.22     | Hard to understand       | FTN               | What was difficult to understand                                                                                                                                                                                                                                                                                                                                     |
+| 2.23  | 3.23     | Any change               | FTN               | What would you change if you could                                                                                                                                                                                                                                                                                                                                   |
+| 2.24a | 3.24a    | Course organisation      | CYN               | Was the course well organised?                                                                                                                                                                                                                                                                                                                                       |
+| 2.24b | 3.24b    | Course organisation      | Scale             | Was the course well organised?                                                                                                                                                                                                                                                                                                                                       |
+| 2.25a | 3.25a    | Course content structure | CYN               | Was the course content well structured and balanced between theory and hands on?                                                                                                                                                                                                                                                                                     |
+| 2.25b | 3.25b    | Course content structure | Scale             | Was the course content well structured and balanced between theory and hands on?                                                                                                                                                                                                                                                                                     |
+| 2.26a | 3.26a    | Course material design   | CYN               | Were the material supporting the course well designed and easy to use?                                                                                                                                                                                                                                                                                               |
+| 2.26b | 3.26a    | Course material design   | Scale             | Were the material supporting the course well designed and easy to use?                                                                                                                                                                                                                                                                                               |
+| 2.27  | 3.27     | Course strength          | FTN               | What were the strengths of this course ?                                                                                                                                                                                                                                                                                                                             |
+| 2.28  | 3.28     | Improve course           | FTN               | What aspects of this course could be improved (changes, additions) ?                                                                                                                                                                                                                                                                                                 |
+| 2.29  | 3.29     | Feedback trainer         | FTN               | Do you have any feedback for the trainer(s), which could be positive comments or things to improve? They can be related to the effectiveness of training delivery, oral expression, ability to answer questions, attitudes, domain expertise, ease in facilitating training, or any other                                                                            |
+| 2.30a | 3.30a    | Able to apply            | Scale             | Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?                                                                                                                                                                                                                                          |
+| 2.30b | 3.30b    | Able to apply            | FTN               | Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?                                                                                                                                                                                                                                          |
+| 2.31  | 3.31     | Materials usefulness     | RG1               | How useful were the training materials (slides, datasets, exercises)? Scale from 1 (not) to 10 (very much)                                                                                                                                                                                                                                                           |
+| 2.32  | 3.32     | Improvement materials    | FTN               | What improvements would you suggest for the materials?                                                                                                                                                                                                                                                                                                               |
+| 2.33  | 3.33     | Confidence course        | RG1               | I feel confident applying what I learned in my future work. Scale from 1 (not) to 10 (very much)                                                                                                                                                                                                                                                                     |
+| 2.34  | 3.34     | Suggest help to apply    | FTN               | What would help you apply this training more effectively?                                                                                                                                                                                                                                                                                                            |
+| 2.35  | 3.35     | Theory usefulness        | Unspecified       | Was the theoretical content useful to carry out the exercises?                                                                                                                                                                                                                                                                                                       |
+| 2.36  | .        | .                        | .                 | Removed                                                                                                                                                                                                                                                                                                                                                              |
+| 2.37  | 3.37     | Any feedback             | FTN               | Any (other) feedback?                                                                                                                                                                                                                                                                                                                                                |
+| 2.38  | 3.38     | Positive teacher         | FTN               | For all teachers: 'Say something positive about teacher X'                                                                                                                                                                                                                                                                                                           |
+| 2.39  | 3.39     | Improve teacher          | FTN               | For all teachers: 'Say something teacher X can improve'                                                                                                                                                                                                                                                                                                              |
+| 2.40  | **3.14** | Self assess LOs after    | MCQ, can select 0 | For all learning outcomes:  Give you confidence levels of the following statements, using this scale: `-` 0: I don't know even what this is about ...? `-` 1: I have no confidence I can do this `-` 2: I have low confidence I can do this `-` 3: I have some confidence I can do this `-` 4: I have good confidence I can do this `-` 5: I absolutely can do this! |
+| 2.41  | 3.40     | Like locality            | RG1               | How did you like the localities of the course (rooms and surrondings)? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)                                                                                                                                                                                                                                        |
 
 <!-- markdownlint-enable MD013 -->
