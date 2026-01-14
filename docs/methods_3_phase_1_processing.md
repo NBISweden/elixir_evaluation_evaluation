@@ -53,7 +53,7 @@ ID   |Suggestion
 1.10 |`How useful were the training materials (slides, datasets, exercises)? Scale from 1 (not) to 10 (very much)`
 1.11 |`What improvements would you suggest for the materials? Free text`
 1.12 |`I feel confident applying what I learned in my future work. Scale from 1 (not) to 10 (very much)`
-1.13 |`hat would help you apply this training more effectively? Free text`
+1.13 |`What would help you apply this training more effectively? Free text`
 1.14 |`I suggest to add: 1. Was the theoretical content useful to carry out the exercises? 2. Were there sufficient trainers and helpers to answer your questions?`
 1.15 |`The question 'Any (other) feedback?' with a textbox that can be edited freely (i.e. no max count of words)`
 1.16 |`For all teachers: 'Say something positive about teacher X' and 'Say something teacher X can improve', both with text boxes that can be edited freely (i.e. no min nor max word count)`
