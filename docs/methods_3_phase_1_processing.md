@@ -7,6 +7,20 @@ The raw data can be found at [`data_set_1_raw.csv`](data_set_1_raw.csv),
 where the resulting processed data can be found at
 [`data_set_1_merged.csv`](data_set_1_merged.csv),
 
+```mermaid
+flowchart TB
+    data_set_in[data_set_1_raw.csv]
+    submissions[17 submissions]
+    questions_with_duplicates[43 questions with duplicates]
+    unique_questions[41 unique questions]
+    data_set_out[data_set_1_merged.csv]
+
+    data_set_in --> |Read| submissions
+    submissions --> |Step 1: Split up in questions, filter for usefulness| questions_with_duplicates
+    questions_with_duplicates --> |Step 2: Remove duplicates| unique_questions
+    unique_questions --> |Save| data_set_out
+```
+
 Filtered out are:
 
 - administrative questions, e.g. email addresses
@@ -46,7 +60,6 @@ The goal of this step is to assign a new ID (starting with a `2`) for:
   If there is doubt if a suggested question can be used to improve
   course quality, the question is accepted, as in the next phase
   of the experiment, a less useful question will get voted out anyways
-
 
 Duplicates will be removed in the next step.
 
