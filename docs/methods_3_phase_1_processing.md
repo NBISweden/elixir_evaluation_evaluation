@@ -12,7 +12,7 @@ Filtered out are:
 - administrative questions, e.g. email addresses
 - duplicates
 
-!!! info "Overview of the steps shown here"
+???- info "Overview of the steps shown here"
 
     An overview of the steps is shown here:
 
