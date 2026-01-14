@@ -366,7 +366,7 @@ question is about any other comments on the training logistics.
 That means that this is not a question about course quality.
 It will be filtered out.
 
-### 1.2
+### Submission 1.2
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -381,7 +381,7 @@ question needs to be answered: should it be a yes/no checkbox, or a scale?
 
 It will be labelled `2.16`.
 
-### 1.3
+### Submission 1.3
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -393,7 +393,7 @@ ID  |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.17`.
 
-### 1.4
+### Submission 1.4
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -405,7 +405,7 @@ ID  |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.18`.
 
-### 1.5
+### Submission 1.5
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -421,7 +421,7 @@ I do see how this question may indirectly assesses course quality:
 if colleagues recommend the course, this may somehow be correlated
 to higher course quality.
 
-### 1.6
+### Submission 1.6
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -433,7 +433,7 @@ ID  |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.19`.
 
-### 1.7
+### Submission 1.7
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -460,7 +460,7 @@ if there is a desire to do a follow-up workshop,
 this may somehow be correlated
 to higher course quality.
 
-### 1.8
+### Submission 1.8
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -492,7 +492,7 @@ ID   |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.23`.
 
-### 1.9
+### Submission 1.9
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -564,7 +564,7 @@ ID   |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.30`.
 
-### 1.10
+### Submission 1.10
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -576,7 +576,7 @@ ID   |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.31`.
 
-### 1.11
+### Submission 1.11
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -588,7 +588,7 @@ ID  |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.32`.
 
-### 1.12
+### Submission 1.12
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -600,7 +600,7 @@ ID  |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.33`.
 
-### 1.13
+### Submission 1.13
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -612,7 +612,7 @@ ID  |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.34`.
 
-### 1.14
+### Submission 1.14
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -634,7 +634,7 @@ ID    |Suggestion
 
 This is an question about the course logistics and will be filtered out.
 
-### 1.15
+### Submission 1.15
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -646,7 +646,7 @@ ID  |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.37`.
 
-### 1.16
+### Submission 1.16
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -668,7 +668,7 @@ ID    |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.39`.
 
-### 1.17
+### Submission 1.17
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
