@@ -63,18 +63,24 @@ The goal of this step is to assign a new ID (starting with a `2`) for:
 
 Duplicates will be removed in the next step.
 
-### 1.1
+### Submission 1.1 
 
 This suggestion contains
 [a link to the NBIS Short Term Feedback (STF) survey](https://docs.google.com/forms/d/e/1FAIpQLSejIRO_EHppHI9vC9QCoXFOM3DsEPU43-Pa-S-Kj5coZTuZtA/viewform?usp=sharing).
 
-Here I collect all questions from that survey and determine 
+Here I collect all questions from that survey and determine if these
+are useful to assess course quality
 
-- `[single-line open answer]` Event code.
+!!! Submission 1.1. question 1
+
+    Event code
 
 This is an adminstrative question and will be filtered out.
 
-- `[multiple choice question]` What is your career stage?
+!!! Submission 1.1. question 2
+
+    `[multiple choice question]` What is your career stage?
+
     - Undergraduate student
     - Masters student
     - PhD candidate
