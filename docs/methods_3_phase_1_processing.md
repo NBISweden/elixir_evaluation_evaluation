@@ -42,7 +42,11 @@ The goal of this step is to assign a new ID (starting with a `2`) for:
 
 - each of the questions in the same suggestion 
 - each question to assess course quality
-  (i.e. filter out administrative questions)
+  (i.e. filter out administrative questions).
+  If there is doubt if a suggested question can be used to improve
+  course quality, the question is accepted, as in the next phase
+  of the experiment, a less useful question will get voted out anyways
+
 
 Duplicates will be removed in the next step.
 
@@ -57,142 +61,155 @@ Here I collect all questions from that survey and determine
 
 This is an adminstrative question and will be filtered out.
 
-- Demographics:
-    - `[multiple choice question]` What is your career stage?
-        - Undergraduate student
-        - Masters student
-        - PhD candidate
-        - Postdoctoral researcher
-        - Senior scientist/Principal investigator
-        - Research assistant/ Technician / Support staff
-        - Research engineer/Staff scientist/Technical scientist
-        - Industry scientist
-        - Other: `[single-line open answer]`
+- `[multiple choice question]` What is your career stage?
+    - Undergraduate student
+    - Masters student
+    - PhD candidate
+    - Postdoctoral researcher
+    - Senior scientist/Principal investigator
+    - Research assistant/ Technician / Support staff
+    - Research engineer/Staff scientist/Technical scientist
+    - Industry scientist
+    - Other: `[single-line open answer]`
 
 This is an adminstrative question and will be filtered out.
 
-    - `[multiple checkbox question]` University/Organisation. Please select all relevant choices.
-        - Chalmers
-        - Göteborgs Universitet
-        - Karolinska Institutet
-        - Kungliga Tekniska Högskolan, KTH
-        - Linköpings Universitet
-        - Luleå Universitet
-        - Lunds Universitet
-        - Naturhistoriska Riksmuseet
-        - Örebro Universitet
-        - Stockholms Universitet
-        - Sveriges lantbruksuniversitet, SLU
-        - Umeå Universitet
-        - Uppsala Universitet
-        - SciLifeLab
-        - Other: `[single-line open answer]`
+- `[multiple checkbox question]` University/Organisation. Please select all relevant choices.
+    - Chalmers
+    - Göteborgs Universitet
+    - Karolinska Institutet
+    - Kungliga Tekniska Högskolan, KTH
+    - Linköpings Universitet
+    - Luleå Universitet
+    - Lunds Universitet
+    - Naturhistoriska Riksmuseet
+    - Örebro Universitet
+    - Stockholms Universitet
+    - Sveriges lantbruksuniversitet, SLU
+    - Umeå Universitet
+    - Uppsala Universitet
+    - SciLifeLab
+    - Other: `[single-line open answer]`
 
 This is an adminstrative question and will be filtered out.
 
-    - `[multiple choice question]` What is your gender?
-        - Man
-        - Woman
-        - Prefer not to say
-        - Non-binary
-        - Other: `[single-line open answer]`
+- `[multiple choice question]` What is your gender?
+    - Man
+    - Woman
+    - Prefer not to say
+    - Non-binary
+    - Other: `[single-line open answer]`
 
 This is an adminstrative question and will be filtered out.
 
-- Quality Metrics
-
-    - `[multiple choice question]` Have you used the tools/resources covered in the course before?
-        - Never - unaware of them
-        - Never - used others
-        - Never - aware of them, but not used them
-        - Occasionally (once in a while to monthly)
-        - Frequently (weekly to daily)
+- `[multiple choice question]` Have you used the tools/resources covered in the course before?
+    - Never - unaware of them
+    - Never - used others
+    - Never - aware of them, but not used them
+    - Occasionally (once in a while to monthly)
+    - Frequently (weekly to daily)
 
 This is a question to assess course quality, as it is part of a session
 called 'Quality metrics'. It will be labelled `2.1`.
 
-    - `[multiple choice question]` Will you use the tools/resources covered in the course again?
-        - Yes
-        - No
-        - Maybe
+On its own, asking learners to share if they used a certain tool before is
+useless in improving a course, even though it may to get an idea
+of curiousity or initial knowledge.
+
+However, together with a question to ask the learner 
+to if they will use the tools again may be a way to get an idea of
+course quality, expressed in the **change** of (likelihood of) using tools.
+
+- `[multiple choice question]` Will you use the tools/resources covered in the course again?
+    - Yes
+    - No
+    - Maybe
 
 This is a question to assess course quality, as it is part of a session
 called 'Quality metrics'. It will be labelled `2.2`.
 
-    - `[multiple choice question]` Would you recommend this course?
-        - Yes
-        - No
-        - Maybe
+- `[multiple choice question]` Would you recommend this course?
+    - Yes
+    - No
+    - Maybe
 
 This is a question to assess course quality, as it is part of a session
 called 'Quality metrics'. It will be labelled `2.3`.
 
-    - `[multiple choice question]` What is your overall rating for the course?
-        - Excellent (5)
-        - Very Good (4)
-        - Good (3)
-        - Satisfactory (2)
-        - Poor (1)
+- `[multiple choice question]` What is your overall rating for the course?
+    - Excellent (5)
+    - Very Good (4)
+    - Good (3)
+    - Satisfactory (2)
+    - Poor (1)
 
 This is a question to assess course quality, as it is part of a session
 called 'Quality metrics'. It will be labelled `2.4`.
 
-- Additional Questions - Training content/information
-    - `[multi-line open answer]` What part of the training did you enjoy the most?
+- `[multi-line open answer]` What part of the training did you enjoy the most?
 
 This is a question to assess course quality. It will be labelled `2.5`.
 
-    - `[multi-line open answer]` What part of the training did you enjoy the least?
+- `[multi-line open answer]` What part of the training did you enjoy the least?
 
 This is a question to assess course quality. It will be labelled `2.6`.
 
-    - `[multiple choice question]` The balance of theoretical and practical content was
-        - Too theoretical
-        - Too practical
-        - About right
+- `[multiple choice question]` The balance of theoretical and practical content was
+    - Too theoretical
+    - Too practical
+    - About right
 
 This is a question to assess course quality. It will be labelled `2.7`.
 
-    - `[multiple choice question]` How do you rate the pre-course information given?
-        - 1 (Very unsatisfactory/Not useful)
-        - 2
-        - 3
-        - 4
-        - 5 (Very good/Very useful)
+- `[multiple choice question]` How do you rate the pre-course information given?
+    - 1 (Very unsatisfactory/Not useful)
+    - 2
+    - 3
+    - 4
+    - 5 (Very good/Very useful)
 
 This is a question to assess course quality. It will be labelled `2.8`.
 
-    - `[multiple choice question]` PLEASE RATE EACH SESSION OF THE COURSE
-        - Did not attend
-        - Poor (1)
-        - Satisfactory (2)
-        - Good (3)
-        - Very Good (4)
-        - Excellent (5)
-        - Other: `[single-line open answer]`
+- `[multiple choice question]` PLEASE RATE EACH SESSION OF THE COURSE
+    - Did not attend
+    - Poor (1)
+    - Satisfactory (2)
+    - Good (3)
+    - Very Good (4)
+    - Excellent (5)
+    - Other: `[single-line open answer]`
 
 This is a question to assess course quality. It will be labelled `2.9`.
 
-    - `[multi-line open answer]` Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback
+- `[multi-line open answer]` Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback
 
 This is a question to assess course quality. It will be labelled `2.10`.
 
-    - `[multiple choice question]` Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s)
-        - Yes
-        - No
-        - Other: `[single-line open answer]`
+- `[multiple choice question]` Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s)
+    - Yes
+    - No
+    - Other: `[single-line open answer]`
 
 This is a question to assess course quality. It will be labelled `2.11`.
 
-    - `[multi-line open answer]` STATEMENTS REGARDING WHAT PARTICIPANTS COULD DO before THE TRAINING EVENT (customised to a specific training)
+- `[multi-line open answer]` STATEMENTS REGARDING WHAT PARTICIPANTS COULD DO before THE TRAINING EVENT (customised to a specific training)
 
 This is a question to assess course quality. It will be labelled `2.12`.
 
-    - `[multi-line open answer]` STATEMENTS REGARDING WHAT PARTICIPANTS CAN DO after THE TRAINING EVENT (customised to a specific training)
+On its own, asking learners to self-assess the learning outcomes is
+useless in improving a course, even though it does help establish
+course relevancy.
+
+However, together with a question to ask the learner 
+to self-assess the learning outcomes at the end of a course,
+this **is** way to get an idea of course quality, expressed in the
+**change** of self-rated confidence in the learning outcomes.
+
+- `[multi-line open answer]` STATEMENTS REGARDING WHAT PARTICIPANTS CAN DO after THE TRAINING EVENT (customised to a specific training)
 
 This is a question to assess course quality. It will be labelled `2.13`.
 
-    - `[multi-line open answer]` What other topics would you like to see covered in the future?
+- `[multi-line open answer]` What other topics would you like to see covered in the future?
 
 This is an adminstrative question and will be filtered out.
 
@@ -200,7 +217,7 @@ I do see how this question may indirectly assesses course quality:
 if topics are suggested for future courses,
 this may somehow be correlated to higher course quality of the course given.
 
-    - `[multi-line open answer]` Any other comments?
+- `[multi-line open answer]` Any other comments?
 
 This is a question to assess course quality. It will be labelled `2.15`.
 
@@ -213,7 +230,9 @@ This is a question to assess course quality. It will be labelled `2.15`.
     - 4 days
     - 5 days
 
-I consider this not to be a question to assess course quality.
+This not to be a question to assess course quality:
+this question asks the learners for their preferences,
+which may be useful to help change the duration of a course.
 It will be filtered out.
 
 - `[multiple choice question]` What is the best format for this course?
@@ -222,7 +241,9 @@ It will be filtered out.
     - Online but spaced out
     - Other: `[single-line open answer]`
 
-I consider this not to be a question to assess course quality.
+This is not a question to assess course quality:
+this question asks the learners for their preferences,
+which may be useful to help change the format of a course.
 It will be filtered out.
 
 - `[multiple choice question]` How did you like the localities of the course (rooms and surrondings)?
@@ -232,8 +253,8 @@ It will be filtered out.
     - 4
     - 5 (Very much)
 
-I consider this not to be a question to assess course quality.
-It will be filtered out.
+This is a question to assess course quality, as it helps evaluate
+the quallity of the learning environment It will be labelled `2.41`.
 
 - `[multiple choice question]` How did you like the lunch(es) and "fika(s)"?
 
@@ -467,6 +488,56 @@ ID   |Question format      |Question
 2.38 |Free text            |For all teachers: 'Say something positive about teacher X'
 2.39 |Free text            |For all teachers: 'Say something teacher X can improve'
 2.40 |MCQ, can select 0    |For all learning outcomes:  Give you confidence levels of the following statements, using this scale: `-` 0: I don't know even what this is about ...? `-` 1: I have no confidence I can do this `-` 2: I have low confidence I can do this `-` 3: I have some confidence I can do this `-` 4: I have good confidence I can do this `-` 5: I absolutely can do this! 
+2.41 |MCQ, must select 1   |How did you like the localities of the course (rooms and surrondings)? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)
 
 > MCQ: Multiple choice question
+
+In this table, we remove the duplicates:
+
+ID   |ID       |Question summary        |Question format      |Question
+-----|---------|------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.1  |3.1      |Use resources before    |MCQ, must select 1   |Have you used the tools/resources covered in the course before? `-` Never - unaware of them `-` Never - used others `-` Never - aware of them, but not used them `-` Occasionally (once in a while to monthly) `-` Frequently (weekly to daily)
+2.2  |3.2      |Use resources after     |MCQ, must select 1   |Will you use the tools/resources covered in the course again? `-` Yes `-` No `-` Maybe
+2.3  |3.3      |Course recommend        |MCQ, must select 1   |Would you recommend this course? `-` Yes `-` No `-` Maybe
+2.4  |3.4      |Course rating           |MCQ, must select 1   |What is your overall rating for the course? `-` Excellent (5) `-` Very Good (4) `-` Good (3) `-` Satisfactory (2) `-` Poor (1)
+2.5  |3.5      |Enjoy most              |Free text            |What part of the training did you enjoy the most?
+2.6  |3.6      |Enjoy least             |Free text            |What part of the training did you enjoy the least?
+2.7  |3.7      |Balance theory/practice |MCQ, must select 1   |The balance of theoretical and practical content was `-` Too theoretical `-` Too practical `-` About right
+2.8  |3.8      |Rate pre-course info    |MCQ, must select 1   |How do you rate the pre-course information given? `-` 1 (Very unsatisfactory/Not useful) `-` 2 `-` 3 `-` 4 `-` 5 (Very good/Very useful)
+2.9  |3.9      |Rate sessions           |MCQ, must select 1   |Per session: please rate each session of the course `-` Did not attend `-` Poor (1) `-` Satisfactory (2) `-` Good (3) `-` Very Good (4) `-` Excellent (5) `-` Other: `[single-line open answer]`
+2.10 |3.10     |Comment teaching staff  |Free text            |Comments on teaching staff. Help our teaching staff to improve by providing constructive feedback
+2.11 |3.11     |Content matching level  |MCQ, must select 1   |Was the course held at a teaching level matching your training? Please describe in "Other" if you want to give any additional information to the Course leader(s) `-` Yes `-` No `-` Other: `[single-line open answer]`
+2.12 |3.12     |Self assess LOs before  |Free text            |statements regarding what participants could do before the training event
+2.13 |3.14     |Self assess LOs after   |Free text            |statements regarding what participants can do after the training event
+2.15 |3.15     |Comments                |Free text            |Any other comments?
+2.16 |**3.14** |Self-assess LOs after   |Unknown              |For each learning outcome, have the participants self-assess if they were fulfilled
+2.17 |3.17     |Unexpected learning     |Open question        |What is one thing you learned that you didn't expect to?
+2.18 |3.18     |Most useful part        |Open question        |What part of the training was most useful for your work/research?
+2.19 |3.19     |Feel missing            |Free text            |Was there anything you felt was missing from the workshop?
+2.20 |3.20a    |Apply to work           |MCQ                  |Do you feel you can apply the knowledge gained in your daily work? `-` Yes `-` Partially `-` No
+2.21 |3.21     |Feeling afterwards      |Open question        |The general feeling after the completion
+2.22 |3.22     |Hard to understand      |Open question        |What was difficult to understand
+2.23 |3.23     |Any change              |Open question        |What would you change if you could
+2.24a|3.24a    |Course organisation     |Yes/no               |Was the course well organised?
+2.24b|3.24b    |Course organisation     |Scale                |Was the course well organised?
+2.25a|3.25a    |Course content structure|Yes/no               |Was the course content well structured and balanced between theory and hands on?
+2.25b|3.25b    |Course content structure|Scale                |Was the course content well structured and balanced between theory and hands on?
+2.26a|3.26a    |Course material design  |Yes/no               |Were the material supporting the course well designed and easy to use?
+2.26b|3.26a    |Course material design  |Scale                |Were the material supporting the course well designed and easy to use?
+2.27 |3.27     |Course strength         |Free text            |What were the strengths of this course ?
+2.28 |3.28     |Improve course          |Free text            |What aspects of this course could be improved (changes, additions) ?
+2.29 |3.29     |Feedback trainer        |Free text            |Do you have any feedback for the trainer(s), which could be positive comments or things to improve? They can be related to the effectiveness of training delivery, oral expression, ability to answer questions, attitudes, domain expertise, ease in facilitating training, or any other
+2.30a|**3.20b**|Apply science           |Scale                |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
+2.30b|**3.20c**|Apply science           |Free text            |Were you able to transpose and apply the theorical and practical knowledge into your own research work/scientific question?
+2.31 |3.31     |Materials usefulness    |MCQ, must select 1   |How useful were the training materials (slides, datasets, exercises)? Scale from 1 (not) to 10 (very much)
+2.32 |3.32     |Improvement materials   |Free text            |What improvements would you suggest for the materials?
+2.33 |3.33     |Confidence course       |MCQ, must select 1   |I feel confident applying what I learned in my future work. Scale from 1 (not) to 10 (very much)
+2.34 |3.34     |Suggest help to apply   |Free text            |What would help you apply this training more effectively?
+2.35 |3.35     |Theory usefulness       |Unspecified          |Was the theoretical content useful to carry out the exercises?
+2.36 |.        |.                       |.                    |Removed
+2.37 |3.37     |Any feedback            |Free text            |Any (other) feedback?
+2.38 |3.38     |Positive teacher        |Free text            |For all teachers: 'Say something positive about teacher X'
+2.39 |3.39     |Improve teacher         |Free text            |For all teachers: 'Say something teacher X can improve'
+2.40 |**3.14** |Self assess LOs after   |MCQ, can select 0    |For all learning outcomes:  Give you confidence levels of the following statements, using this scale: `-` 0: I don't know even what this is about ...? `-` 1: I have no confidence I can do this `-` 2: I have low confidence I can do this `-` 3: I have some confidence I can do this `-` 4: I have good confidence I can do this `-` 5: I absolutely can do this! 
+2.41 |3.40     |Like locality           |MCQ, must select 1   |How did you like the localities of the course (rooms and surrondings)? `-` 1 (Not at all) `-` 2 `-` 3 `-` 4 `-` 5 (Very much)
 
