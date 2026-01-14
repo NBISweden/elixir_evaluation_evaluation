@@ -7,31 +7,34 @@ The raw data can be found at [`data_set_1_raw.csv`](data_set_1_raw.csv),
 where the resulting processed data can be found at
 [`data_set_1_merged.csv`](data_set_1_merged.csv),
 
-
-<!-- markdownlint-disable MD013 --><!-- Mermaid diagrams cannot be split up over lines, hence will break 80 characters per line -->
-
-```mermaid
-flowchart TB
-    data_set_in[data_set_1_raw.csv]
-    submissions[17 submissions]
-    questions_with_duplicates[43 questions with duplicates]
-    unique_questions[41 unique questions]
-    data_set_out[data_set_1_merged.csv]
-
-    data_set_in --> |Read| submissions
-    submissions --> |Step 1: Split up in questions, filter for usefulness| questions_with_duplicates
-    questions_with_duplicates --> |Step 2: Remove duplicates| unique_questions
-    unique_questions --> |Save| data_set_out
-```
-
-<!-- markdownlint-enable MD013 -->
-
 Filtered out are:
 
 - administrative questions, e.g. email addresses
 - duplicates
 
-## Step 1: filtering
+!!! info "Overview of the steps shown here"
+
+    An overview of the steps is shown here:
+
+    <!-- markdownlint-disable MD013 --><!-- Mermaid diagrams cannot be split up over lines, hence will break 80 characters per line -->
+
+    ```mermaid
+    flowchart TB
+        data_set_in[data_set_1_raw.csv]
+        submissions[17 submissions]
+        questions_with_duplicates[43 questions with duplicates]
+        unique_questions[41 unique questions]
+        data_set_out[data_set_1_merged.csv]
+
+        data_set_in --> |Read| submissions
+        submissions --> |Step 1: Split up in questions, filter for usefulness| questions_with_duplicates
+        questions_with_duplicates --> |Step 2: Remove duplicates| unique_questions
+        unique_questions --> |Save| data_set_out
+    ```
+
+    <!-- markdownlint-enable MD013 -->
+
+## Step 1: Split up in questions, filter for usefulness
 
 Here is are the verbatum suggestions without time stamps, with an identifier added,
 where the first number (always a `1` here) denotes the step.
