@@ -842,5 +842,11 @@ In this table, we remove the duplicates:
 
     <!-- markdownlint-enable MD013 -->
 
-    > Table 3.2.2: overview of all unique questions.
+    > Table 3.2.2: overview of all questions (first column) and all 
+    > unique questions (second column). Questions that are duplicates have
+    > an ID that is in **bold**.
     > See table 3.1.2 for the descrptions of the answer type
+
+### Result
+
+The 43 questions resulted in 41 unique questions.
