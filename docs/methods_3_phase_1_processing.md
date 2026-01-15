@@ -39,7 +39,7 @@ Filtered out are:
 Here is are the verbatim suggestions without time stamps,
 with an identifier added.
 
-The first denotes the set number, 
+The first denotes the set number,
 the second number denotes the ID within that set.
 
 !!! info "Table 3.1.0: overview of all sets"
@@ -84,7 +84,7 @@ The goal of this step is to
 split up suggestions into questions that help assess course quality
 (i.e. filter out administrative questions).
 Additionally, an 'answer type' will be assigned to each suggestion.
-See table 3.1.2 for the answer types, descriptions and examples. 
+See table 3.1.2 for the answer types, descriptions and examples.
 
 !!! info "Table 3.1.2: description of all answer types"
 
@@ -776,7 +776,7 @@ The 17 submissions resulted in 43 questions.
 
     <!-- markdownlint-enable MD013 -->
 
-    > Table 3.1.3: overview of all questions. 
+    > Table 3.1.3: overview of all questions.
     > See table 3.1.2 for the descrptions of the answer type
 
 ## Step 2: remove duplicates
@@ -842,7 +842,7 @@ In this table, we remove the duplicates:
 
     <!-- markdownlint-enable MD013 -->
 
-    > Table 3.2.2: overview of all questions (first column) and all 
+    > Table 3.2.2: overview of all questions (first column) and all
     > unique questions (second column). Questions that are duplicates have
     > an ID that is in **bold**.
     > See table 3.1.2 for the descrptions of the answer type
