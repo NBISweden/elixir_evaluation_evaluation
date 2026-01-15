@@ -1,4 +1,4 @@
-# Methods 3 Phase 1 Processing
+# 3.1. Methods 3 Phase 1 Processing
 
 The goals of this page is to transparantly process the data from
 the 'Methods 3', phase 1.
@@ -34,7 +34,7 @@ Filtered out are:
 
     <!-- markdownlint-enable MD013 -->
 
-## Step 1: Split up in questions, filter for usefulness
+## 3.1.1 Step 1: Split up in questions, filter for usefulness
 
 Here is are the verbatim suggestions without time stamps,
 with an identifier added.
@@ -718,7 +718,7 @@ ID    |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.40`.
 
-### Result
+## 3.1.1. Result
 
 The 17 submissions resulted in 43 questions.
 
@@ -779,7 +779,7 @@ The 17 submissions resulted in 43 questions.
     > Table 3.1.3: overview of all questions.
     > See table 3.1.2 for the descrptions of the answer type
 
-## Step 2: remove duplicates
+## 3.1.2. Step 2: remove duplicates
 
 Here we remove the duplicates from Table 3.1.3.
 We do so by adding a new ID to each **unique** question,
@@ -847,6 +847,6 @@ In this table, we remove the duplicates:
     > an ID that is in **bold**.
     > See table 3.1.2 for the descrptions of the answer type
 
-### Result
+## 3.1.2. Result
 
 The 43 questions resulted in 41 unique questions.
