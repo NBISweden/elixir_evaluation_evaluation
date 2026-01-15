@@ -202,7 +202,7 @@ The three meta analyses have different conclusions:
   studes and repeats that there does exist a small positive
   association between the ratings given by learners
   and measures of learning
-- [Schiekirka and Raupach, 2015]` (which curiously enough does not mention
+- `[Schiekirka and Raupach, 2015]` (which curiously enough does not mention
   the other two meta analyses) concludes that overall course ratings
   are not influenced by high quality teaching. They remark with
   with a reference to earlier work:
