@@ -336,17 +336,14 @@ for 'using future contact in course evaluation'
   "Course recommendation as a construct in student evaluations:
   will students recommend your course?." Studies in Higher Education 43.6
   (2018): 944-959.
-- `[Brazas & Ouellette, 2016]`
-  Brazas, Michelle D., and BF Francis Ouellette.
+- `[Brazas & Ouellette, 2016]` Brazas, Michelle D., and BF Francis Ouellette.
   "Continuing education workshops in bioinformatics positively impact
  research and careers." PLoS computational biology 12.6 (2016): e1004916.
-- `[Jordan et al., 2018]`
-  Jordan, Kari, François Michonneau, and Belinda Weaver.
+- `[Jordan et al., 2018]` Jordan, Kari, François Michonneau, and Belinda Weaver.
   "Analysis of Software and Data Carpentry’s pre-and post-workshop surveys."
   Software Carpentry. Retrieved April 13 (2018): 2023.
   [PDF](papers/jordan_et_al_2018.pdf)
-- [Uttl et al., 2017]
-  Uttl, Bob, Carmela A. White, and Daniela Wong Gonzalez.
+- [Uttl et al., 2017] Uttl, Bob, Carmela A. White, and Daniela Wong Gonzalez.
   "Meta-analysis of faculty's teaching effectiveness:
   Student evaluation of teaching ratings and student learning are not related."
   Studies in Educational Evaluation 54 (2017): 22-42.
@@ -362,9 +359,7 @@ for 'using future contact in course evaluation'
   Are they related to what students learn?
   A meta-analysis and review of the literature."
   Journal of marketing education 31.1 (2009): 16-30.
-- `[Schiekirka and Raupach, 2015]`
-  <!-- Ignore, too specialized -->
-  Schiekirka, Sarah, and Tobias Raupach.
+- `[Schiekirka and Raupach, 2015]` Schiekirka, Sarah, and Tobias Raupach.
   "A systematic review of factors influencing student ratings
   in undergraduate medical education course evaluations."
   BMC medical education 15.1 (2015): 30.
@@ -372,29 +367,23 @@ for 'using future contact in course evaluation'
   "Student perceptions of evaluation in undergraduate medical education:
   A qualitative study from one medical school."
   BMC medical education 12.1 (2012): 45.
-- `[Falchikov and Boud, 1989]` [Ignore, off-topic]
-  Falchikov, Nancy, and David Boud.
+- `[Falchikov and Boud, 1989]` Falchikov, Nancy, and David Boud.
   "Student self-assessment in higher education: A meta-analysis."
   Review of educational research 59.4 (1989): 395-430.
-- `[Vo and Diep, 2017]`
-  Vo, Hien M., Chang Zhu, and Nguyet A. Diep.
+- `[Vo and Diep, 2017]` Vo, Hien M., Chang Zhu, and Nguyet A. Diep.
   "The effect of blended learning on student performance at course-level
   in higher education: A meta-analysis."
   Studies in Educational Evaluation 53 (2017): 17-28.
-- `[Strelan et al., 2020]`
-  Strelan, Peter, Amanda Osborn, and Edward Palmer.
+- `[Strelan et al., 2020]` Strelan, Peter, Amanda Osborn, and Edward Palmer.
   "Student satisfaction with courses and instructors in a flipped classroom:
   A meta‐analysis." Journal of Computer Assisted Learning 36.3 (2020): 295-314.
-- `[d'Apollonia and Abrami, 1997]`
-  d'Apollonia, Sylvia, and Philip C. Abrami.
+- `[d'Apollonia and Abrami, 1997]` d'Apollonia, Sylvia, and Philip C. Abrami.
   "Navigating student ratings of instruction."
   American psychologist 52.11 (1997): 1198.
-- `[Benton and Cashin, 2013]`
-  Benton, Stephen L., and William E. Cashin.
+- `[Benton and Cashin, 2013]` Benton, Stephen L., and William E. Cashin.
   "Student ratings of instruction in college and university courses."
   Higher education: Handbook of theory and research:
   Volume 29. Dordrecht: Springer Netherlands, 2013. 279-326.
-- `[Denson et al., 2021]`
-  Denson, Nida, et al.
+- `[Denson et al., 2021]` Denson, Nida, et al.
   "Do diversity courses improve college student outcomes?
   A meta-analysis." Journal of Diversity in Higher Education 14.4 (2021): 544.

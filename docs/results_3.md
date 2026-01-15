@@ -64,3 +64,7 @@ a poster on this research at a pedagogy conference.
     The poster can be found at
     [`https://github.com/richelbilderbeek/poster_teaching_conference_20251113`](https://github.com/richelbilderbeek/poster_teaching_conference_20251113)
 
+In January 2026, Bilderbeek converted the suggestions to unique questions
+to assess course quality.
+
+On 2026-01-15, Bilderbeek asked Wibberg for feedback
