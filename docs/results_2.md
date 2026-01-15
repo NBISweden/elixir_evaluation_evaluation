@@ -130,7 +130,7 @@ searching Google Scholar for the most relevant papers
 for 'student rating of courses meta analysis'
 and investigating the first ten.
 
-???- question "Which papers were that?
+???- question "Which papers were that?"
 
     - `[Cohen, 1981]`
     - `[Cohen, 1980]`
@@ -146,7 +146,7 @@ and investigating the first ten.
 Based on the titles of the papers, 5 of these were labelled as irrelevant
 to this study.
 
-???- question "Which papers were that?
+???- question "Which papers were that?"
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
