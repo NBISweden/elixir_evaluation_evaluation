@@ -76,7 +76,7 @@ The goal of this step is to assign a new ID (starting with a `2`) for:
 An 'answer type' will be assigned to each suggestion, where the
 question types are:
 
-Answer type       |Description                                                    |GUI element name      |GUI element image
+Answer type       |Description                                                    |GUI element name      |Example
 ------------------|---------------------------------------------------------------|----------------------|-----------------------------------
 `RG1`             |A multiple choice answer where 1 option must be chosen         |A radio button group  |![`RG1` example](rg1.png)
 `RG01`            |A multiple choice answer where 0 or 1 options can be chosen    |A radio button group  |![`RG01` example](rg01.png)
@@ -84,6 +84,7 @@ Answer type       |Description                                                  
 `FTN`             |FTN, any amount of lines                                       |A text edit           |![`FTN` example](ftn.png)
 `CG1N`            |A multiple choice answer where 1 or more options can be checked|A checkbox group      |![`CG1N` example](cg1n.png)
 `CYN`             |A checkbox that can be checked yes/no                          |A checkbox            |![`CYN` example](cyn.png)
+`S5`              |A scale with 5 elements                                        |A slider              |![`S5` example](s5.png)
 
 Duplicates will be removed in the next step.
 
