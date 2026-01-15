@@ -78,12 +78,12 @@ question types are:
 
 Answer type       |Description                                                    |GUI element name      |GUI element image
 ------------------|---------------------------------------------------------------|----------------------|-----------------------------------
-`RG1`             |A multiple choice answer where 1 option must be chosen         |A radio button group  |![Radio buttons](radio_buttons.png)
-`RG01`            |A multiple choice answer where 0 or 1 options can be chosen    |A radio button group  |![Radio buttons](radio_buttons.png)
-`FT1`             |FTN, 1 line                                                    |A line edit           |![Line edit](line_edit.png)
-`FTN`             |FTN, any amount of lines                                       |A text edit           |![Text edit](text_edit.png)
-`CG1N`            |A multiple choice answer where 1 or more options can be checked|A checkbox group      |![Checkboxes](checkboxes.png)
-`CYN`             |A checkbox that can be checked yes/no                          |A checkbox            |![Checkboxes](checkboxes.png)
+`RG1`             |A multiple choice answer where 1 option must be chosen         |A radio button group  |![`RG1` example](rg1.png)
+`RG01`            |A multiple choice answer where 0 or 1 options can be chosen    |A radio button group  |![`RG01` example](rg01.png)
+`FT1`             |FTN, 1 line                                                    |A line edit           |![`FT1` example](ft1.png)
+`FTN`             |FTN, any amount of lines                                       |A text edit           |![`FTN` example](ftn.png)
+`CG1N`            |A multiple choice answer where 1 or more options can be checked|A checkbox group      |![`CG1N` example](cg1n.png)
+`CYN`             |A checkbox that can be checked yes/no                          |A checkbox            |![`CYN` example](cyn.png)
 
 Duplicates will be removed in the next step.
 
