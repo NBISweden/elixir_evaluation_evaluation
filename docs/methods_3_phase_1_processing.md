@@ -36,9 +36,21 @@ Filtered out are:
 
 ## Step 1: Split up in questions, filter for usefulness
 
-Here is are the verbatum suggestions without time stamps, with an identifier added,
-where the first number (always a `1` here) denotes the step.
-The second number denotes the ID within that step.
+Here is are the verbatim suggestions without time stamps,
+with an identifier added.
+
+The first denotes the set number, 
+the second number denotes the ID within that set.
+
+!!! info "Table 3.1.0: overview of all sets"
+
+    Set number|Description
+    ----------|--------------------
+    1         |All submissions
+    2         |All questions
+    3         |All unique questions
+
+    > Table 3.1.0: overview of all sets
 
 !!! info "Table 3.1.1: overview of all suggestions"
 
@@ -68,17 +80,11 @@ The second number denotes the ID within that step.
 
     > Table 3.1.1: overview of all suggestions
 
-The goal of this step is to assign a new ID (starting with a `2`) for:
-
-- each of the questions in the same suggestion
-- each question to assess course quality
-  (i.e. filter out administrative questions).
-  If there is doubt if a suggested question can be used to improve
-  course quality, the question is accepted, as in the next phase
-  of the experiment, a less useful question will get voted out anyways
-
-An 'answer type' will be assigned to each suggestion, where the
-question types are:
+The goal of this step is to
+split up suggestions into questions that help assess course quality
+(i.e. filter out administrative questions).
+Additionally, an 'answer type' will be assigned to each suggestion.
+See table 3.1.2 for the answer types, descriptions and examples. 
 
 !!! info "Table 3.1.2: description of all answer types"
 
@@ -712,15 +718,11 @@ ID    |Suggestion
 
 This is a question to assess course quality. It will be labelled `2.40`.
 
-## Step 2: remove duplicates
+### Result
 
-Here is are the questions from the previous step, with the identifier added,
-where the first number (always a `2` here) denotes the step.
-The second number denotes the ID within that step.
+The 17 submissions resulted in 43 questions.
 
-The raw questions have been assigned a question format.
-
-!!! info "Table 3.2.1: overview of all questions"
+!!! info "Table 3.1.3: overview of all questions"
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -774,8 +776,16 @@ The raw questions have been assigned a question format.
 
     <!-- markdownlint-enable MD013 -->
 
-    > Table 3.2.1: overview of all questions. 
+    > Table 3.1.3: overview of all questions. 
     > See table 3.1.2 for the descrptions of the answer type
+
+## Step 2: remove duplicates
+
+Here we remove the duplicates from Table 3.1.3.
+We do so by adding a new ID to each **unique** question,
+where the first number (always a `3` here) denotes the step
+(in this case, the step to remove duplicate questions),
+and the second number denotes the ID within that set of unique questions.
 
 In this table, we remove the duplicates:
 
